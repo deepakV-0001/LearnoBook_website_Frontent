@@ -3,20 +3,28 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 200vh;
+  height: 230vh;
   position: relative;
   z-index: -1;
 }
 .book-back{
     position: absolute;
-    right: 209px;
-    top: 248px;
-    text-align: center;
+  text-align: center;
+  right: 209px;
+  top: 248px;
 }
+
 .book-back img{
     height: 200px;
 }
 .notes-head{
     font-size: 32px;
     font-weight: 700;
+}
+.dot-img{
+    position: absolute;
+    left: 222px;
+    top: 413px;
+    width: 350px;
+    z-index: 1;
 }
