@@ -59,7 +59,9 @@
 .navbar-options{
     position: absolute;
     top: 100px;
-    left: 82px;
+    gap: 50px;
+    width: 80%;
+    left: 140px;
     transition: 0.5s ease;
     display: flex;
     width: 59vw;

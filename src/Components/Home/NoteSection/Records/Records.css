@@ -43,8 +43,9 @@
     flex-wrap: wrap;
     justify-content: center;
   position: absolute;
-  bottom: 130px;
-  right: 300px;
+ width:60vw;
+ bottom: 160px;
+ left: 300px;
   z-index: 99;
 }
 .child-box:nth-child(even) {
