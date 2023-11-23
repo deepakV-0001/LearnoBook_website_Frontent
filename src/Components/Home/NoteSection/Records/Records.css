@@ -36,6 +36,7 @@
     margin-right: 20px;
     width: 400px; 
     height: 260px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 .records-boxes{
     display: flex;
@@ -46,6 +47,6 @@
   right: 300px;
   z-index: 99;
 }
-.record-boxes-child2{
-    margin-top: 50px;
-}
+.child-box:nth-child(even) {
+    transform: translateY(40px); /* Adjust the vertical translation as needed */
+  }

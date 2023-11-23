@@ -28,37 +28,34 @@ const Records = () => {
             title: "Audio Record & Note Replay",
             text: "Audio record and handwriting sync allows you to track what you hear when take note",
         },
+        {
+            img: Bookmark,
+          
+            title: "Audio Record & Note Replay",
+            text: "Audio record and handwriting sync allows you to track what you hear when take note",
+        },
+        {
+            img: Notability,
+           
+            title: "Audio Record & Note Replay",
+            text: "Audio record and handwriting sync allows you to track what you hear when take note",
+        },
+        {
+            img: Heart,
+           
+            title: "Audio Record & Note Replay",
+            text: "Audio record and handwriting sync allows you to track what you hear when take note",
+        },
        
     ];
-    const data2=[
-        
-            {
-                img: Bookmark,
-              
-                title: "Audio Record & Note Replay",
-                text: "Audio record and handwriting sync allows you to track what you hear when take note",
-            },
-            {
-                img: Notability,
-               
-                title: "Audio Record & Note Replay",
-                text: "Audio record and handwriting sync allows you to track what you hear when take note",
-            },
-            {
-                img: Heart,
-               
-                title: "Audio Record & Note Replay",
-                text: "Audio record and handwriting sync allows you to track what you hear when take note",
-            },
-        
-    ]
+    
     return (
         <div className='records-container'>
             <div className="records-boxes">
-                <div className="record-boxes-child1">
+               
                 {
                     recordData.map((item) => (
-                        <div className={`records-box `}>
+                        <div className={`records-box  child-box`}>
                             <span className="record-img-upper">
                                 <img src={item.img} alt="" />
                             </span>
@@ -70,24 +67,7 @@ const Records = () => {
                         </div>
                     ))
                 }
-                </div>
-                <div className="record-boxes-child2">
-                {
-                    data2.map((item) => (
-                        <div className={`records-box `}>
-                            <span className="record-img-upper">
-                                <img src={item.img} alt="" />
-                            </span>
-
-                            <div className="records-box-content">
-                                <h3>{item.title}</h3>
-                                <p>{item.text}</p>
-                            </div>
-                        </div>
-                    ))
-                }
-                </div>
-                
+              
       
             </div>
         </div>

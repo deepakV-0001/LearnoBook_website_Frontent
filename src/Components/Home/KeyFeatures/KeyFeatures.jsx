@@ -44,19 +44,19 @@ const KeyFeatures = () => {
     <div className='features-main-contianer'>
       <h2>Key Features</h2>
       <div className="features-boxes">
-       {
-        keyData.map((item,index)=>(
-          <div className="feature-box" style={{backgroundColor:'rgba(77, 113, 183, 1)'}} >
-          <div className="feature-box-img">
-            <img src={item.img} alt="" />
-          </div>
-          <div className="feature-box-text">
-            <h2>{item.title}</h2>
-            <p>{item.text}</p>
-          </div>
-        </div>
-        ))
-       }
+        {
+          keyData.map((item) => (
+            <div className="feature-box" >
+              <div className="feature-box-img  column-66">
+                <img src={item.img} alt="" />
+              </div>
+              <div className="feature-box-text  column-33">
+                <h2>{item.title}</h2>
+                <p>{item.text}</p>
+              </div>
+            </div>
+          ))
+        }
 
       </div>
     </div>

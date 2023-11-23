@@ -1,0 +1,82 @@
+
+.material-box-content h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 25px 0 20px 15px;
+    display: block;
+   
+}
+.material-container{
+  
+}
+.material-box-content p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.material-box>span{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: -80px;
+}
+.material-box>span img{
+   width: 100%;
+}
+.material-box{
+    padding: 30px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    height: 427px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.material-box-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  gap: 20px;
+}
+.material-box-content a{
+    width: 160px;
+height: 36px;
+background-color: rgba(253, 193, 19, 1);
+color: #fff;
+border-radius: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.material-box-content img{
+    width: 125px;
+    height: 145px;
+}
+.material-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  gap: 47px;
+  position: absolute;
+  bottom: 90px;
+  width: 62vw;
+  right: 114px;
+}
+
+  .box:nth-child(even) {
+    transform: translateY(80px); /* Adjust the vertical translation as needed */
+  }
+  .material-side-text{
+    color: rgba(253, 193, 19, 1);
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    text-decoration: underline;
+  }

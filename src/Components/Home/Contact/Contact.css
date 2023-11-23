@@ -1,0 +1,116 @@
+.contact-container{
+  background: linear-gradient(to right, rgba(78, 169, 222, 0.2), rgba(253, 193, 19, 0.2));
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  padding-top: 30px;
+  position: relative;
+  z-index: -2;
+ 
+}
+
+.contact-img>span img {
+  width: 420px;
+  height: 410px;
+}
+
+.contact-img>span h3 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.email-col {
+  display: grid;
+  grid-row-gap: 20px;
+}
+
+.email-col input {
+  width: 500px;
+  height: 69px;
+  border: 2px solid rgba(78, 169, 222, 1);
+  border-radius: 11px;
+  font-family: Montserrat !important;
+  font-size: 19px;
+  font-weight: 400;
+  padding-left: 30px;
+}
+
+.email-col a {
+  width: 500px;
+  height: 69px;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(253, 193, 19, 1);
+  color: #fff;
+  border-radius: 11px;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 520px;
+  height: 690px;
+  background-color: rgba(78, 169, 222, 1);
+  padding: 70px 0;
+}
+
+.contact-form-container h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  width: 18vw;
+  text-align: center;
+}
+
+.form-fields {
+  width: 80%;
+  display: grid;
+  grid-row-gap: 40px;
+}
+
+.form-fields input::placeholder {
+  color: rgba(244, 251, 254, 1);
+  font-family: Montserrat !important;
+}
+
+.form-fields input {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  width: 100%;
+  line-height: 24px;
+  border-bottom: 2px solid rgba(244, 251, 254, 1);
+  background-color: rgba(78, 169, 222, 1);
+}
+
+.contact-form-btn {
+  color: rgba(244, 251, 254, 1);
+  background-color: rgba(253, 193, 19, 1);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  width: 300px;
+  height: 64px;
+  text-align: center;
+  border: none;
+  border-radius: 11px;
+margin-top: 100px;
+}
+.white-background{
+  position: absolute;
+  z-index: -1;
+ width: 90%;
+ height: 60vh;
+ bottom: 30px;
+ background-color: rgba(244, 251, 254, 1);
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
