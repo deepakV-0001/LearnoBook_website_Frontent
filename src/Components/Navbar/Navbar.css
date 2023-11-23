@@ -59,12 +59,11 @@
 .navbar-options{
     position: absolute;
     top: 100px;
-    gap: 50px;
+    gap: 5%;
     width: 80%;
     left: 140px;
     transition: 0.5s ease;
     display: flex;
-    width: 59vw;
     justify-content: space-between;
     padding: 10px 226px;
     background-color: #fefefe;
