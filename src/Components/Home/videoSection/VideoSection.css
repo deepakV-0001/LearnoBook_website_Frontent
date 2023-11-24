@@ -2,20 +2,38 @@
 font-size: 36px;
 font-weight: 700;
 text-align: center;
-margin-top: 15vh;
-margin-bottom: 10vh;
+margin: 15vh auto 10vh;
+
+
 }
 .animate{
-    height: 251px;
-    width: 251px;
+    /* height: 251px; */
+    width: 20%;
 }
 .video-img{
-    width: 617px;
-    height: 347px;
+    width: 50%;
+    height: 25vw;
 }
 .animation-container{
     display: flex;
     align-items: center;
+    margin: 0 auto;
     justify-content: center;
     gap: 2px;
+    width: 85%;
+}
+@media screen and (max-width:768px) {
+   .video-img{
+    width: 80%;
+    height: 40vw;
+   }
+   .animation-container{
+    width: 100%;
+   }
+   .animate{
+    width: 8%;
+   }
+   .video-main-container h2{
+    margin: 4vh auto 4vh;
+   }
 }

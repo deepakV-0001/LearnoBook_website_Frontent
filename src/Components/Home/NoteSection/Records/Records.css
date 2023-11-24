@@ -34,7 +34,7 @@
     text-align: center;
     margin-top: 50px;
     margin-right: 20px;
-    width: 400px; 
+    width: 44%; 
     height: 260px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -44,10 +44,16 @@
     justify-content: center;
   position: absolute;
  width:60vw;
- bottom: 160px;
- left: 300px;
+ bottom: 10.4vw;
+ left: 19.5vw;
   z-index: 99;
 }
 .child-box:nth-child(even) {
     transform: translateY(40px); /* Adjust the vertical translation as needed */
+  }
+
+  @media screen and (max-width:1024px) {
+    .records-boxes{
+        width: 80%;
+    }
   }

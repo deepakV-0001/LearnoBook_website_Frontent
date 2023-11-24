@@ -1,13 +1,17 @@
 .header-container-upper{
     margin-top: 50px;
+
 }
 .header-main-container{
     display: flex;
+   
+    width: 80%;
     gap: 40px;
+    margin: 0 auto;
     justify-content: center;
 }
 .header-text-content{
-  width: 513px;
+  width: 50%;
 }
 .header-text-content h1{
    font-size: 70px;
@@ -21,7 +25,7 @@
     color: #FDC113;
 }
 .header-img{
-    width: 650px;
+    width: 50%;
 }
 .header-img img{
     width: 100%;
@@ -34,7 +38,7 @@ padding: 7px 30px;
 font-weight: 800;
 font-size: 21px;
 border-radius: 15px;
-
+transition: 0.8s ease;
 }
 .header-text-content a:hover{
     background-color:#FDC113;
@@ -52,7 +56,7 @@ border-radius: 15px;
     color:rgba(77, 113, 183, 1);
 }
 .header-bottom{
-    width: 15vw;
+    width: 100%;
     text-align: center;
     grid-row-gap:10px ;
     margin: 2vh auto 0;
@@ -62,7 +66,26 @@ border-radius: 15px;
 .header-bottom>span{
     display: flex;
     gap: 15px;
+    width: 100%;
+    justify-content: center;
+   
 }
 .header-bottom>span img{
     width: 120px;
+}
+@media screen and (max-width:768px) {
+    .header-main-container{
+        flex-wrap: wrap;
+        width: 90%;
+        
+    }
+    .header-text-content{
+        width: 100%;
+    }
+    .header-img{
+        width: 100%;
+    }
+    .header-social-icons{
+        justify-content: center;
+    }
 }

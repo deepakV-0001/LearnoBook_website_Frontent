@@ -2,14 +2,16 @@
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-top: 120px;
+    width: 85%;
+    margin: 120px auto 0;
 }
 .vision-text-content{
-    width: 40vw;
+    width: 55%;
 }
 .vision-text-content h1{
     font-size: 50px;
     font-weight: 700;
+    margin-bottom: 20px;
    
 }
 .vision-img p{
@@ -22,8 +24,23 @@
     font-weight: 500;
 }
 .vision-img{
-    width: 500px;
+    width: 45%;
 }
 .vision-img img{
     width: 100%;
+}
+.par-1{
+    margin-bottom: 20px;
+}
+@media screen and (max-width:768px) {
+    .vision-main-container{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .vision-img{
+        width: 100%;
+    }
+    .vision-text-content{
+        width: 100%;
+    }
 }
