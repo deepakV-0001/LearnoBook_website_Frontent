@@ -44,8 +44,8 @@
     justify-content: center;
   position: absolute;
  width:60vw;
- bottom: 10.4vw;
- left: 19.5vw;
+ top: 560px;
+ left: 20vw;
   z-index: 99;
 }
 .child-box:nth-child(even) {
@@ -55,5 +55,23 @@
   @media screen and (max-width:1024px) {
     .records-boxes{
         width: 80%;
+        bottom: 20.4 vw;
     }
+  }
+  @media screen and (max-width:768px) {
+    .records-boxes{
+        width: 90%;
+        bottom: 20.4 vw;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .records-box{
+        width: 100%;
+        margin-right: 0;
+    }
+    .child-box:nth-child(even) {
+        transform: translateY(0); /* Adjust the vertical translation as needed */
+      }
+
   }

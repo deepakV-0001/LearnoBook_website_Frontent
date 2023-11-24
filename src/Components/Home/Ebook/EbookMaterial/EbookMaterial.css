@@ -2,13 +2,11 @@
 .material-box-content h3{
     font-size: 20px;
     font-weight: 700;
-    margin: 25px 0 20px 15px;
+    margin: 25px 0 20px 5px;
     display: block;
    
 }
-.material-container{
-  
-}
+
 .material-box-content p{
     font-size: 20px;
     font-weight: 400;
@@ -32,7 +30,7 @@
     background: white;
     border-radius: 20px;
     text-align: center;
-    width: 300px;
+    width: 30%;
     height: 427px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -63,9 +61,9 @@ align-items: center;
     justify-content: center;
   gap: 47px;
   position: absolute;
-  bottom: 90px;
-  width: 62vw;
-  right: 114px;
+  top: 460px;
+  width: 60vw;
+  right: 7.4vw;
 }
 
   .box:nth-child(even) {
@@ -73,10 +71,41 @@ align-items: center;
   }
   .material-side-text{
     color: rgba(253, 193, 19, 1);
-    font-size: 20px;
+    font-size: 1.6vw;
     font-weight: 700;
     position: absolute;
     top: 60%;
-    left: 10%;
+    left: 2vw;
     text-decoration: underline;
+  }
+
+
+  @media screen and (max-width:1024px) {
+    .material-boxes{
+      width: 80%;
+      top: 500px;
+    }
+    .material-box{
+      width:40% ;
+    }
+  }
+
+  @media screen and (max-width:768px){
+  .material-boxes{
+    flex-direction: column;
+
+  }
+  .material-box{
+    width:100% ;
+  }
+  .material-side-text{
+    top: 400px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: fit-content;
+  }
+  .box:nth-child(even) {
+    transform: translateY(0); /* Adjust the vertical translation as needed */
+  }
   }

@@ -1,5 +1,5 @@
-.notes-main-container{
-    background: url('./notesBack.png');
+.notes-main-container {
+  background: url('./notesBack.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -7,24 +7,49 @@
   position: relative;
   z-index: -1;
 }
-.book-back{
-    position: absolute;
+
+.book-back {
+  position: absolute;
   text-align: center;
   right: 209px;
   top: 248px;
 }
 
-.book-back img{
-    height: 200px;
+.book-back img {
+  height: 200px;
 }
-.notes-head{
-    font-size: 32px;
-    font-weight: 700;
+
+.notes-head {
+  font-size: 32px;
+  font-weight: 700;
 }
-.dot-img{
-    position: absolute;
-    left: 222px;
-    top: 413px;
-    width: 350px;
-    z-index: 1;
+
+.dot-img {
+  position: absolute;
+  left: 13.4vw;
+  top: 413px;
+  width: 350px;
+  z-index: 1;
+}
+
+@media screen and (max-width:1024px) {
+  .dot-img {
+    top:500px;
+  }
+}
+@media screen and (max-width:768px) {
+  .dot-img {
+    display: none;
+  }
+  .book-back{
+   
+    left: 0;
+    right: 0;
+    margin: auto;
+   
+  }
+  .notes-main-container{
+    height: 300vh;
+  }
+ 
 }

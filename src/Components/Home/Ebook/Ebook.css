@@ -35,3 +35,17 @@
     width: 350px;
     top: 300px;
 }
+@media screen and (max-width:1024px){
+
+.ebook-text-content{
+    width: 80%;
+}
+}
+@media screen and (max-width:768px){
+  .dot-img-ebook{
+    display: none;
+  }
+  .ebook-container{
+    height: 280vh;
+  }
+}

@@ -22,7 +22,7 @@
 }
 .testimonial-content>span p{
     position: absolute;
-    left: 250px;
+    left: 16.2vw;
     border-radius: 15px;
     height: 80px;
     width: 323px;
@@ -55,4 +55,20 @@
     color: #fff;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+@media screen and (max-width:768px) {
+    .testimonial-content{
+        flex-direction: column;
+    }
+    .testimonial-container{
+        height: fit-content;
+    }
+    .testimonial-text{
+        border-top: 2px solid #fff;
+        border-left: 0;
+        padding-top: 20px;
+        width: 80%;
+    }
+    
 }
