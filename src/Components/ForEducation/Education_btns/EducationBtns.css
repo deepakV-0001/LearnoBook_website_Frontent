@@ -1,11 +1,11 @@
 
-.edu-btns-container a{
+.edu-btns-container a,.join-btn{
     background-color: rgba(58, 90, 255, 1);
     color: #fff;
     width: fit-content;
-    padding: 7px 30px;
+    padding: 0.5vw 2vw;
     font-weight: 800;
-    font-size: 21px;
+    font-size: 1.4vw;
     border-radius: 15px;
     transition: 0.8s ease;
     }
@@ -15,11 +15,22 @@
         border-bottom: 4px solid  rgba(0, 0, 0, 0.6);
     }
     .edu-btns-container>span  img{
-        width: 53px;
-        height: 53px;
+        width: 3.4vw;
+        height: 3.4vw;
        
     }
     .edu-btns-container>span{
-        font-size: 24px;
+        font-size: 1.6vw;
         font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: max-content;
+        gap: 0.5vw;
     }
+    .edu-btns-container{
+        display: flex;
+        flex-wrap: nowrap;
+       gap: 1vw;
+    }
+   

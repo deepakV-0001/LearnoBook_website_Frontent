@@ -1,0 +1,67 @@
+.excel-boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3vw;
+}
+.excel-box{
+    width: 35.8vw;
+    height: 28.4vw;
+    padding: 2vw;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 2vw;
+    background-color: rgba(253, 193, 19, 0.2);
+    border-radius: 1vw;
+}
+.excel-container{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+.excel-container h2{
+    text-align: center;
+    font-size: 3.1vw;
+    margin-bottom: 5vw;
+}
+.excel-box h3{
+    font-size: 1.8vw;
+}
+.excel-box p{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+.excel-box>span{
+width: 7vw;
+height: 7.7vw;
+padding: .5vw 0;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 1vw;
+}
+.excel-box>span img{
+width: 4.5vw;
+height: 4.5vw;
+}
+.excel-box a{
+    text-decoration: underline;
+    color: rgba(78, 169, 222, 1);
+    font-size: 1.3vw;
+    font-weight: 700;
+}
+@media screen and (max-width:768px) {
+    .excel-boxes{
+        flex-direction: column;
+        
+    }
+    .excel-box{
+        width: 70%;
+    }
+}
+@media screen and (max-width:600px) {
+    .excel-box{
+        width: 90%;
+    }
+}

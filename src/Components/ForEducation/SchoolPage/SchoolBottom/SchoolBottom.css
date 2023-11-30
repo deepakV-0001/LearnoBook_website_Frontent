@@ -1,0 +1,43 @@
+.school-btm-container{
+    background: url(../SchoolHeader//GroupImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3vw;
+    padding-top: 3vw;
+}
+.bottom-child-cont{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5vw;
+   
+}
+.bottom-child-cont img{
+    width: 90%;
+}
+.bottom-child-cont h2{
+    color: rgba(253, 193, 19, 1);
+font-weight: 500;
+font-size: 3.1vw;
+}
+.bottom-child-cont p{
+    font-size: 1.6vw;
+    font-weight: 600;
+    color: rgba(85, 106, 142, 1);
+    text-align: center;
+}
+@media screen and (max-width:768px) {
+    .bottom-child-cont{
+        width: 80%;
+    }
+    .bottom-child-cont img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px){
+    .bottom-child-cont{
+        width: 90%;
+    }
+}

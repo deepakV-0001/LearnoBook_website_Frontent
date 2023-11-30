@@ -1,6 +1,7 @@
 import React from 'react'
 import playbtn from './Circled Play.png'
 import '../Education_btns/EducationBtns.css'
+import { Link } from 'react-router-dom'
 
 
 const EducationBtns = () => {

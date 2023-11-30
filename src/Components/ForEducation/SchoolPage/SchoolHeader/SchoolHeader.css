@@ -1,0 +1,69 @@
+.school-header{
+    background: url('./GroupImg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.school-header-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5vw 0;
+}
+.school-header-text-content h1>span{
+    color: #FFC727 ;
+}
+.school-header-text-content h1{
+    color: #000;
+    font-size: 3.1vw;
+    font-weight: 600;
+}
+.school-header-text-content p{
+    color: #4EA9DE;
+    font-size: 1.3vw;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+   
+}
+.school-header-text-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+   
+}
+.school-header-img{
+    width: 50%;
+
+}
+.school-header-img img{
+    width: 100%;
+}
+ @media screen and (max-width:768px) {
+    .school-header-container{
+        flex-direction: column;
+        width: 95%;
+     align-items: center;
+     gap: 5vw;
+    }  
+    .school-header-text-content{
+        width: 70%;
+        align-items: center;
+        text-align: center;
+        
+    }  
+    .school-header{
+        padding-top: 5vw;
+    }
+    .school-header-img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* dot surce */
