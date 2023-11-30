@@ -1,0 +1,60 @@
+.college-header-container{
+    position: relative;
+    background:url(../../SchoolPage/SchoolHeader/GroupImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5vw 0;
+}
+.college-header-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.college-header-content{
+    width: 50%;
+}
+.college-header-content h1{
+    font-size: 3.1vw;
+    font-weight: 600;
+    margin-bottom: 5vw;
+}
+.college-header-content h1>span{
+    color: #FDC113;
+}
+.dot{
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+    z-index: -1;
+}
+.cir1{
+top: 5%;
+left: 5%;
+}
+.cir2{
+    bottom: 5%;
+    right: 5%;
+}
+.college-header-img{
+    width: 50%;
+}
+.college-header-img img{
+    width: 100%;
+}
+@media screen and (max-width:768px) {
+    .college-header-child
+    {
+        flex-direction: column;
+    }
+    .college-header-child{
+        width: 90%;
+    }
+    .college-header-img{
+        width: 100%;
+    }
+    .college-header-content{
+        width: 50%;
+    }
+}

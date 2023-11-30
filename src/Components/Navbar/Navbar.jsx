@@ -22,7 +22,7 @@ const Navbar = () => {
 
       {showNav && <div className="navbar-options">
         <Link to="/about">About</Link>
-        <Link to="/for-education">For Education</Link>
+        <Link to="/college">For Education</Link>
         <Link to="/about">For Publishers</Link>
         <Link to="/about">Library</Link>
         <Link to="/about">Community</Link>

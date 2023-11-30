@@ -1,0 +1,47 @@
+.college-btm-container{
+   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vw;
+}
+.college-btm-container img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    width: 15vw;
+}
+.clg-btm-content{
+    background: url(./Group222.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 2vw;
+    width: 80%;
+    height: max-content;
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.clg-btm-content h2{
+    font-size: 2.6vw;
+    font-weight: 800;
+}
+.clg-btm-content p{
+    font-size: 2vw;
+    font-weight: 500;
+}
+.clg-btm-content a{
+    font-size: 2vw;
+    font-weight: 700;
+    color: #fff;
+}
+@media screen and (max-width:768px) {
+    .clg-btm-content{
+        width: 90%;
+    }
+}

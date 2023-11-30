@@ -4,6 +4,7 @@ import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer';
 import SchoolPage from './Components/ForEducation/SchoolPage/SchoolPage';
+import College from './Components/ForEducation/CollegePage/College';
 
 function App() {
   return (
@@ -12,9 +13,9 @@ function App() {
     <Routes>
     <Route path="/" element={<Home/>}/>
      
-     <Route path="/for-education" element={<SchoolPage/>}/>
-      {/*  <Route path="/about-us" element={<About/>}/>
-      <Route path="/blog" element={<Blog/>}/>
+     <Route path="/school" element={<SchoolPage/>}/>
+        <Route path="/college" element={<College/>}/>
+      {/*<Route path="/blog" element={<Blog/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/single-blog" element={<BlogSingle/>}/>
       <Route path="/login" element={<Login/>}/>

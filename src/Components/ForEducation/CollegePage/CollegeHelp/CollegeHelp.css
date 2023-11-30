@@ -1,0 +1,69 @@
+.college-help-box-content{
+height: 20vw;
+width: 55vw;
+border-radius: 2vw;
+color: #fff;
+padding: 2vw;
+}
+.college-help-box-content h2{
+    font-size: 2vw;
+    font-weight: 700;
+}
+.college-help-box-content p{
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-top: 2vw;
+}
+.college-help-box>span{
+    width: 40%;
+}
+.college-help-box>span img{
+    width: 100%;
+}
+.college-help-container h1{
+    text-align: center;
+    font-size: 3.1vw;
+    font-weight: 700;
+    margin-bottom: 5vw;
+}
+.college-help-container{
+    padding: 5vw 0;
+}
+.college-help-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.college-help-box:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.college-help-boxes{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+}
+@media screen and (max-width:768px) {
+    .college-help-box{
+        flex-direction: column;
+    }
+    .college-help-box:nth-child(even){
+        flex-direction: column;
+    }
+    .college-help-boxes{
+        width: 90%;
+    }
+    .college-help-box-content{
+        width: 90%;
+        height: max-content;
+        padding: 4vw;
+    }
+    .college-help-box>span{
+        width: 90%;
+    }
+}
