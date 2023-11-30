@@ -1,5 +1,5 @@
 .testimonial-container{
-    height: 70vh;
+    height: max-content;
     background-color: rgba(78, 169, 222, 1);
     padding-top: 40px;
     padding-bottom: 40px;
@@ -10,6 +10,7 @@
    color: #fff;
 }
 .testimonial-heading{
+    text-align: center;
     display: grid;
     justify-content: center;
    margin-bottom: 40px;
@@ -24,9 +25,9 @@
     position: absolute;
     left: 16.2vw;
     border-radius: 15px;
-    height: 80px;
-    width: 323px;
-    font-size: 24px;
+    height: 5.2vw;
+    width: 21vw;
+    font-size: 1.5vw;
     font-weight: 500;
     display: flex;
     justify-content: center;
@@ -61,14 +62,15 @@
     .testimonial-content{
         flex-direction: column;
     }
-    .testimonial-container{
-        height: fit-content;
-    }
+  
     .testimonial-text{
         border-top: 2px solid #fff;
         border-left: 0;
         padding-top: 20px;
         width: 80%;
+        height: max-content;
+        padding-left: 2px;
+        padding-right: 2px;
     }
     
 }

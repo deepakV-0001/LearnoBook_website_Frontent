@@ -21,7 +21,7 @@ const Navbar = () => {
       </div>
 
       {showNav && <div className="navbar-options">
-        <Link to="/about">About</Link>
+        <Link to="/for-education">About</Link>
         <Link to="/about">For Education</Link>
         <Link to="/about">For Publishers</Link>
         <Link to="/about">Library</Link>

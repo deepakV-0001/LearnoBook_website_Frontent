@@ -42,10 +42,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  position: absolute;
- width:60vw;
- top: 560px;
- left: 20vw;
+    position: relative;
+    width:60vw;
+    top: 5vw;
+    left: 20vw;
   z-index: 99;
 }
 .child-box:nth-child(even) {
@@ -55,13 +55,13 @@
   @media screen and (max-width:1024px) {
     .records-boxes{
         width: 80%;
-        bottom: 20.4 vw;
+        bottom: 20.4vw;
     }
   }
   @media screen and (max-width:768px) {
     .records-boxes{
         width: 90%;
-        bottom: 20.4 vw;
+        bottom: 20.4vw;
         left: 0;
         right: 0;
         margin: auto;

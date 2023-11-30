@@ -19,7 +19,7 @@ const EbookMaterial = () => {
             title: "CBSE Science Sense Class XI",
             text: "By Ryan Ran",
             btn: "Buy E-Book $4",
-            class:"margin-card"
+           
         },
         {
             img1: book2,
@@ -27,7 +27,7 @@ const EbookMaterial = () => {
             title: "Let’s Go Time Travelling",
             text: "By Sheena Roy",
             btn: "Buy E-Book $2",
-            class:""
+           
         },
         {
             img1: book3,
@@ -35,7 +35,7 @@ const EbookMaterial = () => {
             title: "Objective Lune",
             text: "By Tulika Das ",
             btn: "Buy E-Book FREE",
-            class:"margin-card"
+           
         },
         {
             img1: book4,
@@ -43,7 +43,7 @@ const EbookMaterial = () => {
             title: "ICSE English Literature Class V",
             text: "By George Orwel",
             btn: "Buy E-Book $3.50",
-            class:""
+          
         },
     ]
     return (

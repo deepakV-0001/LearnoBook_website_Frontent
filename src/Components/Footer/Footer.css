@@ -1,11 +1,12 @@
 .footer-container {
-    height: 60vh;
+    
     color: rgba(78, 169, 222, 1);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 100px;
+    padding: 50px 0;
+    gap: 6.5vw;
     background-color: #F2F2F2;
    
 }
@@ -29,7 +30,7 @@
 
 .social-icons {
     display: flex;
-    gap: 20px;
+    gap: 1.3vw;
 }
 
 .social-icons>span {
@@ -51,7 +52,6 @@
 
 .footer-text-box {
     text-align: left;
-   
 }
 
 .footer-box-res a {
@@ -72,7 +72,7 @@
 .footer-text-content{
     display: flex;
     flex-wrap: wrap;
-    gap: 73px;
+    gap: 4.7vw;
 }
 .footer-copy{
     background-color: #4EA9DE;
@@ -81,4 +81,17 @@
    justify-content: center;
    align-items: center;
     color: #fff;
+}
+
+
+@media screen and (max-width:768px) {
+    .footer-text-content{
+        padding-left: 5vw;
+        justify-content: start;
+    }
+    .footer-socials{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
 }

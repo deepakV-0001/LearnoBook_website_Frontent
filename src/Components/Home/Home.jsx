@@ -17,8 +17,8 @@ const Home=()=>{
         <KeyFeatures/>
         <NoteSection/>
         <Ebook/>
-        <Testimonials/>
-        {/* <Contact/> */}
+        <Testimonials/> 
+         <Contact/>
      </>
     )
 }
