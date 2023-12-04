@@ -1,0 +1,218 @@
+.signup-container {
+    background: url(./sign.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 46.5vw;
+    position: relative;
+
+}
+
+.sign-logo img {
+    width: 6vw;
+    height: 5.7vw;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+}
+
+.sign-head h1 {
+    font-size: 64px;
+    font-weight: 600;
+    color: #000;
+}
+
+.sign-head h1>span {
+    color: rgba(253, 193, 19, 1);
+}
+
+.sign-head p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    width: 95%;
+}
+
+.sign-head {
+    width: 27.5vw;
+}
+
+.sign-form h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #FDC113;
+    text-align: left;
+    width: max-content;
+}
+
+.sign-form-fields input {
+    width: 100%;
+    height: 44px;
+    border-radius: 0.3vw;
+    border: 2px solid #FDC113;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+
+}
+
+.sign-form-fields {
+    width: 85%;
+}
+
+.sign-form-fields>span {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sign-form-fields>span input {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #FDC113;
+
+}
+
+.sign-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    align-items: center;
+    justify-content: center;
+    width: 31.1vw;
+    box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.5);
+    padding: 3vw 0;
+
+    border-radius: 1vw;
+    background-color: #fff;
+}
+
+.sign-form-fields input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+.sign-btn {
+    width: max-content;
+    height: 44px;
+    background-color: #FDC113;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: .5vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.or {
+    width: 80%;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #fff;
+
+}
+
+.or::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 0;
+    width: 8vw;
+    height: 1px;
+    background-color: #737070;
+}
+
+.or::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 0;
+    width: 8vw;
+    height: 1px;
+    background-color: #737070;
+}
+
+.move-to {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.move-to a {
+    color: #FDC113;
+}
+
+.sign-form-fields,
+.sign-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+
+.sign-bottom>span {
+    display: flex;
+    gap: 1vw;
+}
+
+.signup-content {
+    display: flex;
+    width: 80%;
+    gap: 18vw;
+    align-items: center;
+    position: relative;
+    left: 3%;
+    top: 5%;
+}
+
+.sign-bottom>span a img {
+    width: 44px;
+
+}
+
+@media screen and (max-width:768px) {
+    .signup-content {
+        flex-direction: column;
+        width: 100%;
+        top: 5%;
+        left: 0;
+        gap: 5vw;
+    }
+
+    .signup-container {
+        height: max-content;
+        padding-top: 5vw;
+    }
+
+    .sign-head {
+        width: 90%;
+        text-align: center;
+    }
+       .sign-head h1{
+        font-size: 40px;
+       }
+    .sign-form {
+        width: 90%;
+    }
+
+    .sign-bottom>span a img {
+        width: 30px;
+
+    }
+    .sign-btn{
+        width: 100%;
+        height: 35px;
+        
+    }
+}

@@ -1,0 +1,147 @@
+.login-container{
+    background: url(./login.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: right;
+    height: 45vw;
+    position: relative;
+}
+.login-text-content h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.login-text-content h1>span{
+    color: #FDC113;
+}
+.login-text-content p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.login-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    padding: 3vw 0;
+    font-size: 16px;
+    border-radius: 2vw;
+    background-color: #fff;
+    box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.5);
+}
+.login-form h2{
+    margin-bottom: 2vw;
+    font-size: 34px;
+    font-weight: 700;
+    color: #FDC113;
+    text-align: left;
+}
+.login-form-fields,.login-btm{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    margin: 0 auto;
+}
+.login-form-fields input,.login-btm li{
+    outline: none;
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid #FDC113;
+    border-radius: 0.5vw;
+}
+.login-form-fields li>span input{
+    width: 15px;
+    height: 15px;
+}
+.login-form-fields li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.log-btn{
+    width: 60%;
+    font-size: 24px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0.8vw 1.5vw;
+    color: #fff;
+    margin-top: 2vw;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+   background-color: #FDC113;
+   border-radius: 1.2vw;
+}
+.login-btm li img{
+    width:30px;
+    
+}
+.login-btm li{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    
+}
+.login-btm li a{
+    color: gray ;
+}
+.login-btm{
+    margin-top: 2vw;
+}
+.btm-sign{
+    margin-top: 3vw;
+}
+.login-text-content{
+    width: 29vw;
+}
+.login-content{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vw;
+    position: absolute;
+    left: 0;
+    top:5%;
+}
+@media screen and (max-width:768px) {
+    .login-content{
+        flex-direction: column;
+        position: unset;
+        left: 0;
+        top: 0;
+        margin: 0 auto;
+    }
+    .login-form{
+        width: 100%;
+        
+    }
+    .login-content{
+        width: 90%;
+    }
+    .login-text-content{
+        width: 90%;
+        text-align: center;
+    }
+    .login-container{
+        background-size: 50%;
+        height: 80vh;
+    }
+    .login-form-fields li{
+        font-size: 12px;
+    }
+    .login-btm li img{
+        width: 19px;
+        
+    }
+    .log-btn{
+        height: 37px;
+    }
+}
+
+

@@ -1,0 +1,50 @@
+.related-container{
+    width: 90%;
+    margin: 5vw auto;
+}
+.related-container h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5vw;
+}
+.related-books-container{
+    display: flex;
+    gap: 5vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+   
+}
+.related-book-box{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+}
+.related-book-box h2{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+.related-book-box p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.related-book-box i{
+    font-size: 17px;
+    display: flex;
+    color: #FDC113;
+}
+.related-book-box a{
+    background-color: #4EA9DE;
+    padding: 10px 15px;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+}
+@media screen and (max-width:768px) {
+    .related-books-container{
+        justify-content: center;
+    }
+}
