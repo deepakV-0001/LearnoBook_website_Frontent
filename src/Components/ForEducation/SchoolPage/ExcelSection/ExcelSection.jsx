@@ -3,8 +3,9 @@ import '../ExcelSection/ExcelSection.css'
 import library from './Nook.png'
 import edit from './Edit.png'
 import book from './Books.png'
-import group from './Group Task.png'
+import group from './Group.png'
 import { Link } from 'react-router-dom'
+import ExcelComponent from './ExcelComponent'
 
 const ExcelSection = () => {
     const excelData=[
@@ -32,19 +33,14 @@ const ExcelSection = () => {
             title:"Collaborative Learning Spaces",
             desc:"Students and teachers can engage in discussions, share insights, and collaborate on projects, creating a dynamic and supportive learning environment.",
         },
-    ]
+    ];
   return (
     <div className='excel-container'>
         <h2>How LearnoBook Helps You Excel</h2>
         <div className="excel-boxes">
            {
             excelData.map((item)=>(
-                <div className="excel-box">
-                <span style={{backgroundColor:`${item.color}`}}><img src={item.img} alt="" /></span>
-                <h3>{item.title}</h3>
-                <p>{item.desc}</p>
-                <Link to="">Read More</Link>
-            </div>
+               <ExcelComponent img={item.img} color={item.color} title={item.title} desc={item.desc} />
             ))
            }
         </div>

@@ -1,0 +1,7 @@
+.ncert-main-drop{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 4vw auto;
+    gap: 2vw;
+}

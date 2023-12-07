@@ -37,7 +37,9 @@ const Navbar = () => {
         <Link className={activeItem === 'education' ? 'active' : ''} onClick={() => handleItemClick('education')} to="/">For Education <IoIosArrowForward className="ar-btn"/></Link>
         <Link className={activeItem === 'publishers' ? 'active' : ''} onClick={() => handleItemClick('Publishers')} to="/publishers">For Publishers</Link>
         <Link className={activeItem === 'library' ? 'active' : ''} onClick={() => handleItemClick('library')} to="/library">Library</Link>
-        <Link className={activeItem === 'community' ? 'active' : ''} onClick={() => handleItemClick('community')} to="/community">Community</Link>
+        <Link className={activeItem === 'download' ? 'active' : ''} onClick={() => handleItemClick('download')} to="/download">Free Download</Link>
+        <Link className={activeItem === 'blog' ? 'active' : ''} onClick={() => handleItemClick('blog')} to="/blog">Blog</Link>
+        <Link className={activeItem === 'shop' ? 'active' : ''} onClick={() => handleItemClick('shop')} to="/shop">Blog</Link>
         <Link className={activeItem === 'contact' ? 'active' : ''} onClick={() => handleItemClick('contact')} to="/contact">Contact Us</Link>
         <Link className="respons-btn"> <NavBtns/></Link>
        

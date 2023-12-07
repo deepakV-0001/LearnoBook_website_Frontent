@@ -1,0 +1,44 @@
+.subject-book-container{
+    width: 90%;
+    margin: 4vw auto;
+}
+.subject-book-box{
+    width: 195px;
+    border-radius: 15px;
+    height: 166px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+}
+.subject-book-box img{
+    width: 100%;
+}
+.subject-book-container h2{
+    font-size: 38px;
+    font-weight: 700;
+   margin-bottom: 3vw;
+}
+.subject-book-box p{
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.subject-book-boxes{
+    display: flex;
+    justify-content:start;
+   gap: 10px;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:400px) {
+    .subject-book-box{
+  width: 100%;
+    }
+}

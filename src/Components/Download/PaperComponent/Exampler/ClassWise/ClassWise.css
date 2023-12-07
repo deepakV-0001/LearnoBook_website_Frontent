@@ -1,0 +1,36 @@
+.class-book-box{
+    width: 195px;
+    border-radius: 15px;
+    height: 166px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-size: cover;
+   
+}
+.class-book-container h2{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 3vw;
+   
+}
+.class-book-container{
+    width: 90%;
+    margin: 4vw auto;
+}
+.class-book-boxes{
+    display: flex;
+    justify-content: space-between;
+   gap: 10px;
+   
+    flex-wrap: wrap;
+}
+@media screen and (max-width:400px) {
+    .class-book-box{
+  width: 100%;
+    }
+}

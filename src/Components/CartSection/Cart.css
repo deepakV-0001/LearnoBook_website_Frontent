@@ -77,7 +77,7 @@ width: 220px;
 @media screen and (max-width:768px) {
     .cart-product-container{
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
     }
     .cart-product-text{
         width: 100%;

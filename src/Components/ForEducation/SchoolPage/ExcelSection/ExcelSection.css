@@ -27,6 +27,7 @@
 }
 .excel-box h3{
     font-size: 1.8vw;
+    font-weight: 700;
 }
 .excel-box p{
     font-size: 1.3vw;
@@ -52,16 +53,20 @@ height: 4.5vw;
     font-weight: 700;
 }
 @media screen and (max-width:768px) {
-    .excel-boxes{
-        flex-direction: column;
-        
-    }
-    .excel-box{
-        width: 70%;
-    }
-}
-@media screen and (max-width:600px) {
     .excel-box{
         width: 90%;
+        height: max-content;
+        padding: 15px;
+    }
+    .excel-box h3{
+        font-size:20px;
+       
+    }
+    .excel-box p{
+        font-size: 18px;
+    }
+    .excel-box a{
+        font-size: 16px;
     }
 }
+
