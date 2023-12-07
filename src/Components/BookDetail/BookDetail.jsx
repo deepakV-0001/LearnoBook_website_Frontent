@@ -9,9 +9,39 @@ import book from './book-detail-img.png'
 import rev from './right-img.png'
 import RelatedBooks from './RelatedBooks/RelatedBooks';
 import Rating from './Rating/Rating';
+import dict1 from './RelatedBooks/dict1.png'
+import dict2 from './RelatedBooks/dict2.png'
+import dict3 from './RelatedBooks/dict3.png'
+import dict4 from './RelatedBooks/dict4.png'
 
 
 const BookDetail = () => {
+    const relatedBookData = [
+        {
+            title: "Oxford English Hindi Dictionary",
+            img: dict1,
+            auther: "S.K. Verma",
+            price: "$7",
+        },
+        {
+            title: "Oxford Essential Dictionary",
+            img: dict2,
+            auther: "Oxford",
+            price: "$11",
+        },
+        {
+            title: "Oxford First Illustrated Dictionary",
+            img: dict3,
+            auther: "Oxford",
+            price: "$20",
+        },
+        {
+            title: "Oxford Illustrated Dictionary",
+            img: dict4,
+            auther: "Oxford",
+            price: "$10",
+        },
+    ];
     return (
         <div className='book-detail-container'>
             <div className="book-lower-container">
@@ -49,7 +79,7 @@ const BookDetail = () => {
                 </div>
             </div>
             <div className="related-book-section">
-                <RelatedBooks/>
+                <RelatedBooks relatedBookData={relatedBookData} head={'Books related to Oxford Dictionary'}/>
             </div>
             <div className="rating-book-section">
                 <Rating/>

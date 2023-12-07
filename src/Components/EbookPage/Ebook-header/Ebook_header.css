@@ -1,0 +1,31 @@
+.ebook-header-container h2{
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.ebook-header-container h2>span{
+    color: #FDC113;
+}
+.ebook-header-container p{
+    font-weight: 500;
+    font-size: 24px;
+    color: #4EA9DE;
+}
+.ebook-header-container{
+    width: 60%;
+    margin: 5vw auto;
+    text-align: center;
+}
+@media screen and (max-width:768px) {
+.ebook-header-container{
+    width: 90%;
+}
+.ebook-header-container h2{
+    font-size: 26px;
+}
+.ebook-header-container p{
+    
+    font-size: 15px;
+    
+}
+}

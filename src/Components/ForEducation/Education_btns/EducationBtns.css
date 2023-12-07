@@ -2,11 +2,10 @@
 .edu-btns-container a,.join-btn{
     background-color: rgba(58, 90, 255, 1);
     color: #fff;
-    width: fit-content;
-    padding: 0.5vw 2vw;
+    padding: 10px 25px;
     font-weight: 800;
-    font-size: 1.4vw;
-    border-radius: 15px;
+    font-size: 24px;
+    border-radius: 10px;
     transition: 0.8s ease;
     }
     .edu-btns-container a:hover{
@@ -15,22 +14,28 @@
         border-bottom: 4px solid  rgba(0, 0, 0, 0.6);
     }
     .edu-btns-container>span  img{
-        width: 3.4vw;
-        height: 3.4vw;
+        width:53px;
+        height: 53px;
        
     }
     .edu-btns-container>span{
-        font-size: 1.6vw;
+        font-size: 20px;
         font-weight: 700;
         display: flex;
         justify-content: center;
         align-items: center;
         width: max-content;
-        gap: 0.5vw;
+        gap: 7px;
     }
     .edu-btns-container{
         display: flex;
-        flex-wrap: nowrap;
-       gap: 1vw;
+        flex-wrap: wrap;
+       gap: 10px;
     }
-   
+   @media screen  and (max-width:520px){
+    .edu-btns-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+   }

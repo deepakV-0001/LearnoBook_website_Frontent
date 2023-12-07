@@ -1,0 +1,111 @@
+.ebook-page-latest-section-images{
+   background: url(../img1.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+    width: 55%;
+    border-radius: 15px;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.ebook-page-middle{
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.ebook-page-latest-section-images>span h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.ebook-page-latest-section-images>span p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.ebook-page-latest-section-images>span{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.ebook-page-latest-section-images>span a{
+   padding: 10px 20px;
+   display: flex;
+   justify-content: center;
+    background-color: #4EA9DE;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 7px;
+}
+.img1-col{
+    background: url(../img2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+     width: 100%;
+     border-radius: 15px;
+     display: flex;
+     color: #FDC113;
+     padding: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.img2-col p{
+font-size: 32px;
+font-weight: 700;
+color: #fff;
+}
+.img2-col{
+    background: url(../img3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+     width: 100%;
+     border-radius: 15px;
+     display: flex;
+     color: #FDC113;
+     padding: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.img1-col p{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FDC113;
+}
+.ebook-page-latest-section-images-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    gap: 10px;
+}
+@media screen and (max-width:768px) {
+    .ebook-page-middle{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ebook-page-latest-section-images{
+        width: 100%;
+        padding: 60px 5px;
+    }
+    .ebook-page-latest-section-images-col{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .ebook-page-latest-section-images>span a{
+        padding: 4px 15px;
+    font-size: 13px;
+    }
+    .ebook-page-latest-section-images>span h2,.img1-col p,.img2-col p{
+        font-size: 20px;
+    }
+    .ebook-page-latest-section-images>span h2{
+        font-size: 20px;
+    }
+}

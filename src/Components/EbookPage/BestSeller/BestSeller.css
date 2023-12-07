@@ -1,0 +1,12 @@
+.bestSeller-header h3{
+    font-size: 38px;
+    font-weight: 700;
+}
+.bestSeller-header p{
+    font-size: 28px;
+    font-weight: 600;
+}
+.bestSeller-container{
+    width: 90%;
+    margin: 5vw auto 0;
+}

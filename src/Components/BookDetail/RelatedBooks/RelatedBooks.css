@@ -1,5 +1,5 @@
 .related-container{
-    width: 90%;
+    width: 100%;
     margin: 5vw auto;
 }
 .related-container h2{
@@ -9,9 +9,9 @@
 }
 .related-books-container{
     display: flex;
-    gap: 5vw;
+    gap: 2vw;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: start;
    
    
 }
