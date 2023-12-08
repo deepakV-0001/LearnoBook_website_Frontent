@@ -31,6 +31,16 @@
 }
 @media screen and (max-width:400px) {
     .class-book-box{
-  width: 100%;
+  width: 90%;
     }
+    
+}
+@media screen and (max-width:768px) {
+    .class-book-container h2{
+        font-size: 28px;
+    }
+    .class-book-box{
+        width: 48%;
+          }
+   
 }

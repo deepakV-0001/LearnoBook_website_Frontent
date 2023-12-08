@@ -10,14 +10,14 @@ const LatestBlog = () => {
             <h2>Latest Blogs</h2>
             <div className="latest-blog-images">
                 <div className='latest-blog-img'><img src={blog1} alt="" />
-                    <div className="blog-img-btm-text">
-                        <p>Breaking Down Geographical Barriers</p>
-                    </div>
+
+                    <p className="blog-img-btm-text" >Breaking Down Geographical Barriers</p>
+
                 </div>
                 <div className='latest-blog-img'><img src={blog2} alt="" />
-                    <div className="blog-img-btm-text">
-                        <p>Global Access to Education</p>
-                    </div></div>
+
+                    <p className="blog-img-btm-text" >Global Access to Education</p>
+                </div>
             </div>
             <Link>Browse More</Link>
         </div>

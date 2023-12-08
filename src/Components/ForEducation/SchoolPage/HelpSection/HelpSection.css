@@ -95,6 +95,16 @@ font-size: 1.2vw;
     }
     .stu-below-box{
         width: 95%;
+        height: max-content;
+    }
+    .stu-below-box h2{
+        font-size: 20px;
+    }
+    .stu-below-box p{
+        font-size: 13px;
+    }
+    .stu-head{
+        font-size: 28px;
     }
 }
 @media screen and (max-width:600px) {

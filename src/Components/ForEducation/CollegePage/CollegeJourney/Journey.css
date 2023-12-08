@@ -34,3 +34,11 @@ font-weight: 500;
     border-radius: 0.9vw;
     background-color: #4EA9DE;
 }
+@media screen and (max-width:768px) {
+    .journey-child h1{
+        font-size: 20px;
+    }
+    .journey-child p{
+        font-size: 14px;
+    }
+}

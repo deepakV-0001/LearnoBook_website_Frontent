@@ -39,6 +39,15 @@
 }
 @media screen and (max-width:400px) {
     .subject-book-box{
-  width: 100%;
+  width: 90%;
     }
+}
+@media screen and (max-width:768px) {
+   .subject-book-container h2{
+    font-size: 28px;
+   }
+   .subject-book-box{
+    height: max-content;
+    width: 48%;
+   }
 }

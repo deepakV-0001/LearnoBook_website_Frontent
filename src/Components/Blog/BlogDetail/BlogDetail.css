@@ -1,6 +1,7 @@
 .blog-container{
     width: 100%;
     position: relative;
+    padding-top: 50px;
 }
 
 .blog-header{
@@ -70,5 +71,23 @@ font-weight: 700;
     }
     .blog-text-content{
         width: 90%;
+    }
+    .blog-header h2{
+        font-size: 28px;
+    }
+    .blog-header-text p{
+        font-size: 15px;
+    }
+    .blog-social-icon>svg{
+        font-size: 15px;
+    }
+    .blog-head-img p{
+        font-size: 7px;
+    }
+    .blog-text-box p{
+        font-size: 15px;
+    }
+    .blog-bottom-social h2{
+        font-size: 18px;
     }
 }

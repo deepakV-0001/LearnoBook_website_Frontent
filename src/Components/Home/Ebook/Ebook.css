@@ -51,4 +51,10 @@
     right: 0;
     margin: auto;
   }
+  .ebook-text-content h3{
+    font-size: 28px;
+  }
+  .ebook-text-content p{
+    font-size: 15px;
+  }
 }

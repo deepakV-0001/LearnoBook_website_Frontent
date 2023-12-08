@@ -54,6 +54,12 @@
         text-align: center;
         
     }  
+    .school-header-text-content h1{
+        font-size: 28px;
+    }
+    .school-header-text-content p{
+        font-size: 15px;
+    }
     .school-header{
         padding-top: 5vw;
     }

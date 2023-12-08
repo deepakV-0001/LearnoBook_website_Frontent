@@ -13,32 +13,32 @@ const Exampler = () => {
   const classData=[
     {
       text:"NCERT Book for Class 12",
-      color:'back',
+      color:'#4EA9DE',
     },
     {
       text:"NCERT Book for Class 11",
-      color:'back',
+      color:'#4EA9DE',
     },
     {
       text:"NCERT Book for Class 10",
-      color:'back',
+      color:'#4EA9DE',
     },
     {
       text:"NCERT Book for Class 9",
-      color:'back',
+      color:'#4EA9DE',
     },
     {
       text:"NCERT Book for Class 8",
-      color:'back',
+      color:'#4EA9DE',
     },
     {
       text:"NCERT Book for Class 7",
-      color:'back',
+      color:'#4EA9DE',
     },
     
     {
       text:"NCERT Book for Class 6",
-      color:'back',
+      color:'#4EA9DE',
     },
     
   ];

@@ -65,6 +65,12 @@
     .coaching-header{
         width: 90%;
     }
+    .coaching-header h2,.coaching-middle-section h2 ,.coaching-bottom h2{
+        font-size: 28px;
+    }
+    .coaching-bottom p{
+        font-size: 18px;
+    }
 }
 .coaching-btn{
     color: #fff;

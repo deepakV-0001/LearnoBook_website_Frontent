@@ -9,7 +9,7 @@
     width: 55%;
 }
 .vision-text-content h1{
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 700;
     margin-bottom: 20px;
    
@@ -36,6 +36,12 @@
     .vision-main-container{
         flex-wrap: wrap;
         width: 90%;
+    }
+    .vision-text-content h1{
+        font-size: 28px;
+    }
+    .vision-text-content p{
+        font-size: 15px;
     }
     .vision-img{
         width: 100%;

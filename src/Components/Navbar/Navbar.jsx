@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import './Navbar.css'
 import logo from './logo.png'
 import { IoIosArrowForward } from "react-icons/io";
@@ -9,21 +9,32 @@ import { BiMenuAltRight } from "react-icons/bi";
 import NavBtns from './NavBtns';
 
 const Navbar = () => {
+
   const [activeItem, setActiveItem] = useState('home');
   const [showDropdown, setShowDropdown] = useState(false);
 
   const handleItemClick = (itemName) => {
     setActiveItem(itemName);
+if(itemName=='about'){
+  Geeks();
+}
     setShowDropdown(false);
   };
 
-  const toggleDropdown = () => {
-    setShowDropdown(!showDropdown);
-  };
+  var a = document.getElementById("about"); 
+  function Geeks(){ 
+    
+      window.scroll({ 
+          top: 700,   
+          behavior: 'smooth' 
+}); 
+
+  }
+
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <div className='main-container' >
+    <div className='main-container'>
       <div className="nav-logo">
         <img src={logo} alt='logo' />
       </div>
@@ -33,15 +44,30 @@ const Navbar = () => {
       </div>
 
       {showNav && <div className="navbar-options navbar">
-        <Link className={activeItem === 'about' ? 'active' : ''} onClick={() => handleItemClick('about')} to="/about">About</Link>
-        <Link className={activeItem === 'education' ? 'active' : ''} onClick={() => handleItemClick('education')} to="/">For Education <IoIosArrowForward className="ar-btn"/></Link>
-        <Link className={activeItem === 'publishers' ? 'active' : ''} onClick={() => handleItemClick('Publishers')} to="/publishers">For Publishers</Link>
-        <Link className={activeItem === 'library' ? 'active' : ''} onClick={() => handleItemClick('library')} to="/library">Library</Link>
-        <Link className={activeItem === 'download' ? 'active' : ''} onClick={() => handleItemClick('download')} to="/download">Free Download</Link>
-        <Link className={activeItem === 'blog' ? 'active' : ''} onClick={() => handleItemClick('blog')} to="/blog">Blog</Link>
-        <Link className={activeItem === 'shop' ? 'active' : ''} onClick={() => handleItemClick('shop')} to="/shop">Blog</Link>
-        <Link className={activeItem === 'contact' ? 'active' : ''} onClick={() => handleItemClick('contact')} to="/contact">Contact Us</Link>
-        <Link className="respons-btn"> <NavBtns/></Link>
+        <Link className={`navIcons ${activeItem === 'about' ? 'active' : ''}`} id="about" onClick={() => handleItemClick('about')}  >About</Link>
+        <li className='education-nav'><Link className={`navIcons education-navicons-drop ${activeItem === 'education' ? 'active' : ''}`} onClick={() => handleItemClick('education')} to="/">For Education <IoIosArrowForward className="ar-btn"/></Link>
+        <ul className='education-drop'>
+          <li><Link className='education-drop-nacIcons' to="/school">School</Link></li>
+          <li><Link className='education-drop-nacIcons' to="/college">college</Link></li>
+          <li><Link className='education-drop-nacIcons' to="/coaching">Coaching</Link></li>
+        </ul>
+        </li>
+        <Link className={`navIcons ${activeItem === 'Publishers' ? 'active' : ''}`} onClick={() => handleItemClick('Publishers')} to="/publishers">For Publishers</Link>
+        <Link className={`navIcons ${activeItem === 'library' ? 'active' : ''}`} onClick={() => handleItemClick('library')} to="/">Library</Link>
+        <li className='education-nav'><Link className={`navIcons education-navicons-drop ${activeItem === 'download' ? 'active' : ''}`} onClick={() => handleItemClick('download')} to="/">Free Download <IoIosArrowForward className="ar-btn"/></Link>
+        <ul className='education-drop'>
+          <li><Link className='education-drop-nacIcons' to="/ncert-book">NCERT Book</Link></li>
+          <li><Link className='education-drop-nacIcons' to="/exampler">NCERT Exampler</Link></li>
+          <li><Link className='education-drop-nacIcons' to="/iit-main">JEE Main Paper</Link></li>
+          <li><Link className='education-drop-nacIcons' to="/iit-advance">JEE Advance Paper</Link></li>
+          <li><Link className='education-drop-nacIcons' to="/neet">NEET Paper</Link></li>
+
+        </ul>
+        </li>
+        <Link className={`navIcons ${activeItem === 'blog' ? 'active' : ''}`} onClick={() => handleItemClick('blog')} to="/blog">Blog</Link>
+        <Link className={`navIcons ${activeItem === 'shop' ? 'active' : ''}`} onClick={() => handleItemClick('shop')} to="/shop">Shop</Link>
+        <Link className={`navIcons ${activeItem === 'contact' ? 'active' : ''}`} onClick={() => handleItemClick('contact')} to="/contact">Contact Us</Link>
+        <Link className= "respons-btn"> <NavBtns/></Link>
        
       </div>}
     </div>
@@ -50,33 +76,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-
-
-
-
-
-
-
-// return (
-//   <nav className="navbar">
-//     <ul className="nav-list">
-//       <li className={activeItem === 'home' ? 'active' : ''} onClick={() => handleItemClick('home')}>
-//         Home
-//       </li>
-//       <li className={activeItem === 'about' ? 'active' : ''} onClick={() => handleItemClick('about')}>
-//         About
-//       </li>
-//       <li className={`dropdown ${showDropdown ? 'active' : ''}`} onClick={toggleDropdown}>
-//         Services
-//         <ul className="dropdown-content">
-//           <li onClick={() => handleItemClick('service1')}>Service 1</li>
-//           <li onClick={() => handleItemClick('service2')}>Service 2</li>
-//         </ul>
-//       </li>
-//       <li className={activeItem === 'contact' ? 'active' : ''} onClick={() => handleItemClick('contact')}>
-//         Contact
-//       </li>
-//     </ul>
-//   </nav>
-// );
-// };

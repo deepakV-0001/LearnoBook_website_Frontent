@@ -33,12 +33,21 @@
 }
 .popular-book-boxes{
     display: flex;
-    justify-content: space-between;
+    justify-content:start;
    gap: 2vw;
     flex-wrap: wrap;
 }
 @media screen and (max-width:400px) {
     .popular-book-box{
-  width: 100%;
+  width: 90%;
+  height: max-content;
     }
+}
+@media screen and (max-width:768px){
+    .popular-book-container h2{
+        font-size: 28px;
+    }
+   .popular-book-box{
+    width: 48%;
+   }
 }

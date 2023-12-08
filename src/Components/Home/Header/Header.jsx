@@ -22,7 +22,8 @@ const Header = () => {
                     </h1>
                     <p>Welcome to the power of digital note taking with <b>LearnoBook</b>,
                         The <b>note taking app</b> & <b>PDF reader</b> for the smart and swift people.</p>
-                    <Link to="">Join For Free</Link>            </div>
+                    <Link to="">Join For Free</Link>
+                </div>
                 <div className="header-img">
                     <img src={img} alt="img" />
                     <div className="header-social-icons">

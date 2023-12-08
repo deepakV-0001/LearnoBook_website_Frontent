@@ -1,7 +1,7 @@
 import React from 'react'
 import '../ClassWise/ClassWise.css'
 const ClassWise = (props) => {
-   console.log(props)
+  
   return (
     <div className='class-book-container'>
         <h2>{props.head}</h2>

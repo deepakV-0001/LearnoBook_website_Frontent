@@ -58,12 +58,17 @@ height: 4.5vw;
         height: max-content;
         padding: 15px;
     }
+    .excel-container h2{
+        font-size: 28px;
+        width: 90%;
+        margin: 0 auto;
+    }
     .excel-box h3{
-        font-size:20px;
+        font-size:18px;
        
     }
     .excel-box p{
-        font-size: 18px;
+        font-size: 15px;
     }
     .excel-box a{
         font-size: 16px;

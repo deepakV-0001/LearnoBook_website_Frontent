@@ -55,6 +55,13 @@ left: 5%;
         width: 100%;
     }
     .college-header-content{
-        width: 50%;
+        width: 90%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .college-header-content h1{
+        font-size: 28px;
     }
 }

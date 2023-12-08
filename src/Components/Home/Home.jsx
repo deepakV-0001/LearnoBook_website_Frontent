@@ -8,18 +8,20 @@ import NoteSection from "./NoteSection/NoteSection";
 import Ebook from "./Ebook/Ebook";
 import Testimonials from "./Testimonials/Testimonials";
 import Contact from "./Contact/Contact";
-const Home=()=>{
-    return(
-     <>
-        <Header/>
-        <Vision/>
-        <VideoSection/>
-        <KeyFeatures/>
-        <NoteSection/>
-        <Ebook/>
-        <Testimonials/> 
-         <Contact/>
-     </>
+const Home = () => {
+    return (
+        <>
+            <Header />
+            <div className="vision-section">
+                <Vision />
+            </div>
+            <VideoSection />
+            <KeyFeatures />
+            <NoteSection />
+            <Ebook />
+            <Testimonials />
+            <Contact />
+        </>
     )
 }
 export default Home;

@@ -73,4 +73,7 @@
     .feature-box-text h2{
         margin-bottom: 2px;
     }
+    .feature-box:nth-child(even){
+        flex-direction: column;
+    }
 }

@@ -63,43 +63,87 @@
     right: 0;
     top: 90px;
     margin: auto;
-    width: 80%;
+    z-index: 99999;
+    width: 90%;
     display: flex;
     justify-content: center;
     background-color: #fefefe;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
-.navbar-options a{
-    width: max-content;
+.navbar-options .navIcons{
+    width: 13vw;
+   text-align: center;
     color: #000;
-    padding: 1% 4%;
+  padding: 10px 10px;
     transition: 0.5s ease;
     font-weight: 700;
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
-.navbar a:hover{
+.navbar .navIcons:hover{
     background-color:rgba(77, 113, 183, 1) ;
     color: #fff;
 }
 .active{
     background-color:rgba(77, 113, 183, 1) ;
-    color: #fff;
+    color: #fff !important;
 }
 
 .active .ar-btn{
     transform: rotate(0deg);
     transition: all 0.5s ease;
 }
-.navbar a:hover .ar-btn{
+.education-nav:hover .ar-btn{
     transform: rotate(90deg);
 }
 
 .respons-btn{
     display: none;
 }
-@media screen and (max-width:782px){
+.education-nav{
+position: relative;
+}
+.education-drop{
+    display: none;
+   
+}
+.education-nav:hover .education-drop{
+    display: block;
+    position: absolute;
+    z-index: 999;
+    background-color: #f4f4f4;
+   
+    width: 100%;
+}
+.education-drop li{
+    color: #fff;
+    padding: 10px;
+}
+.education-drop li:hover{
+    background-color:#cdcccc ;
+    color: #fff;
+}
+.education-drop-nacIcons{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.education-navicons-drop{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width:768px){
     .navbar-options{
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         padding: 20px;
         width: 80%;
         gap: 0;
@@ -113,33 +157,51 @@
     .respons-btn{
         display: block;
     }
-    .navbar-options a{
-       
+    .navbar-options .navIcons{
+       text-align: left;
         padding: 5px;
-       
-        transform: translateX(50vw);
-        transform-origin: top right;
-        opacity: 0;
-        animation: animate 1s ease forwards;
-        
+       font-size: 16px;
+        /* transform: translateX(50vw);
+        transform-origin: top right; */
+      
+        animation: anim 2s ease forwards;
+        width: 200px;
+        justify-content: start;
     }
-    .navbar-options a:nth-child(2){
+@keyframes anim {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+    
+}
+
+    /* .navbar-options :nth-child(2){
         animation-delay: 300ms;
     }
-    .navbar-options a:nth-child(3){
+    .navbar-options .navIcons:nth-child(3){
         animation-delay: 500ms;
     }
-    .navbar-options a:nth-child(4){
+    .navbar-options .navIcons:nth-child(4){
         animation-delay: 700ms;
     }
-    .navbar-options a:nth-child(5){
+    .navbar-options .navIcons:nth-child(5){
         animation-delay: 900ms;
     }
-    .navbar-options a:nth-child(6){
+    .navbar-options .navIcons:nth-child(6){
         animation-delay: 1100ms;
     }
-    .navbar-options a:nth-child(7){
+    .navbar-options .navIcons:nth-child(7){
         animation-delay: 1300ms;
+    }
+    .navbar-options .navIcons:nth-child(8){
+        animation-delay: 1500ms;
+    }
+    .navbar-options .navIcons:nth-child(9){
+        animation-delay: 1700ms;
         margin-top: 10px;
     }
     @keyframes animate {
@@ -147,7 +209,7 @@
             transform: translateX(0);
             opacity: 1;
         }
-    }
+    } */
 }
 
 
@@ -160,46 +222,4 @@
 
 
 
-
  
-
-/* .navbar {
-    background-color: #333;
-    padding: 10px;
-  }
-  
-  .nav-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  li {
-    margin-right: 20px;
-    color: #fff;
-    cursor: pointer;
-    position: relative;
-  }
-  
-  li.active {
-    font-weight: bold;
-  }
-  
-  .dropdown-content {
-    display: block;
-    position: absolute;
-    background-color: #333;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content li {
-    color: #fff;
-    padding: 12px 16px;
-    display: block;
-  }
-  
-  .dropdown-content li:hover {
-    background-color: #555;
-  } */

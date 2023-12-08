@@ -1,8 +1,10 @@
+import { useRef } from 'react'
 import '../Vision/Vision.css'
 import Visi from './Frame.png'
 const Vision = () => {
+    
     return (
-        <div className="vision-main-container">
+        <div className="vision-main-container" >
             <div className="vision-img">
                 <img src={Visi} alt='' />
                 <p>Productivity Comes with LearnoBook</p>

@@ -72,5 +72,10 @@
         padding-left: 2px;
         padding-right: 2px;
     }
-    
+    .testimonial-heading h2{
+        font-size: 28px;
+    }
+    .testimonial-text p{
+        font-size: 14px;
+    }
 }

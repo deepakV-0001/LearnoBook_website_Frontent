@@ -99,7 +99,7 @@ font-weight: 700;
 }
 .paper-container{
   margin-bottom: 5vw;
-  margin-top: 5vw;
+  margin-top: 50px;
 }
 
 @media screen and (max-width:768px) {
@@ -110,5 +110,11 @@ font-weight: 700;
     .middle-bottom-text{
         width: 100%;
        
+    }
+    .paper-header h2,.paper-middle h3{
+        font-size: 28px;
+    }
+    .paper-middle p{
+        font-size: 15px;
     }
 }

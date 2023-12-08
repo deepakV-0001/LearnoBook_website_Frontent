@@ -73,5 +73,16 @@
     .child-box:nth-child(even) {
         transform: translateY(0); /* Adjust the vertical translation as needed */
       }
+      .records-box-content p{
+        font-size: 15px;
+      }
+      .records-box{
+        height: max-content;
+      }
+      .record-img-upper{
+        width: 70px;
+        height: 70px;
+        margin-top: -60px;
+      }
 
   }
