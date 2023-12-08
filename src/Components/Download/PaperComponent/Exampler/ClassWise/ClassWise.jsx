@@ -1,5 +1,6 @@
 import React from 'react'
 import '../ClassWise/ClassWise.css'
+import { Link } from 'react-router-dom'
 const ClassWise = (props) => {
   
   return (
@@ -9,7 +10,7 @@ const ClassWise = (props) => {
             {
                 props.classData.map((item)=>(
                      <div className="class-book-box" style={{background:`${item.color}`}}>
-                        <p>{item.text}</p>
+                        <Link to='/class-wise'>{item.text}</Link>
                      </div>
                 ))
             }

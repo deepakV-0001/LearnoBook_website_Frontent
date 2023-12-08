@@ -7,6 +7,7 @@ import SchoolPage from './Components/ForEducation/SchoolPage/SchoolPage';
 import College from './Components/ForEducation/CollegePage/College';
 import SignUp from './Components/Auth/SignUp/SignUp';
 import Login from './Components/Auth/Login/Login';
+import SubjectBookDetail from './Components/NcertBook/SubjectBookDetail/SubjectBookDetail';
 // import Blog from './Components/Blog/BlogDetail';
 import BookDetail from './Components/BookDetail/BookDetail';
 import IITMain from './Components/Download/Papers/PaperPages/IITMain'
@@ -16,9 +17,8 @@ import Neet from './Components/Download/Papers/PaperPages/Neet'
 // import Payment from './Components/Payment/Payment';
 // import Purchase from './Components/Payment/PurchaseSection/Purchase';
  import Coaching from './Components/ForEducation/Coaching/Coaching';
-// import Paper from './Components/Download/Papers/Paper/Paper';
  import NcertBook from './Components/NcertBook/NcertBook';
-// import SubjectBookDetail from './Components/NcertBook/SubjectBookDetail/SubjectBookDetail'
+ import ClassBookDetail from './Components/NcertBook/ClassBookDetail/ClassBookDetail'
  import Exampler from './Components/Download/PaperComponent/Exampler/Exampler';
 // import Ebook from './Components/EbookPage/EbookPage';
 function App() {
@@ -37,6 +37,8 @@ function App() {
       <Route path="/coaching" element={<Coaching/>}/>
        <Route path="/exampler" element={<Exampler/>}/>
       <Route path="/ncert-book" element={<NcertBook/>}/>
+      <Route path="/class-wise" element={<ClassBookDetail/>}/>
+      <Route path="/single-subject" element={<SubjectBookDetail/>}/>
       <Route path="/iit-main" element={<IITMain/>}/>
        <Route path="/iit-advance" element={<IITAdvance/>}/>
       <Route path="/neet" element={<Neet/>}/>  

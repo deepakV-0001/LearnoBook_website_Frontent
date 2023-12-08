@@ -24,12 +24,13 @@
     font-weight: 700;
    margin-bottom: 3vw;
 }
-.subject-book-box p{
+.subject-book-box a{
     position: absolute;
     top: 50%;
     bottom: 0;
     left: 0;
     right: 0;
+    color: #fff;
 }
 .subject-book-boxes{
     display: flex;

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../SubjectWise/SubjectWise.css'
-
+import { Link } from 'react-router-dom'
 
 
 const SubjectWise = (props) => {
@@ -13,7 +13,7 @@ const SubjectWise = (props) => {
                 props.classData.map((item)=>(
                      <div className="subject-book-box">
                         <img src={item.color} alt="" />
-                        <p>{item.text}</p>
+                        <Link to="/single-subject">{item.text}</Link>
                      </div>
                 ))
             }

@@ -12,6 +12,9 @@
     background-size: cover;
    
 }
+.class-book-box a{
+    color: #fff;
+}
 .class-book-container h2{
     font-size: 38px;
     font-weight: 700;
