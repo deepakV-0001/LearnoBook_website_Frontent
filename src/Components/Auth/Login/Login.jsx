@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom'
 const Login = () => {
   return (
     <div className='login-container'>
-      <span className="sign-logo">
+      {/* <span className="sign-logo">
         <img src={logo} alt="" />
-      </span>
+      </span> */}
       <div className="login-content">
         <div className="login-text-content">
           <h1>Welcome <span>Back!</span></h1>

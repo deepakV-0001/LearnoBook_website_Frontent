@@ -61,7 +61,7 @@ const BookDetail = () => {
                         </div>
                         <div className="book-detail-right-btns">
                             <Link className="book-buy-btn">Buy eBook $10</Link>
-                            <Link className="add-to-cart">Add to Cart</Link>
+                            <Link className="add-to-cart" to="/add-to-cart">Add to Cart</Link>
                         </div>
                     </div>
                     <div className="book-detail-right-middle-text">

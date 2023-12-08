@@ -1,28 +1,32 @@
 .login-container{
     background: url(./login.png);
     background-repeat: no-repeat;
-    background-size: 65%;
-    background-position: right;
-    height: 45vw;
+    background-size: 60%;
+    background-position: bottom right;
+    height: max-content;
     position: relative;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
 }
 .login-text-content h1{
-    font-size: 64px;
+    font-size: 4.1vw;
     font-weight: 600;
 }
 .login-text-content h1>span{
     color: #FDC113;
 }
 .login-text-content p{
-    font-size: 18px;
+    font-size: 1.1vw;
     font-weight: 400;
 }
 .login-form{
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 30vw;
+    width: 400px;
     padding: 3vw 0;
     font-size: 16px;
     border-radius: 2vw;
@@ -100,29 +104,32 @@
     width: 29vw;
 }
 .login-content{
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15vw;
-    position: absolute;
-    left: 0;
-    top:5%;
+    gap: 1vw;
+    position: relative;
+   margin: 0 auto;
 }
 @media screen and (max-width:768px) {
     .login-content{
         flex-direction: column;
-        position: unset;
-        left: 0;
-        top: 0;
         margin: 0 auto;
     }
     .login-form{
         width: 100%;
-        
+        padding-bottom: 20px;
+    }
+    .login-text-content h1{
+        font-size: 28px;
+    }
+    .login-text-content p{
+        font-size: 15px;
     }
     .login-content{
         width: 90%;
+        gap: 20px;
     }
     .login-text-content{
         width: 90%;
@@ -130,7 +137,8 @@
     }
     .login-container{
         background-size: 50%;
-        height: 80vh;
+        height: max-content;
+        width: 100%;
     }
     .login-form-fields li{
         font-size: 12px;

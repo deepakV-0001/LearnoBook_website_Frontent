@@ -9,9 +9,9 @@ import face from './face.png'
 const SignUp = () => {
     return (
         <div className='signup-container'>
-            <span className="sign-logo">
+            {/* <span className="sign-logo">
                 <img src={logo} alt="" />
-            </span>
+            </span> */}
             <div className="signup-content">
                 <div className="sign-head">
                     <h1>Welcome To <br /><span>LearnoBook</span></h1>

@@ -13,14 +13,15 @@ import BookDetail from './Components/BookDetail/BookDetail';
 import IITMain from './Components/Download/Papers/PaperPages/IITMain'
 import IITAdvance from './Components/Download/Papers/PaperPages/IITAdvance'
 import Neet from './Components/Download/Papers/PaperPages/Neet'
-// import Cart from './Components/CartSection/Cart';
+ import Cart from './Components/CartSection/Cart';
 // import Payment from './Components/Payment/Payment';
 // import Purchase from './Components/Payment/PurchaseSection/Purchase';
  import Coaching from './Components/ForEducation/Coaching/Coaching';
  import NcertBook from './Components/NcertBook/NcertBook';
  import ClassBookDetail from './Components/NcertBook/ClassBookDetail/ClassBookDetail'
  import Exampler from './Components/Download/PaperComponent/Exampler/Exampler';
-// import Ebook from './Components/EbookPage/EbookPage';
+import Ebook from './Components/EbookPage/EbookPage';
+import EbookPage from './Components/EbookPage/EbookPage';
 function App() {
   return (
     <BrowserRouter>
@@ -33,15 +34,19 @@ function App() {
      <Route path="/school" element={<SchoolPage/>}/>
         <Route path="/college" element={<College/>}/>
       {/* <Route path="/blog" element={<Blog/>}/> */}
-      <Route path="/book-detail" element={<BookDetail/>}/>
+      <Route path="/ebook-detail" element={<BookDetail/>}/>
+      <Route path="/ebook" element={<EbookPage/>}/>
       <Route path="/coaching" element={<Coaching/>}/>
        <Route path="/exampler" element={<Exampler/>}/>
+       <Route path="/add-to-cart" element={<Cart/>}/>
       <Route path="/ncert-book" element={<NcertBook/>}/>
       <Route path="/class-wise" element={<ClassBookDetail/>}/>
       <Route path="/single-subject" element={<SubjectBookDetail/>}/>
       <Route path="/iit-main" element={<IITMain/>}/>
        <Route path="/iit-advance" element={<IITAdvance/>}/>
       <Route path="/neet" element={<Neet/>}/>  
+      <Route path="/signup" element={<SignUp/>}/>
+      <Route path="/login" element={<Login/>}/>  
     </Routes>
     <Footer/>
     </BrowserRouter>

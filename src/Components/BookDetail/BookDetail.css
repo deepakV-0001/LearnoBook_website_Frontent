@@ -1,7 +1,7 @@
 .book-lower-container {
     display: flex;
     justify-content: center;
-   
+    padding-top: 60px;
     gap: 5vw;
 }
 
@@ -147,6 +147,9 @@
     
     bottom: 0;
 }
+.rating-book-section{
+    margin-bottom: 50px;
+}
 @media screen and (max-width:768px) {
     .book-lower-container{
         flex-direction: column;
@@ -159,7 +162,13 @@
     .book-detail-right{
         width: 90%;
     }
+    .book-detail-right-middle-text{
+        font-size: 15px;
+    }
     .book-detail-right-btns a{
         font-size: 18px;
+    }
+    .book-detail-right-bottom-detail li {
+        font-size: 12px;
     }
 }
