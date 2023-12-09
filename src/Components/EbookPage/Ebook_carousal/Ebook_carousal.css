@@ -1,0 +1,114 @@
+
+h1{
+    background: #f7f1e3;
+    text-align: center;
+    color: #2c2c54;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    box-shadow: 0 4px 5px rgba(0,0,0,.5);
+  }
+  
+  .carousel-container{
+    border-radius: 15px;
+    width: 90%; 
+    margin: 0 auto;
+    overflow: hidden;
+   
+  }
+  .carousal-main-container{
+    margin-bottom: 40px;
+  }
+  .text-slide{
+    width: 100%;
+    display: flex;
+  }
+  .prev,.next{
+    margin-top: 5px;
+    margin-right: 5px;
+    width: max-content;
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+    background: #4D71B7;
+    color: #fff;
+    font-size: 15px;
+  }
+  .Ebook-carousal-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .prev:hover,.next:hover{
+    opacity: 0.6;
+  }
+  
+  .carousal-box{
+    min-width: 100%;
+   
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousal-text-content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .carousal-text-content h2{
+    font-size: 2.5vw;
+    font-weight: 700;
+   
+    color: #FDC113;
+  }
+  .carousal-text-content h5{
+    font-size: 1.3vw;
+    font-weight: 400;
+  }
+  .carousal-link-btn{
+    color: #fff;
+    font-size: 1.5vw;
+   padding: 0.6vw 40px;
+   font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDC113;
+    border-radius: 8px;
+  }
+  .Ebook-carousal-img{
+    width: 30%;
+  }
+  .Ebook-carousal-img img{
+    width: 100%;
+  }
+  
+
+  @media screen and (max-width:768px) {
+    .carousal-box{
+        flex-direction: column;
+    }
+    .Ebook-carousal-img{
+        width: 80%;
+      }
+      .carousal-text-content{
+        width: 90%;
+      }
+      .carousal-text-content h2{
+        font-size: 28px;
+      }
+      .carousal-text-content h5{
+        font-size: 14px;
+        
+      }
+      .carousal-link-btn{
+        font-size: 20px;
+      }
+  }
+  
+  

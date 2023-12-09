@@ -9,6 +9,8 @@ import { FiSearch } from "react-icons/fi";
 import EbookMiddle from './EbookMiddle/EbookMiddle'
 import BestSeller from './BestSeller/BestSeller'
 import FreeEbook from './FreeEbook/FreeEbook'
+import Ebook_carousal from './Ebook_carousal/Ebook_carousal'
+import Contact from '../Home/Contact/Contact'
 
 
 const EbookPage = () => {
@@ -44,6 +46,10 @@ const EbookPage = () => {
       <div className="freeEbook-section">
         <FreeEbook />
       </div>
+      <div className="ebook-carousal-section">
+        <Ebook_carousal/>
+      </div>
+      {/* <Contact/> */}
     </div>
   )
 }

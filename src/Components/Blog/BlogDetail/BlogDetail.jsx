@@ -1,12 +1,36 @@
 import React from 'react'
 import { FaWhatsapp, FaLink, FaTwitter } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import blog from '../Blog/blog-header-img.png'
-import '../Blog/BlogDetail.css'
+import blog from '../blog_detail.png'
+import '../BlogDetail/BlogDetail.css'
+import '../../SocialIcons/SocialIcons.css'
 import LatestBlog from '../LatestBlog/LatestBlog';
 
 
 const Blog = () => {
+    const iconData = [
+        {
+            icon: <FaWhatsapp />,
+            iconHead: "whatsapp",
+            name: "Whatsapp",
+        },
+        {
+            icon: <FaTwitter />,
+            iconHead: "twitter",
+            name: "Twitter",
+        },
+        {
+            icon: <IoIosMail />,
+            iconHead: "mail",
+            name: "Email",
+        },
+        {
+            icon: <FaLink />,
+            iconHead: "link",
+            name: "Link",
+        },
+
+    ];
     const blogData = [
         {
             title: "",
@@ -37,7 +61,21 @@ const Blog = () => {
                     <p>21 November 2023</p>
                 </div>
                 <h2>Embracing the Digital Classroom: Navigating the Future of Education</h2>
-                <span className='blog-social-icon'><FaWhatsapp /><FaTwitter /><IoIosMail /><FaLink /></span>
+                <span className='blog-social-icon'>
+                    <div class="wrapper">
+                        {
+                            iconData.map((item) => (
+                                <div class={`icon ${item.iconHead}`}>
+                                    <div class="tooltip">
+                                        {item.name}
+                                    </div>
+                                    <span><i>{item.icon}</i></span>
+                                </div>
+                            ))
+                        }
+
+                    </div>
+                </span>
                 <div className='blog-head-img'><img src={blog} alt="" /><p>The Digital Classroom Revolution</p></div>
             </div>
             <div className="blog-text-content">
@@ -53,10 +91,24 @@ const Blog = () => {
             </div>
             <div className="blog-bottom-social">
                 <h2>Share article</h2>
-                <span className='blog-social-icon'><FaWhatsapp /><FaTwitter /><IoIosMail /><FaLink /></span>
+                <span className='blog-social-icon'>
+                    <div class="wrapper">
+                        {
+                            iconData.map((item) => (
+                                <div class={`icon ${item.iconHead}`}>
+                                    <div class="tooltip">
+                                        {item.name}
+                                    </div>
+                                    <span><i>{item.icon}</i></span>
+                                </div>
+                            ))
+                        }
+
+                    </div>
+                </span>
             </div>
             <div className="blog-latest-section">
-                <LatestBlog/>
+                <LatestBlog />
             </div>
         </div>
     )

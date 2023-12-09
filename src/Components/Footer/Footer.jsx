@@ -4,11 +4,7 @@ import '../Footer/Footer.css'
 import logo from '../Navbar/logo.png'
 import app1 from '../Home/Header/Group 29.png'
 import app2 from '../Home/Header/Old landing.png'
-import { FaInstagram } from "react-icons/fa6";
-import { FaFacebookF } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaTiktok } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+import SocialIcons from '../SocialIcons/SocialIcons'
 
 
 const Footer = () => {
@@ -57,11 +53,7 @@ const Footer = () => {
                     </div>
                     <h3>Follow us:</h3>
                     <span className="social-icons">
-                        <span><FaFacebookF /></span>
-                        <span><FaInstagram /></span>
-                        <span><FaLinkedinIn /></span>
-                        <span><FaTiktok /></span>
-                        <span> <FaTwitter /></span>
+                       <SocialIcons/>
                     </span>
                 </div>
                 <div className="footer-text-content">
