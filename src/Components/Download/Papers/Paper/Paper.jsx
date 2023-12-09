@@ -2,7 +2,7 @@ import React from 'react'
 import '../Paper/Paper.css'
 import SamplePaper from './SamplePaper'
 import PaperHead from './PaperHead'
-import midImg from '../⁯middle-img.png'
+import midImg from '../middle_img.png'
 import pap from './paper.png'
 import PaperMiddleComp from './PaperMiddleComp'
 const Paper = (props) => {

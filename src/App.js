@@ -14,14 +14,16 @@ import IITMain from './Components/Download/Papers/PaperPages/IITMain'
 import IITAdvance from './Components/Download/Papers/PaperPages/IITAdvance'
 import Neet from './Components/Download/Papers/PaperPages/Neet'
  import Cart from './Components/CartSection/Cart';
-// import Payment from './Components/Payment/Payment';
-// import Purchase from './Components/Payment/PurchaseSection/Purchase';
+import Purchase from './Components/Payment/PurchaseSection/Purchase';
  import Coaching from './Components/ForEducation/Coaching/Coaching';
  import NcertBook from './Components/NcertBook/NcertBook';
  import ClassBookDetail from './Components/NcertBook/ClassBookDetail/ClassBookDetail'
  import Exampler from './Components/Download/PaperComponent/Exampler/Exampler';
-import Ebook from './Components/EbookPage/EbookPage';
+import Publisher from './Components/Publisher/Publisher';
 import EbookPage from './Components/EbookPage/EbookPage';
+import Payment from './Components/Payment/Payment';
+import MainContact from './Components/MainContact/MainContact';
+
 function App() {
   return (
     <BrowserRouter>
@@ -47,6 +49,10 @@ function App() {
       <Route path="/neet" element={<Neet/>}/>  
       <Route path="/signup" element={<SignUp/>}/>
       <Route path="/login" element={<Login/>}/>  
+      <Route path="/publisher" element={<Publisher/>}/>  
+      <Route path="/checkout" element={<Payment/>}/> 
+      <Route path="/purchase" element={<Purchase/>}/>
+      <Route path="/contact" element={<MainContact/>}/>  
     </Routes>
     <Footer/>
     </BrowserRouter>

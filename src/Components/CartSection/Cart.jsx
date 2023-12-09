@@ -10,7 +10,7 @@ const Cart = () => {
         <div className='cart-container'>
             <h2 className='cart-heading'>Your Cart</h2>
            <CartComponent/>
-            <span>Total <h2>$10</h2> <Link>checkout</Link></span>
+            <span>Total <h2>$10</h2> <Link to="/checkout">checkout</Link></span>
         </div>
     )
 }

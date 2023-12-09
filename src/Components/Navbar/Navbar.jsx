@@ -53,7 +53,7 @@ const Navbar = () => {
             <li><Link className='education-drop-nacIcons' to="/coaching">Coaching</Link></li>
           </ul>
         </li>
-        <Link className={`navIcons ${activeItem === 'Publishers' ? 'active' : ''}`} onClick={() => handleItemClick('Publishers')} to="/publishers">For Publishers</Link>
+        <Link className={`navIcons ${activeItem === 'Publishers' ? 'active' : ''}`} onClick={() => handleItemClick('Publishers')} to="/publisher">Publisher</Link>
         <Link className={`navIcons ${activeItem === 'library' ? 'active' : ''}`} onClick={() => handleItemClick('library')} to="/ebook">Library</Link>
         <li className='education-nav'><Link className={`navIcons education-navicons-drop ${activeItem === 'download' ? 'active' : ''}`} onClick={() => handleItemClick('download')} to="/">Free Download <IoIosArrowForward className="ar-btn" /></Link>
           <ul className='education-drop'>

@@ -9,7 +9,7 @@ const College = () => {
     <>
     <CollegeHeader/>
     <CollegeHelp/>
-    <Journey/>
+    <Journey head={'Get LearnoBook For College'}/>
     <CollegeBtm/>
     </>
   )

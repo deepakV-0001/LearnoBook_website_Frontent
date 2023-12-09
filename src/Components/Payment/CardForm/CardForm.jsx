@@ -32,7 +32,7 @@ const CardForm = () => {
           <li><span><input type="radio" name='its' />Google Pay</span><Link><img className='gpay-img' src={gpay} alt="" /></Link></li>
         </div>
       </div>
-      <Link className='payment-prod-buy-btn'>Buy Now</Link>
+      <Link className='payment-prod-buy-btn' to="/purchase">Buy Now</Link>
     </div>
   )
 }
