@@ -24,7 +24,7 @@ import EbookPage from './Components/EbookPage/EbookPage';
 import Payment from './Components/Payment/Payment';
 import MainContact from './Components/MainContact/MainContact';
 import BlogDetail from './Components/Blog/BlogDetail/BlogDetail'
-
+import Library from './Components/Library/Library';
 function App() {
   return (
     <BrowserRouter>
@@ -55,6 +55,7 @@ function App() {
         <Route path="/checkout" element={<Payment />} />
         <Route path="/purchase" element={<Purchase />} />
         <Route path="/contact" element={<MainContact />} />
+        <Route path="/library" element={<Library />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -5,18 +5,16 @@ import EducationBtns from '../ForEducation/Education_btns/EducationBtns'
 import Dropdown from '../Download/PaperComponent/DropDown/Dropdown'
 import dotCircle from '../ForEducation/SchoolPage/HelpSection/Group.png'
 import headerImg from './ebbokpage.png'
-import { FiSearch } from "react-icons/fi";
 import EbookMiddle from './EbookMiddle/EbookMiddle'
 import BestSeller from './BestSeller/BestSeller'
 import FreeEbook from './FreeEbook/FreeEbook'
 import Ebook_carousal from './Ebook_carousal/Ebook_carousal'
 import Contact from '../Home/Contact/Contact'
+import EbookPage_SearchFilters from './EbookPage_SearchFilters/EbookPage_SearchFilters'
 
 
 const EbookPage = () => {
-  const options1 = ['Apple', 'Orange', 'Pear', 'Mango'];
-  const options2 = ['Apple', 'Orange', 'Pear', 'Mango'];
-  const options3 = ['Apple', 'Orange', 'Pear', 'Mango'];
+
   return (
     <div className='ebook-page-container'>
       <Ebook_header />
@@ -30,12 +28,8 @@ const EbookPage = () => {
         </div>
         <p>Library of Ebooks</p>
       </div>
-      <div className="ebook-page-drop-search">
-        <span><FiSearch /><input type='text' placeholder='Search' /></span>
-        <Dropdown title={"Genre"} options={options1} />
-        <Dropdown title={"Type"} options={options1} />
-        <Dropdown title={"Sort"} options={options1} />
-        <Dropdown title={"More Filters"} options={options1} />
+      <div className="ebook-page-search-component">
+        <EbookPage_SearchFilters/>
       </div>
       <div className="ebook-page-latest-section">
         <EbookMiddle />
@@ -47,9 +41,9 @@ const EbookPage = () => {
         <FreeEbook />
       </div>
       <div className="ebook-carousal-section">
-        <Ebook_carousal/>
+        <Ebook_carousal />
       </div>
-      {/* <Contact/> */}
+      <Contact/>
     </div>
   )
 }

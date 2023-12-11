@@ -130,7 +130,7 @@ position: relative;
 }
 .education-drop li:hover .education-drop-nacIcons{
     color:#FDC113 ;
-    text-shadow: 2px 2px 2px #FDC113;
+    /* text-shadow: 2px 2px 2px #FDC113; */
 }
 .education-drop-nacIcons{
     color: #000;

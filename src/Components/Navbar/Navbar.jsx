@@ -46,7 +46,7 @@ const Navbar = () => {
 
       {showNav && <div className="navbar-options navbar">
         <Link className={`navIcons ${activeItem === 'about' ? 'active' : ''}`} id="about" onClick={() => handleItemClick('about')} to="/" >About</Link>
-        <li className='education-nav'><Link className={`navIcons education-navicons-drop ${activeItem === 'education' ? 'active' : ''}`} onClick={() => handleItemClick('education')} to="/">For Education <IoIosArrowForward className="ar-btn" /></Link>
+        <li className='education-nav'><Link className={`navIcons education-navicons-drop ${activeItem === 'education' ? 'active' : ''}`} onClick={() => handleItemClick('education')} >For Education <IoIosArrowForward className="ar-btn" /></Link>
           <ul className='education-drop'>
             <li><Link className='education-drop-nacIcons' to="/school">School</Link></li>
             <li><Link className='education-drop-nacIcons' to="/college">college</Link></li>
@@ -54,8 +54,8 @@ const Navbar = () => {
           </ul>
         </li>
         <Link className={`navIcons ${activeItem === 'Publishers' ? 'active' : ''}`} onClick={() => handleItemClick('Publishers')} to="/publisher">Publisher</Link>
-        <Link className={`navIcons ${activeItem === 'library' ? 'active' : ''}`} onClick={() => handleItemClick('library')} to="/ebook">Library</Link>
-        <li className='education-nav'><Link className={`navIcons education-navicons-drop ${activeItem === 'download' ? 'active' : ''}`} onClick={() => handleItemClick('download')} to="/">Free Download <IoIosArrowForward className="ar-btn" /></Link>
+        <Link className={`navIcons ${activeItem === 'library' ? 'active' : ''}`} onClick={() => handleItemClick('library')} to="/library">Library</Link>
+        <li className='education-nav'><Link className={`navIcons education-navicons-drop ${activeItem === 'download' ? 'active' : ''}`} onClick={() => handleItemClick('download')} >Free Download <IoIosArrowForward className="ar-btn" /></Link>
           <ul className='education-drop'>
             <li><Link className='education-drop-nacIcons' to="/ncert-book">NCERT Book</Link></li>
             <li><Link className='education-drop-nacIcons' to="/exampler">NCERT Exampler</Link></li>

@@ -18,7 +18,7 @@ const RelatedBooks = ({relatedBookData,head}) => {
                                     <h2>{item.title}</h2>
                                     <p>{item.auther}</p>
                                     <i>&#9733;&#9733;&#9733;&#9733;&#9733;</i>
-                                    <b>{item.price}</b>
+                                    <b>{item.price||'$0'}</b>
                                     <Link className='related-add-to-cart' to="/add-to-cart">Add To Cart</Link>
                                 </div>
                             ))
