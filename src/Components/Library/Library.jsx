@@ -10,8 +10,51 @@ import img2 from './lib_img2.png'
 import img3 from './lib_img3.png'
 import img4 from './lib_img4.png'
 import img5 from './lib_img5.png'
+import science from './lib_sc.png'
+import social from './lib_social.png'
+import tec from './lib_tec.png'
+import med from './lib_med.png'
+import math from './lib_math.png'
+import market from './lib_market.png'
+import art from './lib_art.png'
+import dm from './lib_dm.png'
+import LibraryCarousal from './LibraryCarousal/LibraryCarousal'
 
 const Library = () => {
+    const classData = [
+        {
+            text: "Science",
+            color: science,
+        },
+        {
+            text: "Social",
+            color: social,
+        },
+        {
+            text: "Technology",
+            color: tec,
+        },
+        {
+            text: "Medicine",
+            color: med,
+        },
+        {
+            text: "Mathematics",
+            color: math,
+        },
+        {
+            text: "Art",
+            color: art,
+        },
+        {
+            text: "Marketing",
+            color: market,
+        },
+        {
+            text: "Digital Media",
+            color: dm,
+        },
+    ];
     const relatedBookData = [
         {
             img: img1,
@@ -52,9 +95,15 @@ const Library = () => {
                 <RelatedBooks head={"Recommended Reads"} relatedBookData={relatedBookData} />
             </div>
             <div className="library-middle-section">
-               {/* <LibraryMiddle/> */}
+                <LibraryMiddle/>
             </div>
-
+            <div className="library-subject-wise">
+                <SubjectWise head={"Academic Journals and Research Papers"} classData={classData} />
+            </div>
+            <div className="library-carousal-section">
+            <LibraryCarousal/>
+            </div>
+           
         </div>
     )
 }

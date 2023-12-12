@@ -10,32 +10,32 @@ const LibraryMiddle = () => {
         <div className='library-middle-container'>
             <div className="library-middle-images1">
                 <div className='library-middle-img lib-mid-img1'>
-                    <div className="lib-mid-img-cover">
-                        <img src={img1} alt="" />
-                    </div>
+
+                    <img src={img1} alt="" />
+
                     <p>Fiction</p>
                 </div>
                 <div className='library-middle-img lib-mid-img2'>
-                    <div className="lib-mid-img-cover ">
-                        <img src={img2} alt="" />
-                    </div>
+
+                    <img src={img2} alt="" />
+
                     <p>Non Fiction</p>
                 </div>
             </div>
-            {/* <div className="library-middle-images1">
+            <div className="library-middle-images1">
                 <div className='library-middle-img lib-mid-img2'>
-                    <div className="lib-mid-img-cover">
-                        <img src={img3} alt="" />
-                    </div>
-                    <p>Kids</p>
+
+                    <img src={img3} alt="" />
+
+                    <p>Fiction</p>
                 </div>
                 <div className='library-middle-img lib-mid-img1'>
-                    <div className="lib-mid-img-cover">
-                        <img  src={img4} alt="" />
-                    </div>
-                    <p>Journals</p>
+
+                    <img src={img4} alt="" />
+
+                    <p>Non Fiction</p>
                 </div>
-            </div> */}
+            </div>
 
         </div>
     )

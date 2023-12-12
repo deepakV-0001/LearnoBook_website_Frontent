@@ -1,5 +1,5 @@
 .footer-container {
-    
+    position: relative;
     color: rgba(78, 169, 222, 1);
     display: flex;
     justify-content: center;

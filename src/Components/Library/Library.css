@@ -2,7 +2,16 @@
     width: 80%;
     margin: 0 auto;
 }
-
+.library-subject-wise{
+    width: 90%;
+    margin: 0 auto;
+}
+.library-main-container{
+    position: relative;
+}
+.library-carousal-section{
+    position: relative;
+}
 @media screen and (max-width:768px) {
     .library-recomended-section{
         width: 90%;
