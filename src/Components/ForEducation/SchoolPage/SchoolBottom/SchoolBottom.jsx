@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 const SchoolBottom = () => {
     return (
         <div className='school-btm-container'>
+           
             <div className="bottom-child-cont">
                 <h2>Get LearnoBook For School</h2>
                 <img src={frame} alt="" />

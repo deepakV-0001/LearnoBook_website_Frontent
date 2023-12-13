@@ -93,10 +93,10 @@
     background-color: #fff;
 }
 
-.sign-form-fields input::-webkit-input-placeholder {
+.sign-form-fields input::placeholder {
     font-size: 16px;
     font-weight: 500;
-    font-family: Montserrat;
+    font-family: 'Poppins', sans-serif;
 }
 
 .sign-btn {
@@ -130,7 +130,7 @@
     display: block;
     top: 50%;
     right: 0;
-    width: 8vw;
+    width: 5vw;
     height: 1px;
     background-color: #737070;
 }
@@ -141,7 +141,7 @@
     display: block;
     top: 50%;
     left: 0;
-    width: 8vw;
+    width: 5vw;
     height: 1px;
     background-color: #737070;
 }

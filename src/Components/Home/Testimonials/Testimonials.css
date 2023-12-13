@@ -1,11 +1,11 @@
 .testimonial-container{
     height: max-content;
     background-color: rgba(78, 169, 222, 1);
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .testimonial-heading h2{
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 700;
    color: #fff;
 }
@@ -13,20 +13,40 @@
     text-align: center;
     display: grid;
     justify-content: center;
-   margin-bottom: 40px;
+   margin-bottom: 20px;
+}
+.testimonial-content-child img{
+    width: 180px;
+    float: right;
 }
 .testimonial-heading p{
-    height: 10px;
+    height: 5px;
     width: 100px;
     margin: 13px auto 0;
     background-color: #fff;
 }
-.testimonial-content>span p{
-    position: absolute;
-    left: 16.2vw;
+.testimonial-content-child{
+    position: relative;
+
+}
+.testimonial-content-child>span p::after{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    position: relative;
+    transform: rotate(45deg);
+    bottom: -1.6vw;
+    right: 1vw;
+    z-index: 0;
+}
+.testimonial-content-child>span p{
+    position: relative;
+   z-index: 1;
+    left: -40px;
+    top: 10px;
     border-radius: 15px;
-    height: 5.2vw;
-    width: 21vw;
+    padding: 10px;
     font-size: 1.5vw;
     font-weight: 500;
     display: flex;
@@ -54,8 +74,7 @@
     height: 280px;
     width: 50%;
     color: #fff;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 50px;
 }
 
 @media screen and (max-width:768px) {
@@ -73,9 +92,16 @@
         padding-right: 2px;
     }
     .testimonial-heading h2{
-        font-size: 28px;
+        font-size: 20px;
     }
     .testimonial-text p{
         font-size: 14px;
+    }
+    .testimonial-content-child>span p{
+        left: -70px;
+        font-size: 15px;
+    }
+    .testimonial-content-child>span p::after{
+        bottom: -15px;
     }
 }

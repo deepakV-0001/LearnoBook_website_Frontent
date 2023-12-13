@@ -2,8 +2,18 @@
     background: url('./GroupImg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    
+    position: relative;
+    overflow: hidden;
+    width: 100%;
 }
+/* .ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+    width: 99%;
+    z-index: -1;
+    top: 20%;
+  } */
 .school-header-container{
     width: 80%;
     display: flex;

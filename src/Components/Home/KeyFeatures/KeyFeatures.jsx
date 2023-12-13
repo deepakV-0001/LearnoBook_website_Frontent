@@ -47,10 +47,10 @@ const KeyFeatures = () => {
         {
           keyData.map((item) => (
             <div className="feature-box" >
-              <div className="feature-box-img  column-66">
+              <div className="feature-box-img">
                 <img src={item.img} alt="" />
               </div>
-              <div className="feature-box-text  column-33">
+              <div className="feature-box-text">
                 <h2>{item.title}</h2>
                 <p>{item.text}</p>
               </div>

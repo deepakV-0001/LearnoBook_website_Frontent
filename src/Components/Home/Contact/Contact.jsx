@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Contact/Contact.css'
 import img from './contact-img.png'
 import { Link } from 'react-router-dom'
 const Contact = () => {
+    const [email, setEmail] = useState("");
+    const [name, setName] = useState("");
+    const [message, setMessage] = useState("");
+
     return (
         <div className='contact-container'>
             <div className="contact-parent-cont">
@@ -19,11 +23,14 @@ const Contact = () => {
                 <div className="contact-form-container">
                     <h2>Questions ? Ask Away.</h2>
                     <div className="form-fields">
-                        <input type="text" placeholder='Name' />
-                        <input type="email" placeholder='Email' />
-                        <input type="text" placeholder='Message' />
+                    
+                        <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder='Name' />
+                        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}  placeholder='Email' />
+                        <input type="text" value={message} onChange={(e) => setMessage(e.target.value)} placeholder='Message' />
+                    
                     </div>
-                    <button className='contact-form-btn'>Send</button>
+
+                    <button type='submit' className='contact-form-btn'>Send</button>
                 </div>
                 
             </div>

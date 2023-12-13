@@ -1,17 +1,32 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../SignUp/SignUp.css'
 import logo from '../../Navbar/logo.png'
 import sign from './sign.png'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import google from './google.png'
 import face from './face.png'
 
 const SignUp = () => {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+
+    // const navigate=useNavigate();
+    // const data=({name,email,password});
+    
+
+    // useEffect(()=>{
+    //   const auth=localStorage.getItem('users');
+    //   if(auth){
+    //     navigate('/');
+    //   }else{
+    //     localStorage.setItem("users",JSON.stringify(data));
+    //     navigate('/');
+    //   }
+    // });
     return (
         <div className='signup-container'>
-            {/* <span className="sign-logo">
-                <img src={logo} alt="" />
-            </span> */}
+            
             <div className="signup-content">
                 <div className="sign-head">
                     <h1>Welcome To <br /><span>LearnoBook</span></h1>
@@ -20,9 +35,9 @@ const SignUp = () => {
                 <div className="sign-form">
                     <h2>Sign Up</h2>
                     <div className="sign-form-fields">
-                        <input type="text" placeholder='Name' />
-                        <input type="text" placeholder='Email Address' />
-                        <input type="password" placeholder='Password' />
+                        <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder='Name' />
+                        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Email Address' />
+                        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Password' />
                         <input type="password" placeholder='Confirm Password' />
                         <span><input type="checkbox" />Agree on Terms & Conditions</span>
                     </div>

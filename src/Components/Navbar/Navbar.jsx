@@ -46,8 +46,8 @@ const Navbar = () => {
 
       {showNav && <div className="navbar-options navbar">
         <Link className={`navIcons ${activeItem === 'about' ? 'active' : ''}`} id="about" onClick={() => handleItemClick('about')} to="/" >About</Link>
-        <li className='education-nav'><Link className={`navIcons education-navicons-drop ${activeItem === 'education' ? 'active' : ''}`} onClick={() => handleItemClick('education')} >For Education <IoIosArrowForward className="ar-btn" /></Link>
-          <ul className='education-drop'>
+        <li className='education-nav'><Link className={`navIcons education-navicons-drop  ${activeItem === 'education' ? 'active' : ''}`} onClick={() => handleItemClick('education')} >For Education <IoIosArrowForward className="ar-btn" /></Link>
+          <ul className='education-drop '>
             <li><Link className='education-drop-nacIcons' to="/school">School</Link></li>
             <li><Link className='education-drop-nacIcons' to="/college">college</Link></li>
             <li><Link className='education-drop-nacIcons' to="/coaching">Coaching</Link></li>
@@ -68,7 +68,7 @@ const Navbar = () => {
         <Link className={`navIcons ${activeItem === 'blog' ? 'active' : ''}`} onClick={() => handleItemClick('blog')} to="/blog">Blog</Link>
         <Link className={`navIcons ${activeItem === 'shop' ? 'active' : ''}`} onClick={() => handleItemClick('shop')} to="/shop">Shop</Link>
         <Link className={`navIcons ${activeItem === 'contact' ? 'active' : ''}`} onClick={() => handleItemClick('contact')} to="/contact">Contact Us</Link>
-        <Link className="respons-btn"> <NavBtns setShowNav={setShowNav} /></Link>
+        <Link className="respons-btn"> <NavBtns  /></Link>
 
       </div>}
     </div>
