@@ -19,6 +19,7 @@ import market from './lib_market.png'
 import art from './lib_art.png'
 import dm from './lib_dm.png'
 import LibraryCarousal from './LibraryCarousal/LibraryCarousal'
+import Contact from '../Home/Contact/Contact'
 
 const Library = () => {
     const classData = [
@@ -103,6 +104,7 @@ const Library = () => {
             <div className="library-carousal-section">
             <LibraryCarousal/>
             </div>
+            <Contact/>
            
         </div>
     )

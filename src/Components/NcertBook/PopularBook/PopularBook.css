@@ -3,7 +3,7 @@
     margin: 4vw auto;
 }
 .popular-book-box{
-    width: 192px;
+    width: 150px;
     border-radius: 15px;
     height: max-content;
     display: flex;
@@ -15,7 +15,7 @@
     text-align: center;
     background-size: cover;
     position: relative;
-    margin-bottom: 2vw;
+  
 }
 .popular-book-box img{
     width: 100%;
@@ -28,26 +28,30 @@
 .popular-book-box p{
     position: absolute;
     top: 50%;
-    
+    font-size: 1.2vw;
     
 }
 .popular-book-boxes{
     display: flex;
     justify-content:start;
-   gap: 2vw;
+   gap: 10px;
     flex-wrap: wrap;
 }
-@media screen and (max-width:400px) {
-    .popular-book-box{
-  width: 90%;
-  height: max-content;
-    }
-}
+
 @media screen and (max-width:768px){
     .popular-book-container h2{
         font-size: 28px;
     }
    .popular-book-box{
-    width: 48%;
+    width: 22%;
    }
+   .popular-book-box p{
+    font-size: 11px;
+   }
+}
+@media screen and (max-width:450px) {
+    .popular-book-box{
+  width: 48%;
+  height: max-content;
+    }
 }

@@ -5,16 +5,7 @@
 
 
 
-/* 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 30px 10px;
-  font-family: 'DM Sans', sans-serif;
- transition:all 0.5s ease;
- 
-} */
+
 .lib_main-container{
   position: relative;
 }
@@ -41,7 +32,7 @@ input[type=radio] {
  width: 70%;
  margin: 0 auto;
   position: relative;
-  /* transform-style: preserve-3d; */
+  transform-style: preserve-3d;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -186,4 +177,4 @@ input[type=radio] {
   .cards{
     height: 240px;
   }
-}
+} 

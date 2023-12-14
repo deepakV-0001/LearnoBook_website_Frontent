@@ -3,13 +3,14 @@
     padding: 0;
 }
 .library-middle-container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     
 }
 .library-middle-images1{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 10px;
     width: 100%;
     gap: 10px;

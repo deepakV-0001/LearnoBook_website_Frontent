@@ -26,6 +26,7 @@
 }
 .subject-book-box a{
     position: absolute;
+    font-size: 1.1vw;
     top: 50%;
     bottom: 0;
     left: 0;
@@ -38,17 +39,21 @@
    gap: 10px;
     flex-wrap: wrap;
 }
-@media screen and (max-width:400px) {
-    .subject-book-box{
-  width: 90%;
-    }
-}
+
 @media screen and (max-width:768px) {
    .subject-book-container h2{
     font-size: 28px;
    }
    .subject-book-box{
     height: max-content;
-    width: 48%;
+    width: 22%;
    }
+   .subject-book-box a{
+    font-size: 10px;
+   }
+}
+@media screen and (max-width:500px) {
+    .subject-book-box{
+  width: 48%;
+    }
 }

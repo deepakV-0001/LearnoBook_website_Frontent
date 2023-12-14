@@ -19,7 +19,7 @@ const LatestBlog = () => {
                     <p className="blog-img-btm-text" >Global Access to Education</p>
                 </div>
             </div>
-            <Link>Browse More</Link>
+            <Link to="/blog">Browse More</Link>
         </div>
     )
 }

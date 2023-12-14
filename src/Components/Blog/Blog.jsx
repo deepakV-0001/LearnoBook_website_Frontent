@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Blog/Blog.css'
-import dotCircleBack from '../ForEducation/SchoolPage/HelpSection/Group.png'
 import blog from './blog_main.png'
 import { Link } from 'react-router-dom'
 import { MdArrowForwardIos } from "react-icons/md";
@@ -11,12 +10,38 @@ import blog4 from './main_blog4.png'
 import blog5 from './main_blog5.png'
 
 const Blog = () => {
+    const blogData = [
+        {
+            head: "Preparing Students for the Future",
+            img: blog1,
+        },
+        {
+            head: "Interactive Learning",
+            img: blog2,
+        },
+        {
+            head: "Preparing Students for the Future",
+            img: blog3,
+        },
+        {
+            head: "Interactive Learning",
+            img: blog4,
+        },
+        {
+            head: "Preparing Students for the Future",
+            img: blog5,
+        },
+        {
+            head: "Interactive Learning",
+            img: blog1,
+        },
+
+
+    ];
     return (
         <div className='blog-main-container'>
             <div className="blog-main-header">
-                <img className='blog-main-headder-dot' src={dotCircleBack} alt="" />
                 <div className="blog-main-text">
-
                     <h2>Blog</h2>
                     <p>Explore our blog for insightful articles, tips, and updates on the latest trends in education and technology. Stay informed, inspired, and connected with the academic community.</p>
                 </div>
@@ -27,34 +52,16 @@ const Blog = () => {
             <div className="single-blog-section">
                 <div class="blogs-container">
                     <section>
-
-                        <div className='single-blog-container'>
-                            <img src={blog1} alt="" />
-                            <Link className='to-blog-detail' to="/blog-detail">Breaking Down Geographical Barriers <MdArrowForwardIos /></Link>
-                        </div>
-                        <div className='single-blog-container'>
-                            <img src={blog2} alt="" />
-                            <Link className='to-blog-detail' to="/blog-detail">Preparing Students for the Future<MdArrowForwardIos /></Link>
-                        </div>
-                    </section>
-                    <section>
-
-                        <div className='single-blog-container'>
-                            <img src={blog3} alt="" />
-                            <Link className='to-blog-detail' to="/blog-detail">Interactive Learning <MdArrowForwardIos /></Link>
-                        </div>
-                        <div className='single-blog-container'>
-                            <img src={blog4} alt="" />
-                            <Link className='to-blog-detail' to="/blog-detail">Embracing the Digital Classroom: Navigating the Future of Education <MdArrowForwardIos /></Link>
-                        </div>
-                    </section>
-
-                    <section>
-
-                        <div className='single-blog-container'>
-                            <img className='blog-last-img' src={blog5} alt="" />
-                            <Link className='to-blog-detail' to="/blog-detail">Digital classrooms offer a myriad of advantages, revolutionizing education in ways previously unimaginable.<MdArrowForwardIos /></Link>
-                        </div>
+                        {
+                            blogData.map((item) => (
+                                <div className='single-blog-container'>
+                                    <span className='blog-card-anim'><p>Posted by LearnoBook</p>
+                                        <p>october 2023</p></span>
+                                    <img src={item.img} alt="" />
+                                    <Link className='to-blog-detail' to="/blog-detail">{item.head}<MdArrowForwardIos /></Link>
+                                </div>
+                            ))
+                        }
                     </section>
                 </div>
                 <Link className='main-blog-browse-more-btn' to="">Browse More</Link>

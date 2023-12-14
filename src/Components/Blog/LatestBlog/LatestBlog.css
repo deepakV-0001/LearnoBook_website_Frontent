@@ -1,10 +1,10 @@
 .latest-container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     position: relative;
 }
 .latest-container h2{
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
     margin-bottom: 4vw;
     margin-top: 2vw;
@@ -12,43 +12,45 @@
 .latest-blog-images{
     width: 100%;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
-    gap: 5vw;
+    gap: 10px;
 }
 .latest-blog-img img{
     width: 100%;
+    display: block;
     border-radius: 25px 25px 0 0;
+    height: 22vw;
 }
 .latest-blog-img{
-    width:50%;
+    width:48%;
    
 }
+
 .blog-img-btm-text{
-    height: 95px;
+    height: 4vw;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 1.2vw;
     font-weight: 600;
     background-color: #DADBD5;
     border-radius: 0px 0px 25px 25px;
    
 }
 .latest-container a{
-    width: 368px;
-    height: 80px;
     background-color: #4EA9DE;
+    width: max-content;
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
-   
+  padding: 7px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 7px;
-    margin: 5vw auto;
+    margin: 20px auto;
 }
 @media screen and (max-width:768px) {
     .latest-container a{
@@ -56,27 +58,34 @@
         height: 53px;
         font-size: 20px;
     }
-    .latest-blog-images{
-        flex-direction: column;
+    .latest-blog-img img{
+        height: 200px;
     }
     .latest-blog-img{
-        width: 100%;
+        width: 50%;
     }
     .latest-container{
         width: 90%;
     }
     .blog-img-btm-text{
-        height: 66px;
+        height: max-content;
+        font-size: 14px;
+        padding: 7px 0;
     }
     .latest-container h2{
         font-size: 28px;
     }
-   
+   .latest-blog-img p{
+    font-size: 11px;
+   }
 
 }
-@media screen and (max-width:430px) {
-    .blog-img-btm-text{
-        font-size: 15px;
-        height: 50px;
-    }
+@media screen and (max-width:520px) {
+   .latest-blog-images{
+    flex-direction: column;
+   }
+   .latest-blog-img{
+    width: 80%;
+    margin: 0 auto;
+   }
 }

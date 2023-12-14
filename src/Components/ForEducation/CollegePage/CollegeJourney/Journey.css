@@ -1,5 +1,5 @@
 .journey-container{
-    padding-bottom: 5vw;
+    padding-bottom:20px;
 }
 .journey-child{
     display: flex;
@@ -7,31 +7,30 @@
     align-items: center;
     gap: 5vw;
     text-align: center;
-    width: 80%;
+    width: 40%;
     margin: 0 auto;
 }
 .journey-child h1{
     font-weight: 700;
     color: #FDC113;
-    font-size: 3.1vw;
+    font-size: 2.8vw;
 }
 .journey-child p{
-font-size: 2vw;
+font-size: 1.1vw;
 font-weight: 500;
 }
 .journey-child img{
-    width: 70%;
+    width: 100%;
 }
 .journey-child a{
-    width: 23.9vw;
-    height: 4vw;
+   padding: 0 25px;
     font-size: 2vw;
     font-weight: 700;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0.9vw;
+    border-radius: 7px;
     background-color: #4EA9DE;
 }
 @media screen and (max-width:768px) {
@@ -39,6 +38,6 @@ font-weight: 500;
         font-size: 20px;
     }
     .journey-child p{
-        font-size: 14px;
+        font-size: 9px;
     }
 }

@@ -1,4 +1,4 @@
-.class-book-box{
+.class-book-box {
     width: 195px;
     border-radius: 15px;
     height: 166px;
@@ -10,40 +10,52 @@
     font-weight: 700;
     text-align: center;
     background-size: cover;
-   
+
 }
-.class-book-box a{
+
+.class-book-box a {
     color: #fff;
+    font-size: 1.1vw;
 }
-.class-book-container h2{
+
+.class-book-container h2 {
     font-size: 38px;
     font-weight: 700;
     margin-bottom: 3vw;
-   
+
 }
-.class-book-container{
+
+.class-book-container {
     width: 90%;
     margin: 4vw auto;
 }
-.class-book-boxes{
+
+.class-book-boxes {
     display: flex;
-    justify-content: space-between;
-   gap: 10px;
-   
+    justify-content: start;
+    gap: 10px;
+
     flex-wrap: wrap;
 }
-@media screen and (max-width:400px) {
-    .class-book-box{
-  width: 90%;
-    }
-    
-}
+
 @media screen and (max-width:768px) {
-    .class-book-container h2{
+    .class-book-container h2 {
         font-size: 28px;
     }
-    .class-book-box{
+
+    .class-book-box {
+        width: 150px;
+    }
+
+    .class-book-box a {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .class-book-box {
         width: 48%;
-          }
-   
+    }
+
 }

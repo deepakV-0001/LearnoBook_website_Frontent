@@ -10,3 +10,17 @@ a{
 li{
     list-style-type: none;
 }
+::-webkit-scrollbar {
+    width: 10px;
+   
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 15px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(56, 68, 110);
+    border-radius: 15px;
+  }
+  

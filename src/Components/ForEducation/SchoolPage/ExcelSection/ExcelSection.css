@@ -3,10 +3,12 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 3vw;
+    gap: 2vw;
+    width: 70%;
+    margin: 0 auto;
 }
 .excel-box{
-    width: 35.8vw;
+    width: 30vw;
     height: 28.4vw;
     padding: 2vw;
     display: flex;
@@ -22,7 +24,7 @@
 }
 .excel-container h2{
     text-align: center;
-    font-size: 3.1vw;
+    font-size:2.8vw;
     margin-bottom: 5vw;
 }
 .excel-box h3{
@@ -30,12 +32,12 @@
     font-weight: 700;
 }
 .excel-box p{
-    font-size: 1.3vw;
+    font-size: 1vw;
     font-weight: 400;
 }
 .excel-box>span{
-width: 7vw;
-height: 7.7vw;
+width: 5vw;
+height: 5vw;
 padding: .5vw 0;
 display: flex;
 justify-content: center;
@@ -58,10 +60,13 @@ height: 4.5vw;
         height: max-content;
         padding: 15px;
     }
+    .excel-boxes{
+        width: 90%;
+    }
     .excel-container h2{
         font-size: 28px;
         width: 90%;
-        margin: 0 auto;
+        margin: 0 auto 20px;
     }
     .excel-box h3{
         font-size:18px;

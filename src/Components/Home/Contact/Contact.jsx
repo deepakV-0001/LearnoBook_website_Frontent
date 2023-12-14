@@ -19,7 +19,6 @@ const Contact = () => {
                         <Link to="">Subscribe</Link>
                     </div>
                 </div>
-
                 <div className="contact-form-container">
                     <h2>Questions ? Ask Away.</h2>
                     <div className="form-fields">
@@ -34,7 +33,7 @@ const Contact = () => {
                 </div>
                 
             </div>
-            <div className="white-background"></div>
+            {/* <div className="white-background"></div> */}
         </div>
     )
 }

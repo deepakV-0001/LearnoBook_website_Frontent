@@ -1,5 +1,5 @@
 .college-help-box-content{
-height: 20vw;
+height: max-content;
 width: 55vw;
 border-radius: 2vw;
 color: #fff;
@@ -10,19 +10,19 @@ padding: 2vw;
     font-weight: 700;
 }
 .college-help-box-content p{
-    font-size: 1.5vw;
+    font-size: 1vw;
     font-weight: 400;
     margin-top: 2vw;
 }
 .college-help-box>span{
-    width: 40%;
+    width: 30%;
 }
 .college-help-box>span img{
     width: 100%;
 }
 .college-help-container h1{
     text-align: center;
-    font-size: 3.1vw;
+    font-size: 2.5vw;
     font-weight: 700;
     margin-bottom: 5vw;
 }
@@ -34,6 +34,7 @@ padding: 2vw;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+   
     gap: 3vw;
 }
 
@@ -42,21 +43,17 @@ padding: 2vw;
 }
 
 .college-help-boxes{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 5vw;
 }
 @media screen and (max-width:768px) {
-    .college-help-box{
-        flex-direction: column;
-    }
-    .college-help-box:nth-child(even){
-        flex-direction: column;
-    }
+   
+   
     .college-help-boxes{
-        width: 90%;
+        width: 80%;
     }
     .college-help-box-content{
         width: 90%;
@@ -64,15 +61,23 @@ padding: 2vw;
         padding: 4vw;
     }
     .college-help-box-content h2{
-        font-size: 18px;
+        font-size: 16px;
     }
     .college-help-box-content p{
-        font-size: 14px;
+        font-size: 10px;
     }
     .college-help-container h1{
-        font-size: 28px;
+        font-size: 20px;
     }
     .college-help-box>span{
-        width: 90%;
+        width: 50%;
+    }
+}
+@media screen and (max-width:520px) {
+    .college-help-box{
+        flex-direction: column;
+    }
+    .college-help-box:nth-child(even){
+        flex-direction:column;
     }
 }

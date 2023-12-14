@@ -32,8 +32,8 @@
 }
 .school-header-text-content p{
     color: #4EA9DE;
-    font-size: 1.3vw;
-    font-weight: 500;
+    font-size:16px;
+    font-weight: 400;
     letter-spacing: 1.1px;
    
 }
@@ -45,7 +45,7 @@
    
 }
 .school-header-img{
-    width: 50%;
+    width: 40%;
 
 }
 .school-header-img img{
@@ -68,13 +68,13 @@
         font-size: 28px;
     }
     .school-header-text-content p{
-        font-size: 15px;
+        font-size: 10px;
     }
     .school-header{
         padding-top: 5vw;
     }
     .school-header-img{
-        width: 100%;
+        width: 50%;
     }
 }
 

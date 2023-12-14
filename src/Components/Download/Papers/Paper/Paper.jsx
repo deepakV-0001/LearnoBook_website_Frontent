@@ -20,6 +20,9 @@ const Paper = (props) => {
         {
             img:pap,
         },
+        {
+            img:pap,
+        },
        
     ]
     return (

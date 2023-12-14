@@ -18,7 +18,7 @@
     color: gray;
 }
 .blog-header h2{
-font-size: 48px;
+font-size: 40px;
 font-weight: 700;
 }
 .blog-social-icon{
@@ -37,6 +37,7 @@ font-weight: 700;
 }
 .blog-head-img p{
     font-weight: bold;
+    font-size: 18px;
 }
 .blog-text-box{
     display: grid;
@@ -48,7 +49,7 @@ font-weight: 700;
     font-weight: 700;
 }
 .blog-text-box p{
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 400;
 }
 .blog-bottom-social{

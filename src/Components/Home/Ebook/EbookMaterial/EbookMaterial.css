@@ -8,7 +8,7 @@
 }
 
 .material-box-content p{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
 }
 .material-box>span{
@@ -39,7 +39,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-  gap: 20px;
+  gap: 8px;
 }
 .material-box-content a{
     width: 160px;
