@@ -10,19 +10,18 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  // if (email) {
-  //   localStorage.setItem("users", JSON.stringify({email,password}));
-  //   navigate("/");
-  // } else {
-  //   alert("please enter correct detail");
-  // }
+  useEffect(()=>{
+    const auth=localStorage.getItem('users');
+    if(auth){
+      navigate('/');
+    }
+  })
 
-  // useEffect(() => {
-  //   const auth = localStorage.getItem('users');
-  //   if (auth) {
-  //     navigate('/');
-  //   }
-  // });
+  const collectData = async () => {
+      let data=email;
+     localStorage.setItem("users",JSON.stringify(data));
+     navigate('/');
+      }
 
   return (
     <div className='login-container'>
@@ -38,7 +37,7 @@ const Login = () => {
             <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Email Address' />
             <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Password' />
             <li><span><input type="checkbox" defaultChecked />Remember Me</span> <Link>Forget Password?</Link></li>
-            <Link className='log-btn' to="">Log In</Link>
+            <Link className='log-btn'  onClick={collectData} >Log In</Link>
           </div>
           <div className="login-btm">
             <p className='or'>Or</p>

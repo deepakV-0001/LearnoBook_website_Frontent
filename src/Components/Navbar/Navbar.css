@@ -156,7 +156,9 @@ position: relative;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
     
 }
-
+#heart{
+     transition: all 0.8s ease;
+  }
 
 
 

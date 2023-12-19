@@ -28,7 +28,8 @@ import Library from './Components/Library/Library';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter >
+    {/* basename='/print-pdf/public/website' */}
       <Navbar />
 
       <Routes>

@@ -39,11 +39,12 @@ const Coaching = () => {
     ]
   return (
     <div className='coaching-container'>
+        <div className="coaching-header-container">
         <div className="coaching-header">
             <h2>Transforming <span>Coaching Centers</span> with Seamless Academic Solutions</h2>
             <Btns/>
             <span><img src={head} alt="" /></span>
-        </div>
+        </div></div>
         <div className="coaching-middle-section">
             <h2>How It Helps</h2>
            <div className="coaching-boxes">

@@ -19,7 +19,6 @@ import evs from './EVS.png'
 import social_science from './scoial_sciens.png'
 import math from './math.png'
 import SubjectWise from '../Download/PaperComponent/Exampler/SubjectWise/SubjectWise'
-
 import PopularBook from './PopularBook/PopularBook'
 
 
@@ -136,12 +135,13 @@ const NcertBook = () => {
     const text = ["NCERT Exemplar Free PDF ", "From Class 6 to 12", "Easy To Edit and Access"];
     return (
         <div className='ncert-main'>
+          <div className="ncert-main-background-container">
             <PaperHead head={"NCERT Books"} img={headImg} />
             <div className="ncert-main-drop">
                 <DropDown title={"NCERT Exemplar"} options={options1} />
                 <DropDown title={"Subject"} options={options2} />
                 <DropDown title={"Author"} options={options3} />
-            </div>
+            </div></div>
             <PaperMiddleComp head={"NCERT Books for class 1-12"} img={exm} desc={"NCERT books are renowned for their comprehensive and well-structured content. They are meticulously crafted by a team of experienced educators and subject matter experts who ensure that the material is not only accurate but also aligned with the latest educational standards. The books cover a wide array of subjects, providing a holistic approach to learning that fosters a deep understanding of the concepts.Secondly, NCERT books are designed to cater to students of various learning abilities. The language used in these textbooks is clear, concise, and accessible, making complex topics more understandable for students. The content is presented in a logical and sequential manner, facilitating a smooth progression from basic to advanced concepts. This inclusivity ensures that students from diverse backgrounds can benefit from the standardized and high-quality education provided by NCERT books."} text={text} />
             <ClassWise classData={classData}  head={'Class Wise NCERT Exemplar'} />
             <SubjectWise classData={subjectData}  head={'Subject Wise NCERT Books'} />

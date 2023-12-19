@@ -13,7 +13,7 @@ const NoteSection = () => {
                     <img src={anim} alt="" />
                     <h2 className='notes-head'>Read, Annotate, and Take Notes on PDF without Hassle</h2>
                 </div>
-                <img className='dot-img' src={dotimg} alt="" />
+               
             </div>
             <div className="notes-boxes">
                 <div className="notes-box"></div>

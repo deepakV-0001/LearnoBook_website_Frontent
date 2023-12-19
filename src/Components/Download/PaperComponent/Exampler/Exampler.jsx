@@ -10,37 +10,37 @@ import ClassWise from './ClassWise/ClassWise'
 import back from './back.png'
 
 const Exampler = () => {
-  const classData=[
+  const classData = [
     {
-      text:"NCERT Book for Class 12",
-      color:'#4EA9DE',
+      text: "NCERT Book for Class 12",
+      color: '#4EA9DE',
     },
     {
-      text:"NCERT Book for Class 11",
-      color:'#4EA9DE',
+      text: "NCERT Book for Class 11",
+      color: '#4EA9DE',
     },
     {
-      text:"NCERT Book for Class 10",
-      color:'#4EA9DE',
+      text: "NCERT Book for Class 10",
+      color: '#4EA9DE',
     },
     {
-      text:"NCERT Book for Class 9",
-      color:'#4EA9DE',
+      text: "NCERT Book for Class 9",
+      color: '#4EA9DE',
     },
     {
-      text:"NCERT Book for Class 8",
-      color:'#4EA9DE',
+      text: "NCERT Book for Class 8",
+      color: '#4EA9DE',
     },
     {
-      text:"NCERT Book for Class 7",
-      color:'#4EA9DE',
+      text: "NCERT Book for Class 7",
+      color: '#4EA9DE',
     },
-    
+
     {
-      text:"NCERT Book for Class 6",
-      color:'#4EA9DE',
+      text: "NCERT Book for Class 6",
+      color: '#4EA9DE',
     },
-    
+
   ];
 
 
@@ -50,14 +50,15 @@ const Exampler = () => {
   const options3 = ['Apple', 'Orange', 'Pear', 'Mango'];
   return (
     <div className='exampler-container'>
-      <PaperHead head={"NCERT Exemplar"} img={exmhead} />
-      <div className="exmpler-drop-container">
-      <div><DropDown title={"NCERT Exemplar"} options={options1} /></div>
-      <div> <DropDown title={"Subject"} options={options2} /></div>
-      <div> <DropDown title={"Author"} options={options3} /></div>
-      </div>
+     
+        <PaperHead head={"NCERT Exemplar"} img={exmhead} />
+        <div className="exmpler-drop-container">
+          <div><DropDown title={"NCERT Exemplar"} options={options1} /></div>
+          <div> <DropDown title={"Subject"} options={options2} /></div>
+          <div> <DropDown title={"Author"} options={options3} /></div>
+        </div>
       <PaperMiddleComp head={"NCERT Exemplar for class 6-12"} img={exm} desc={"The NCERT Exemplar is an invaluable educational resource that serves as a supplement to the standard NCERT (National Council of Educational Research and Training) textbooks in India. It is designed to provide students with a more comprehensive and challenging learning experience, offering a rich array of practice problems and exercises that go beyond the scope of the regular textbooks. The primary aim of NCERT Exemplar books is to enhance students' problem-solving skills and deepen their understanding of various subjects.One of the distinctive features of the NCERT Exemplar is its emphasis on a higher level of difficulty. The questions presented in these books are meticulously crafted to be more intricate and thought-provoking, pushing students to engage with the material at a deeper level."} text={text} />
-    <ClassWise classData={classData} head={'Class Wise NCERT Exemplar'} />
+      <ClassWise classData={classData} head={'Class Wise NCERT Exemplar'} />
     </div>
   )
 }

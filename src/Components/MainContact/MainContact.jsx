@@ -23,17 +23,17 @@ const MainContact = () => {
             <div className="main-contact-address-detail">
                 <span className='main-contact-add'>
                     <BiSolidPhoneCall />
-                    Phone
+                   <p> Phone</p>
                     <Link>123 456 789</Link>
                 </span>
                 <span className='main-contact-add'>
                     <IoIosMail />
-                    Email
+                  <p>  Email</p>
                     <Link>Mail@LearnoBook.com</Link>
                 </span>
                 <span>
                     <FaLocationDot />
-                    Location
+                    <p>Location</p>
                     <Link>Lorem Ipsum</Link>
                 </span>
             </div>

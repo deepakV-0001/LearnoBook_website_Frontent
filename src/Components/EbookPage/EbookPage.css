@@ -63,6 +63,9 @@ gap: 10px;
     margin: 3vw auto;
     gap: 15px;
 }
+.ebook-carousal-section{
+    margin-top: 50px;
+}
 @media screen and (max-width:768px) {
     .ebook-page-drop-search{
         flex-direction: column;

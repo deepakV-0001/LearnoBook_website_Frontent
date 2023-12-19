@@ -12,6 +12,14 @@
 .library-carousal-section{
     position: relative;
 }
+.library-recomended-section{
+    position: relative;
+    margin-bottom: 50px;
+}
+.related-head{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
 @media screen and (max-width:768px) {
     .library-recomended-section{
         width: 90%;

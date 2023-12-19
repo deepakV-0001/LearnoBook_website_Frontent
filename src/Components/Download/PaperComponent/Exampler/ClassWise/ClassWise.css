@@ -16,17 +16,18 @@
 .class-book-box a {
     color: #fff;
     font-size: 1.1vw;
+    width: 80%;
 }
 
 .class-book-container h2 {
-    font-size: 38px;
+    font-size: 32px;
     font-weight: 700;
     margin-bottom: 3vw;
 
 }
 
 .class-book-container {
-    width: 90%;
+    width: 80%;
     margin: 4vw auto;
 }
 
@@ -48,7 +49,7 @@
     }
 
     .class-book-box a {
-        font-size: 15px;
+        font-size: 12px;
     }
 
 }

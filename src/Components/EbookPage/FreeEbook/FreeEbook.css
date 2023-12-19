@@ -1,8 +1,11 @@
 .free-ebook-container{
     width: 90%;
     margin: 0 auto;
+    position: relative;
 }
 .free-ebook-container h3{
-    font-size: 38px;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-weight: 700;
 }

@@ -5,9 +5,9 @@ import { ImFileText2 } from "react-icons/im";
 import { FaLanguage } from "react-icons/fa6";
 import { PiTelegramLogoLight } from "react-icons/pi";
 import { IoCalendarOutline } from "react-icons/io5";
+import ProductSlider from './ProductSlider/ProductSlider'
 import book from './book-detail-img.png'
 import rev from './right-img.png'
-import RelatedBooks from './RelatedBooks/RelatedBooks';
 import Rating from './Rating/Rating';
 import dict1 from './RelatedBooks/dict1.png'
 import dict2 from './RelatedBooks/dict2.png'
@@ -41,6 +41,31 @@ const BookDetail = () => {
             auther: "Oxford",
             price: "$10",
         },
+        {
+            title: "Oxford English Hindi Dictionary",
+            img: dict1,
+            auther: "S.K. Verma",
+            price: "$7",
+        },
+        {
+            title: "Oxford Essential Dictionary",
+            img: dict2,
+            auther: "Oxford",
+            price: "$11",
+        },
+        {
+            title: "Oxford First Illustrated Dictionary",
+            img: dict3,
+            auther: "Oxford",
+            price: "$20",
+        },
+        {
+            title: "Oxford Illustrated Dictionary",
+            img: dict4,
+            auther: "Oxford",
+            price: "$10",
+        },
+        
     ];
     return (
         <div className='book-detail-container'>
@@ -79,7 +104,9 @@ const BookDetail = () => {
                 </div>
             </div>
             <div className="related-book-section">
-                <RelatedBooks relatedBookData={relatedBookData} head={'Books related to Oxford Dictionary'}/>
+                <h2>Books related to Oxford Dictionary</h2>
+                <ProductSlider relatedBookData={relatedBookData}/>
+                
             </div>
             <div className="rating-book-section">
                 <Rating/>

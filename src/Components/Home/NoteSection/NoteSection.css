@@ -1,7 +1,8 @@
 .notes-main-container {
   background: url('./notesBack.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 70%;
+  background-position: left;
   width: 100%;
   height: max-content;
   position: relative;

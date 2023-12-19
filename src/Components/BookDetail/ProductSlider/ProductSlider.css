@@ -1,0 +1,80 @@
+.slider-container {
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    width:100%;
+    scroll-behavior:smooth;
+    margin:auto;
+   }
+   
+   /* hide the scrollbar and retain it's functionality */
+  .slider-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .prev{
+    left: 0;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position:absolute;
+    width: auto;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+   
+    color: #fff;
+    top: 35%;
+    /* background: rgb(77, 113, 183); */
+    background: rgba(0,0,0,0.2);
+  }
+  
+
+  .next {
+    right:0;
+    border-radius: 3px 0 0 3px;
+  }
+ 
+  .prev:hover, .next:hover {
+  opacity: 0.6;
+  }
+  
+  .related-book-box{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+}
+.related-book-box h2{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+.related-book-box p{
+    font-size:13px;
+    font-weight: 400;
+}
+.related-book-box i{
+    font-size: 17px;
+    display: flex;
+    color: #FDC113;
+}
+.related-add-to-cart{
+    background-color: #4EA9DE;
+    padding: 10px 15px;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+}
+
+@media screen and (max-width:768px) {
+    .prev, .next{
+        padding: 8px;
+    }
+}

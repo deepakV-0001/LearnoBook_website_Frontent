@@ -11,8 +11,8 @@
     font-weight: 400;
 }
 .record-img-upper{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background: rgba(78, 169, 222, 1);
     display: flex;
     margin: auto;
@@ -21,21 +21,21 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
-    margin-top: -80px;
+    margin-top: -48px;
 }
 .record-img-upper img{
     width: 55%;
     max-width: 100%;
 }
 .records-box{
-    padding: 30px;
+    padding: 10px 10px 20px;
     background: white;
     border-radius: 20px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-right: 20px;
-    width: 44%; 
-    height: 260px;
+    width: 40%; 
+    height: 220px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 .records-boxes{
@@ -54,7 +54,7 @@
 
   @media screen and (max-width:1024px) {
     .records-boxes{
-        width: 80%;
+        width: 65%;
         bottom: 20.4vw;
     }
   }
@@ -81,8 +81,8 @@
       }
       .record-img-upper{
         width: 70px;
-        height: 70px;
-        margin-top: -60px;
+        height: 70px; 
+        margin-top: -40px;
       }
 
   }

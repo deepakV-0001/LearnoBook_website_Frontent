@@ -1,7 +1,7 @@
 .stu-below-box{
     
     width: 20vw;
-    height: 15vw;
+    height: 13vw;
     padding: 1vw;
     color: #fff;
     border-radius: 2vw;
@@ -28,19 +28,20 @@
 }
 
 .stu-below-box h2{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-weight: 700;
     display: block;
     margin-top: 1.3vw;
 }
 .stu-below-box p{
 font-weight: 400;
-font-size: 1vw;
+font-size: 0.9vw;
 }
 .stu-head{
     font-weight: 700;
-    font-size:2.8vw;
+    font-size:2vw;
     text-align: center;
+    margin-bottom: 20px;
 }
 .stu-section{
     border: 1px solid rgba(255, 199, 39, 1);
@@ -86,26 +87,29 @@ font-size: 1vw;
     gap: 25px;
 }
 .stu-img{
-    width: 40%;
+    width: 60%;
 }
 @media screen and (max-width:768px) {
     .stu-section{
-        width: 90%;
+        width: 80%;
     }
     .stu-below-boxes{
         width: 100%;
         flex-direction: column;
     }
+    /* .stu-img{
+        width: 60%;
+    } */
     .stu-below-box{
         width: 80%;
         height: max-content;
     }
     .stu-below-box h2{
-        font-size: 15px;
+        font-size: 12px;
        
     }
     .stu-below-box p{
-        font-size: 10px;
+        font-size: 8px;
     }
     .stu-head{
         font-size: 28px;

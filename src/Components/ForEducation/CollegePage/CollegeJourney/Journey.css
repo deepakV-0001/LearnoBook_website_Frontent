@@ -13,19 +13,19 @@
 .journey-child h1{
     font-weight: 700;
     color: #FDC113;
-    font-size: 2.8vw;
+    font-size: 2.1vw;
 }
 .journey-child p{
-font-size: 1.1vw;
+font-size: 0.9vw;
 font-weight: 500;
 }
 .journey-child img{
     width: 100%;
 }
 .journey-child a{
-   padding: 0 25px;
-    font-size: 2vw;
-    font-weight: 700;
+    padding: 4px 25px;
+    font-size: 1.2vw;
+    font-weight: 500;
     color: #fff;
     display: flex;
     align-items: center;

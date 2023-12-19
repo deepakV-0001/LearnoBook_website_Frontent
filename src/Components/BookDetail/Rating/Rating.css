@@ -1,5 +1,5 @@
 .rating-main-container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 .rating-header{
@@ -7,28 +7,28 @@
     justify-content: space-between;
 }
 .rating-header h2{
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 3vw;
 }
 .rating-header a{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     color: #000;
     text-decoration: underline;
 }
 .rating-box img{
-    width: 100px;
+    width: 73px;
     border-radius: 50%;
 }
 .rating-text-head h2{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
 
 }
 .rating-text h5{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 13px;
     color: #979797;
 
 }
@@ -36,20 +36,35 @@
 color: #FDC113;
 }
 .rating-text p{
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 400;
 }
 .rating-box{
     width:100%;
     border-radius: 32px;
     display: flex;
+    align-items: center;
     gap: 3vw;
     border: 2px solid #FDC113;
-    padding: 20px;
+    padding: 10px;
 }
 .rating-boxes{
    
     display: flex;
     flex-direction: column;
-    gap: 4vw;
+    gap:12px;
+}
+@media screen and (max-width:768px) {
+    .rating-header h2{
+        font-size: 20px;
+    }
+    .rating-header a{
+        font-size: 10px;
+    }
+    .rating-text-head h2{
+        font-size: 15px;
+    }
+    .rating-text h5,.rating-text p{
+        font-size: 10px;
+    }
 }

@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
                 
             </div>
-            {/* <div className="white-background"></div> */}
+            <div className="white-background"></div>
         </div>
     )
 }

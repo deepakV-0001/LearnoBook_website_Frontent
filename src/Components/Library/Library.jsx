@@ -2,7 +2,6 @@ import React from 'react'
 import '../Library/Library.css'
 import Library_header from './Library_header/Library_header'
 import EbookPage_SearchFilters from '../EbookPage/EbookPage_SearchFilters/EbookPage_SearchFilters'
-import RelatedBooks from '../BookDetail/RelatedBooks/RelatedBooks'
 import LibraryMiddle from './LibraryMiddle/LibraryMiddle'
 import SubjectWise from '../Download/PaperComponent/Exampler/SubjectWise/SubjectWise'
 import img1 from './lib_img1.png'
@@ -19,6 +18,7 @@ import market from './lib_market.png'
 import art from './lib_art.png'
 import dm from './lib_dm.png'
 import LibraryCarousal from './LibraryCarousal/LibraryCarousal'
+import ProductSlider from '../BookDetail/ProductSlider/ProductSlider'
 import Contact from '../Home/Contact/Contact'
 
 const Library = () => {
@@ -87,13 +87,44 @@ const Library = () => {
             auther: "Ray Petrolino",
 
         },
+        {
+            img: img1,
+            title: "A kingdom’s Cost",
+            auther: "JR Tomin",
+
+        },
+        {
+            img: img2,
+            title: "The Last Hint",
+            auther: "Maor Kohn",
+
+        },
+        {
+            img: img3,
+            title: "Communication ",
+            auther: "Phil R. Lucky",
+
+        },
+        {
+            img: img4,
+            title: "Lady Tanglewood",
+            auther: "Tony Cabell",
+
+        },
+        {
+            img: img5,
+            title: "A Leap Into Dark",
+            auther: "Ray Petrolino",
+
+        },
     ]
     return (
         <div className='library-main-container'>
             <Library_header />
             <EbookPage_SearchFilters />
             <div className="library-recomended-section">
-                <RelatedBooks head={"Recommended Reads"} relatedBookData={relatedBookData} />
+                <h2 className='related-head'>Recomended Related Books</h2>
+                <ProductSlider relatedBookData={relatedBookData} />
             </div>
             <div className="library-middle-section">
                 <LibraryMiddle/>

@@ -1,8 +1,9 @@
 .ebook-container{
     background: url(./bac.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 70%;
     width: 100%;
+    background-position: right;
     height: max-content;
     position: relative;
     margin-bottom: 15vh;
@@ -24,7 +25,7 @@
     margin-bottom: 30px;
 }
 .ebook-text-content p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
    
 }
@@ -55,6 +56,6 @@
     font-size: 28px;
   }
   .ebook-text-content p{
-    font-size: 15px;
+    font-size: 11px;
   }
 }

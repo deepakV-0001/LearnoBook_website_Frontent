@@ -44,7 +44,10 @@
         font-size: 15px;
     }
     .vision-img{
-        width: 100%;
+        width: 80%;
+    }
+    .vision-img p{
+        font-size: 14px;
     }
     .vision-text-content{
         width: 100%;

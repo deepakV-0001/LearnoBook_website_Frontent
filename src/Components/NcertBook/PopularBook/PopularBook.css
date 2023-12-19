@@ -1,5 +1,5 @@
 .popular-book-container{
-    width: 90%;
+    width: 80%;
     margin: 4vw auto;
 }
 .popular-book-box{
@@ -21,7 +21,7 @@
     width: 100%;
 }
 .popular-book-container h2{
-    font-size: 38px;
+    font-size: 32px;
     font-weight: 700;
     margin-bottom: 3vw;
 }

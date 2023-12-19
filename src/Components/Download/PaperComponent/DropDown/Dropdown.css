@@ -84,6 +84,7 @@
 .exampler-container{
   padding-top: 50px;
 }
+
 @media screen and (max-width:768px) {
   .exmpler-drop-container{
     flex-direction: column;

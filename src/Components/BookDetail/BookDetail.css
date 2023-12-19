@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     padding-top: 60px;
-    gap: 5vw;
+    gap: 20px;
 }
 
 .book-detail-left {
@@ -19,7 +19,7 @@
 .book-detail-left a {
     text-decoration: underline;
     color: #000;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
 
 }
@@ -33,12 +33,12 @@
 }
 
 .book-detail-right-heading h2 {
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
 }
 
 .book-detail-right-heading p {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -83,9 +83,9 @@
 }
 
 .book-detail-right-btns a {
-    font-size: 24px;
+    font-size: 1.5vw;
     font-weight: 700;
-   padding: 10px 20px;
+   padding: 4px 20px;
     border-radius: 10px;
     color: #fff;
     
@@ -97,7 +97,7 @@
 }
 
 .book-detail-right-middle-text ,.book-detail-right-bottom-detail{
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
 
 }
@@ -150,11 +150,25 @@
 .rating-book-section{
     margin-bottom: 50px;
 }
+.related-book-section{
+    width: 80%;
+    position: relative;
+    margin: 30px auto 30px;
+}
+.related-book-section h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    
+}
 @media screen and (max-width:768px) {
     .book-lower-container{
         flex-direction: column;
         align-items: center;
         margin-top: 35px;
+    }
+    .related-book-section h2{
+        font-size: 20px;
     }
     .book-detail-left{
         width: 70%;
@@ -162,11 +176,20 @@
     .book-detail-right{
         width: 90%;
     }
+    .book-detail-right-heading h2{
+        font-size: 20px;
+    }
     .book-detail-right-middle-text{
+        font-size: 10px;
+    }
+    .book-detail-right-heading p{
+        font-size: 13px;
+    }
+    .book-detail-right-bottom p{
         font-size: 15px;
     }
     .book-detail-right-btns a{
-        font-size: 18px;
+        font-size: 10px;
     }
     .book-detail-right-bottom-detail li {
         font-size: 12px;

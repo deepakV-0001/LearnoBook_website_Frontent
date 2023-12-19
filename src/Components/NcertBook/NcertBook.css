@@ -8,6 +8,12 @@
 .ncert-main{
     padding-top: 60px;
 }
+.ncert-main-background-container{
+    background: url(../ForEducation/SchoolPage/SchoolHeader/GroupImg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 
 @media screen and (max-width:768px) {
     .ncert-main-drop{

@@ -109,10 +109,10 @@ const Ebook_carousal = () => {
                 </div>
             </div>
             <div className="Ebook-carousal-btn-container">
-                <button className="prev" onClick={handlePrevClick}>
+                <button className="prev-btn" onClick={handlePrevClick}>
                     prev
                 </button>
-                <button className="next" onClick={handleNextClick}>
+                <button className="next-btn" onClick={handleNextClick}>
                     next
                 </button>
             </div>

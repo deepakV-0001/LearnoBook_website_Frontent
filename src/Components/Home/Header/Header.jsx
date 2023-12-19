@@ -14,7 +14,7 @@ import img3 from './Group 29.png'
 const Header = () => {
     return (
         <div className="header-container-upper">
-            <div className="header-main-container">
+            <div className="header-main-container" >
                 <div className="header-text-content">
                     <h1>Learning <span className="easier">Easier,<br /></span>
                         Anytime and
@@ -24,7 +24,7 @@ const Header = () => {
                         The <b>note taking app</b> & <b>PDF reader</b> for the smart and swift people.</p>
                     <Link to="">Join For Free</Link>
                 </div>
-                <div className="header-img">
+                <div className="header-img" >
                     <img src={img} alt="img" />
                     <div className="header-social-icons">
                         <FaFacebook />

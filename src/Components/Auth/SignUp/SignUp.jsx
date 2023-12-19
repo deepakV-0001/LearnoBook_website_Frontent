@@ -11,19 +11,20 @@ const SignUp = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
-    // const navigate=useNavigate();
-    // const data=({name,email,password});
-    
+    const navigate=useNavigate();
 
-    // useEffect(()=>{
-    //   const auth=localStorage.getItem('users');
-    //   if(auth){
-    //     navigate('/');
-    //   }else{
-    //     localStorage.setItem("users",JSON.stringify(data));
-    //     navigate('/');
-    //   }
-    // });
+    useEffect(()=>{
+        const auth=localStorage.getItem('users');
+        if(auth){
+          navigate('/');
+        }
+      })
+    
+      const collectData = async () => {
+          let data={name,email,};
+         localStorage.setItem("users",JSON.stringify(data));
+         navigate('/');
+          }
     return (
         <div className='signup-container'>
             
@@ -42,7 +43,7 @@ const SignUp = () => {
                         <span><input type="checkbox" />Agree on Terms & Conditions</span>
                     </div>
                     <div className="sign-bottom">
-                        <Link className='sign-btn'>Sign Up</Link>
+                        <Link className='sign-btn' onClick={collectData} >Sign Up</Link>
                         <p className='or'>OR</p>
                         <span><Link><img src={face} alt="" /></Link><Link><img src={google} alt="" /></Link></span>
                         <p className='move-to'>Already Have An Account?<Link to="/login"> Log In</Link></p>
