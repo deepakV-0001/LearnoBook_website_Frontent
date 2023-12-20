@@ -1,15 +1,15 @@
 
 .material-box-content h3{
-    font-size: 16px;
-    font-weight: 700;
-    margin: 25px 0 20px 5px;
+    font-size: var(--sub-desc);
+    font-weight: var(--weight-700);
+    margin: 25px auto 0;
     display: block;
    
 }
 
 .material-box-content p{
     font-size: 12px;
-    font-weight: 400;
+    font-weight: var(--weight-400);
 }
 .material-box>span{
     width: 80px;
@@ -26,7 +26,7 @@
    width: 100%;
 }
 .material-box{
-    padding: 10px;
+    padding: 20px 10px;
     background: white;
     border-radius: 20px;
     text-align: center;
@@ -43,11 +43,11 @@
   gap: 8px;
 }
 .material-box-content a{
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     font-size: 12px;
 height: 30px;
-background-color: rgba(253, 193, 19, 1);
+background-color: var(--yellow);
 color: #fff;
 border-radius: 12px;
 display: flex;
@@ -71,16 +71,19 @@ align-items: center;
     transform: translateY(70px); 
   }
   .material-side-text{
-    color: rgba(253, 193, 19, 1);
+    color: #000;
     font-size: 1.6vw;
-    font-weight: 700;
+    font-weight:var(--weight-700);
     position: relative;
+    transition: all 0.5s ease;
     
-    text-decoration: underline;
+  }
+  .material-side-text:hover{
+    color: var(--yellow) !important;
   }
 .material-container{
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
   margin-top: 10vh;
 }

@@ -9,19 +9,19 @@
     width: 55%;
 }
 .vision-text-content h1{
-    font-size: 48px;
-    font-weight: 700;
+    font-size: var(--main-title);
+    font-weight: var(--weight-700);
     margin-bottom: 20px;
    
 }
 .vision-img p{
-    font-size: 26px;
-    font-weight: 700;
+    font-size: var(--main-desc);
+    font-weight: var(--weight-400);
     color: rgba(253, 193, 19, 1);
 }
 .vision-text-content p{
-    font-size: 18px;
-    font-weight: 500;
+    font-size: var(--main-desc);
+    font-weight: var(--weight-500);
 }
 .vision-img{
     width: 45%;

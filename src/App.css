@@ -23,4 +23,21 @@ li{
     background: rgb(56, 68, 110);
     border-radius: 15px;
   }
-  
+  :root{
+    --main-title:48px;
+    --main-desc:18px;
+    --font-20:20px;
+    --font-28:28px;
+    --weight-300:300;
+    --weight-400:400;
+    --weight-500:500;
+    --weight-600:600;
+    --weight-700:700;
+    --weight-800:800;
+    --sub-title:32px;
+    --sub-desc:15px;
+    --yellow:#FDC113;
+    --skyblue:#4EA9DE;
+    --blue:rgb(58, 90, 255);
+
+  }

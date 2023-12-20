@@ -20,12 +20,12 @@
  width: 190px;
 }
 .ebook-text-content  h3{
-    font-size: 32px;
-    font-weight: 700;
+    font-size: var(--sub-title);
+    font-weight: var(--weight-700);
     margin-bottom: 30px;
 }
 .ebook-text-content p{
-    font-size: 18px;
+    font-size: var(--sub-desc);
     font-weight: 400;
    
 }

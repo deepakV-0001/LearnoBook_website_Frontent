@@ -1,12 +1,12 @@
 .testimonial-container{
     height: max-content;
-    background-color: rgba(78, 169, 222, 1);
+    background-color: var(--skyblue);
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .testimonial-heading h2{
-    font-size: 32px;
-    font-weight: 700;
+    font-size: var(--sub-title);
+    font-weight: var(--weight-700);
    color: #fff;
 }
 .testimonial-heading{
@@ -62,13 +62,13 @@
     background-color: #fff;
 }
 .testimonial-text h3{
-    font-size: 18px;
-    font-weight: 700;
+    font-size: var(--main-desc);
+    font-weight: var(--weight-700);
     margin-bottom: 10px;
 }
 .testimonial-text p{
     font-size: 13px;
-    font-weight: 400;
+    font-weight: var(--weight-400);
     width: 68%;
 }
 .testimonial-content{
@@ -101,7 +101,7 @@
         padding-right: 2px;
     }
     .testimonial-heading h2{
-        font-size: 20px;
+        font-size: var(--font-20);
     }
     .testimonial-text p{
         font-size: 14px;
@@ -110,7 +110,7 @@
     
     .testimonial-content-child>span p{
         left: -40px;
-        font-size: 15px;
+        font-size: var(--sub-desc);
     }
     .testimonial-content-child>span p::after{
         bottom: -15px;

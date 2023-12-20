@@ -1,6 +1,6 @@
 .video-main-container h2{
-font-size: 36px;
-font-weight: 700;
+font-size: var(--sub-title);
+font-weight: var(--weight-700);
 text-align: center;
 margin: 15vh auto 10vh;
 

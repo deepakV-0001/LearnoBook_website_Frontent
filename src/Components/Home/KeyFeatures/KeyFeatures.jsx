@@ -42,7 +42,7 @@ const KeyFeatures = () => {
   ]
   return (
     <div className='features-main-contianer'>
-      <h2>Key Features</h2>
+      <h2 className='key-feature-heading'>Key Features</h2>
       <div className="features-boxes">
         {
           keyData.map((item) => (

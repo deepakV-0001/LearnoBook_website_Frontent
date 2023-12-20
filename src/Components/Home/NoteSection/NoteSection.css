@@ -22,8 +22,8 @@
 }
 
 .notes-head {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: var(--sub-title);
+  font-weight: var(--weight-600);
 }
 
 .dot-img {

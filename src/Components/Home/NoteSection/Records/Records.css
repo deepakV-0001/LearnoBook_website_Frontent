@@ -7,13 +7,13 @@
    
 }
 .records-box-content p{
-    font-size: 15px;
-    font-weight: 400;
+    font-size: var(--sub-desc);
+    font-weight: var(--weight-400);
 }
 .record-img-upper{
     width: 80px;
     height: 80px;
-    background: rgba(78, 169, 222, 1);
+    background: var(--skyblue);
     display: flex;
     margin: auto;
     border-radius: 100px;
@@ -28,14 +28,14 @@
     max-width: 100%;
 }
 .records-box{
-    padding: 10px 10px 20px;
+    padding: 10px 17px 20px;
     background: white;
     border-radius: 20px;
     text-align: center;
     margin-top: 40px;
     margin-right: 20px;
-    width: 40%; 
-    height: 220px;
+    width: 35%; 
+    height: max-content;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 .records-boxes{

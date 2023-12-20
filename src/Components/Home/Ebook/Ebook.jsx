@@ -12,9 +12,7 @@ const Ebook = () => {
                 <h3>Read and Edit E-Books  </h3>
                 <p>Lorem ipsum dolor sit amet consectetur. Aliquet dignissim maecenas fermentum id ipsum neque tincidunt. Enim congue est lobortis massa rhoncus sit pellentesque et blandit. Libero id interdum dolor condimentum.</p>
             </div>
-            {/* <div className="dot-img-ebook">
-                <img src={dotanim} alt="" />
-            </div> */}
+            
             <div className="ebook-material-section">
                 <EbookMaterial/>
             </div>
