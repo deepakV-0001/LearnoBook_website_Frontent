@@ -2,6 +2,7 @@
   "name": "learno_book",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dsproject.in/print-pdf/public/website/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -16,7 +17,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "homepage": "https://dsproject.in/print-pdf/public/website/",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

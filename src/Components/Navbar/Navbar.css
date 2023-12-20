@@ -102,7 +102,7 @@ color:#FDC113 !important;
     transform: rotate(0deg);
     transition: all 0.5s ease;
 }
-.education-nav:hover .ar-btn{
+.education-navicons-drop .ar-btn{
     transform: rotate(90deg);
 }
 
@@ -116,7 +116,10 @@ position: relative;
     display: none;
    
 }
-.education-nav:hover .education-drop{
+.education-navicons-drop{
+    color: #FDC113 !important;
+}
+.education-navicons-drop .education-drop{
     display: block;
     position: absolute;
     z-index: 999;
@@ -132,7 +135,7 @@ position: relative;
 }
 .education-drop li:hover .education-drop-nacIcons{
     color:#FDC113 ;
-    /* text-shadow: 2px 2px 2px #FDC113; */
+    
 }
 .education-drop-nacIcons{
     color: #000;
@@ -156,6 +159,7 @@ position: relative;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
     
 }
+
 #heart{
      transition: all 0.8s ease;
   }

@@ -34,8 +34,9 @@ const Navbar = () => {
     if (itemName == 'about') {
       Geeks();
     }
-    setShowDropdown(false);
+    // setShowDropdown(false);
   };
+  
 
 
   function Geeks() {
@@ -87,11 +88,11 @@ const Navbar = () => {
 
       {showNav && <div className="navbar-options navbar" id="heart" ref={heartRef}>
         <Link className={`navIcons ${activeItem === 'about' ? 'active' : ''}`} id="about" onClick={() => handleItemClick('about')} to="/" >About</Link>
-        <li className='education-nav'><Link className={`navIcons education-navicons-drop  ${activeItem === 'education' ? 'active' : ''}`} >For Education <IoIosArrowForward className="ar-btn" /></Link>
-          <ul className='education-drop '>
-            <li><Link className='education-drop-nacIcons' onClick={() => handleItemClick('education')} to="/school">School</Link></li>
-            <li><Link className='education-drop-nacIcons' onClick={() => handleItemClick('education')} to="/college">college</Link></li>
-            <li><Link className='education-drop-nacIcons' onClick={() => handleItemClick('education')} to="/coaching">Coaching</Link></li>
+        <li className={`education-nav ${activeItem === 'education' ? 'education-navicons-drop' : ''}`}><Link className={`navIcons `} onClick={()=>handleItemClick('education')} >For Education <IoIosArrowForward className="ar-btn" /></Link>
+          <ul className='education-drop'>
+            <li><Link className={`education-drop-nacIcons ${activeItem === 'school' ? 'active' : ''}`} onClick={() => handleItemClick('school')} to="/school">School</Link></li>
+            <li><Link className={`education-drop-nacIcons ${activeItem === 'college' ? 'active' : ''}`} onClick={() => handleItemClick('college')} to="/college">college</Link></li>
+            <li><Link className={`education-drop-nacIcons ${activeItem === 'coaching' ? 'active' : ''}`} onClick={() => handleItemClick('coaching')} to="/coaching">Coaching</Link></li>
           </ul>
         </li>
         <Link className={`navIcons ${activeItem === 'Publishers' ? 'active' : ''}`} onClick={() => handleItemClick('Publishers')} to="/publisher">Publisher</Link>
