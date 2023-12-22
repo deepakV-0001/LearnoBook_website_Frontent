@@ -29,7 +29,7 @@
 }
 .excel-box h3{
     font-size: 1.5vw;
-    font-weight: 700;
+    font-weight: var();
 }
 .excel-box p{
     font-size: 0.9vw;

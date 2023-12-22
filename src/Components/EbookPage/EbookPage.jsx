@@ -10,10 +10,52 @@ import BestSeller from './BestSeller/BestSeller'
 import FreeEbook from './FreeEbook/FreeEbook'
 import Ebook_carousal from './Ebook_carousal/Ebook_carousal'
 import Contact from '../Home/Contact/Contact'
+import carImg from './ebbokpage.png'
 import EbookPage_SearchFilters from './EbookPage_SearchFilters/EbookPage_SearchFilters'
 
 
 const EbookPage = () => {
+  const carData = [
+    {
+  
+      image: carImg,
+      title: "Get 40% Off On E Books of J.K. Rowling",
+      subtitle: "Explore a diverse range of genres and topics with our extensive collection of Kindle books and eBooks. From bestsellers to hidden gems, we've got something for every reader.",
+    },
+    {
+  
+      image: carImg,
+      title: "Get 40% Off On E Books of J.K. Rowling",
+      subtitle: "Explore a diverse range of genres and topics with our extensive collection of Kindle books and eBooks. From bestsellers to hidden gems, we've got something for every reader.",
+    },
+    {
+  
+      image: carImg,
+      title: "Get 40% Off On E Books of J.K. Rowling",
+      subtitle: "Explore a diverse range of genres and topics with our extensive collection of Kindle books and eBooks. From bestsellers to hidden gems, we've got something for every reader.",
+    },
+    {
+  
+      image: carImg,
+      title: "Get 40% Off On E Books of J.K. Rowling",
+      subtitle: "Explore a diverse range of genres and topics with our extensive collection of Kindle books and eBooks. From bestsellers to hidden gems, we've got something for every reader.",
+    },
+  ];
+  // const slides = [
+  //   {
+     
+  //     image: 'https://picsum.photos/id/1/1280/500',
+  //   },
+  //   {
+     
+  //     image: 'https://picsum.photos/id/234/1280/500',
+  //   },
+  //   {
+      
+  //     image: 'https://picsum.photos/id/790/1280/500',
+  //   },
+  // ];
+  
 
   return (
     <div className='ebook-page-container'>
@@ -41,7 +83,7 @@ const EbookPage = () => {
         <FreeEbook />
       </div>
       <div className="ebook-carousal-section">
-        <Ebook_carousal />
+        <Ebook_carousal autoPlay={true} useRightLeftTriangles={true} slides={carData}/>
       </div>
       <Contact/>
     </div>

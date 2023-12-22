@@ -30,7 +30,7 @@ margin-left: 5%;
 }
 
 .nav-signup-btn {
-    background-color: #1368CE;   
+    background-color: var(--blue);   
     color: #fff;
     border-bottom: 4px solid  rgba(0, 0, 0, 0.6);
 }
@@ -50,11 +50,11 @@ margin-left: 5%;
     transition: 0.5s ease;
 }
 .nav-signup-btn:hover{
-    background-color:#FDC113;
+    background-color:var(--yellow);
     transition: 0.5s ease;
 }
 .nav-login-btn:hover{
-    background-color:#FDC113;
+    background-color:var(--yellow);
     color: #fff;
     transition: 0.5s ease;
     border-bottom: 4px solid  rgba(0, 0, 0, 0.6);
@@ -62,6 +62,9 @@ margin-left: 5%;
 
 .navbar-hamp-menu {
    font-size: 50px;
+}
+.navbar-hamp-menu>svg{
+    color: var(--blue);
 }
 .navbar-options{
     position: fixed;
@@ -91,18 +94,18 @@ margin-left: 5%;
 }
 .navbar .navIcons:hover{
    
-    color: #FDC113;
+    color: var(--yellow);
 }
-.active{
-color:#FDC113 !important;
+.active,.good{
+color:var(--yellow) !important;
    
 }
 
-.education-not-active .ar-btn{
+.education-nav .active .ar-btn{
     transform: rotate(0deg);
     transition: all 0.5s ease;
 }
-.education-active .ar-btn{
+.education-nav .active .ar-btn{
     transform: rotate(90deg);
     transition: all 0.5s ease;
 }
@@ -121,9 +124,9 @@ position: relative;
     color: #000;
 }
 .education-active .navIcons{
-    color: #FDC113 ;
+    color: var(--yellow) ;
 }
-.education-active .education-drop{
+.active .education-drop{
     display: block;
     position: absolute;
     z-index: 999;
@@ -138,12 +141,12 @@ position: relative;
     padding: 10px;
 }
 .education-drop li:hover .education-drop-nacIcons{
-    color:#FDC113 ;
+    color:var(--yellow) ;
     
 }
 .education-drop-nacIcons{
     color: #000;
-    font-size: 18px;
+    font-size: var(--main-desc);
     font-weight: 600;
 }
 .education-navicons-drop{
@@ -167,8 +170,6 @@ position: relative;
 #heart{
      transition: all 0.8s ease;
   }
-
-
 
 @media screen and (max-width:768px){
     .navbar-options{

@@ -23,7 +23,7 @@
     padding: 5vw 0;
 }
 .school-header-text-content h1>span{
-    color: #FFC727 ;
+    color: var(--yellow) ;
 }
 .school-header-text-content h1{
     color: #000;
@@ -32,7 +32,7 @@
 }
 .school-header-text-content p{
     color: #000;
-    font-size:16px;
+    font-size:var(--sub-desc);
     font-weight: 400;
     letter-spacing: 1.1px;
    

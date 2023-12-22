@@ -29,13 +29,11 @@ function App() {
 
   return (
     <BrowserRouter >
-    {/* basename='/print-pdf/public/website' */}
+{/* basename='/print-pdf/public/website' */}
       <Navbar />
-
       <Routes>
 
         <Route path="/" element={<Home />} />
-
         <Route path="/school" element={<SchoolPage />} />
         <Route path="/blog-detail" element={<BlogDetail />} />
         <Route path="/college" element={<College />} />
@@ -59,6 +57,8 @@ function App() {
         <Route path="/contact" element={<MainContact />} />
         <Route path="/library" element={<Library />} />
       </Routes>
+
+
       <Footer />
     </BrowserRouter>
   );
