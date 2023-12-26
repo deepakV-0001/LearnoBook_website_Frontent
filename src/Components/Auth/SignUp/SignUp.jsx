@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import '../SignUp/SignUp.css'
-import sign from '../../Assets/Images/sign.png'
 import { Link, useNavigate } from 'react-router-dom'
 import google from '../../Assets/Images/google.png'
 import face from '../../Assets/Images/face.png'
@@ -26,7 +25,6 @@ const SignUp = () => {
           }
     return (
         <div className='signup-container'>
-            
             <div className="signup-content">
                 <div className="sign-head">
                     <h1>Welcome To <br /><span>LearnoBook</span></h1>

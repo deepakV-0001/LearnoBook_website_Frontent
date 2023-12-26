@@ -1,6 +1,6 @@
 import React from 'react'
 import './EbookPage.css'
-import Ebook_header from './Ebook-header/Ebook_header'
+import EbookHeader from './Ebook-header/Ebook_header'
 import EducationBtns from '../ForEducation/Education_btns/EducationBtns'
 // import Dropdown from '../Download/PaperComponent/DropDown/Dropdown'
 import dotCircle from '../Assets/Images/dot_circle.png'
@@ -8,10 +8,10 @@ import headerImg from '../Assets/Images/ebbokpage.png'
 import EbookMiddle from './EbookMiddle/EbookMiddle'
 import BestSeller from './BestSeller/BestSeller'
 import FreeEbook from './FreeEbook/FreeEbook'
-import Ebook_carousal from './Ebook_carousal/Ebook_carousal'
+import EbookCarousal from './Ebook_carousal/Ebook_carousal'
 import Contact from '../Home/Contact/Contact'
 // import carImg from '../Assets/Images/ebbokpage.png'
-import EbookPage_SearchFilters from './EbookPage_SearchFilters/EbookPage_SearchFilters'
+import EbookPageSearchFilters from './EbookPage_SearchFilters/EbookPage_SearchFilters'
 
 
 const EbookPage = () => {
@@ -19,7 +19,7 @@ const EbookPage = () => {
  
   return (
     <div className='ebook-page-container'>
-      <Ebook_header />
+      <EbookHeader />
       <div className="ebook-page-header-btns">
         <EducationBtns />
       </div>
@@ -31,7 +31,7 @@ const EbookPage = () => {
         <p>Library of Ebooks</p>
       </div>
       <div className="ebook-page-search-component">
-        <EbookPage_SearchFilters/>
+        <EbookPageSearchFilters/>
       </div>
       <div className="ebook-page-latest-section">
         <EbookMiddle />
@@ -43,7 +43,7 @@ const EbookPage = () => {
         <FreeEbook />
       </div>
       <div className="ebook-carousal-section">
-        <Ebook_carousal />
+        <EbookCarousal />
       </div>
       <Contact/>
     </div>
