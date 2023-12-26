@@ -3,7 +3,7 @@ import SchoolHeader from '../SchoolPage/SchoolHeader/SchoolHeader'
 import ExcelSection from './ExcelSection/ExcelSection'
 import HelpSection from './HelpSection/HelpSection'
 import SchoolBottom from './SchoolBottom/SchoolBottom'
-import headImg from './SchoolHeader/Frame.png'
+import headImg from '../../Assets/Images/School_header.png'
 
 
 const SchoolPage = () => {

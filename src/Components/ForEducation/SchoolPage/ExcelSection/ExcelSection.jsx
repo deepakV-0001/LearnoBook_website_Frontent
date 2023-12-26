@@ -1,10 +1,9 @@
 import React from 'react'
 import '../ExcelSection/ExcelSection.css'
-import library from './Nook.png'
-import edit from './Edit.png'
-import book from './Books.png'
-import group from './Group.png'
-import { Link } from 'react-router-dom'
+import library from '../../../Assets/Images/Nook.png'
+import edit from '../../../Assets/Images/Edit_icon.png'
+import book from '../../../Assets/Images/Books.png'
+import group from '../../../Assets/Images/Group_chat.png'
 import ExcelComponent from './ExcelComponent'
 
 const ExcelSection = () => {

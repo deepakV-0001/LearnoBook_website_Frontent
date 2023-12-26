@@ -1,7 +1,7 @@
 import React from 'react'
 import '../SchoolBottom/SchoolBottom.css'
 
-import frame from './botom-img.png'
+import frame from '../../../Assets/Images/botom-img.png'
 import { Link } from 'react-router-dom'
 
 const SchoolBottom = () => {

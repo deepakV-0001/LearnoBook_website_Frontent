@@ -1,7 +1,7 @@
 import React from 'react'
 import '../CardForm/CardForm.css'
-import visa from './visa1.png'
-import gpay from './gpay.png'
+import visa from '../../Assets/Images/visa.png'
+import gpay from '../../Assets/Images/gpay.png'
 import { Link } from 'react-router-dom'
 
 

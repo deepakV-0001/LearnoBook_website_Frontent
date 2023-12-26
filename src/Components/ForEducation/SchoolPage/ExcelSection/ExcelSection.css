@@ -29,11 +29,11 @@
 }
 .excel-box h3{
     font-size: 1.5vw;
-    font-weight: var();
+    font-weight: var(--weight-700);
 }
 .excel-box p{
     font-size: 0.9vw;
-    font-weight: 400;
+    font-weight: var(--weight-400);
 }
 .excel-box>span{
 width: 5vw;
@@ -50,9 +50,9 @@ height: 4.5vw;
 }
 .excel-box a{
     text-decoration: underline;
-    color: rgba(78, 169, 222, 1);
+    color: var(--skyblue);
     font-size: 1.3vw;
-    font-weight: 700;
+    font-weight: var(--weight-600);
 }
 @media screen and (max-width:768px) {
     .excel-box{
@@ -65,19 +65,19 @@ height: 4.5vw;
         gap: 20px;
     }
     .excel-container h2{
-        font-size: 28px;
+        font-size: var(--main-title-small);
         width: 90%;
         margin: 0 auto 20px;
     }
     .excel-box h3{
-        font-size:18px;
+        font-size:var(--font-18);
        
     }
     .excel-box p{
-        font-size: 10px;
+        font-size: var(--main-desc-small);
     }
     .excel-box a{
-        font-size: 12px;
+        font-size: var(--main-desc-small);
     }
 }
 

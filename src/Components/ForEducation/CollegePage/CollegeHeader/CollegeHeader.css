@@ -1,6 +1,6 @@
 .college-header-container{
     position: relative;
-    background:url(../../SchoolPage/SchoolHeader/GroupImg.png);
+    background:url(../../../Assets/Images/GroupImg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5vw 0;
@@ -21,7 +21,7 @@
     margin-bottom: 5vw;
 }
 .college-header-content h1>span{
-    color: #FDC113;
+    color: var(--yellow);
 }
 .dot{
     width: 15vw;
@@ -62,6 +62,6 @@ left: 5%;
         align-items: center;
     }
     .college-header-content h1{
-        font-size: 28px;
+        font-size: var(--main-title-small);
     }
 }

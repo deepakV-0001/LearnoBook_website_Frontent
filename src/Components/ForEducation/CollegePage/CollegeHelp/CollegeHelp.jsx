@@ -1,9 +1,9 @@
 import React from 'react'
 import '../CollegeHelp/CollegeHelp.css'
-import img1 from './Frame.png'
-import img2 from './Frame1.png'
-import img3 from './Frame2.png'
-import img4 from './Group.png'
+import img1 from '../../../Assets/Images/Frame4.png'
+import img2 from '../../../Assets/Images/Frame1.png'
+import img3 from '../../../Assets/Images/Frame2.png'
+import img4 from '../../../Assets/Images/Frame3.png'
 import CollegeHelpComp from './CollegeHelpComp'
 
 const CollegeHelp = () => {

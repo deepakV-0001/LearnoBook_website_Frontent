@@ -1,5 +1,5 @@
 .ebook-page-latest-section-images{
-   background: url(../img1.png);
+   background: url(../../Assets/Images/img1.png);
    background-size: cover;
    background-repeat: no-repeat;
     width: 55%;
@@ -43,7 +43,7 @@
     border-radius: 7px;
 }
 .img1-col{
-    background: url(../img2.png);
+    background: url(../../Assets/Images/img2.png);
     background-size: cover;
     background-repeat: no-repeat;
      width: 100%;
@@ -61,7 +61,7 @@ font-weight: 700;
 color: #fff;
 }
 .img2-col{
-    background: url(../img3.png);
+    background: url(../../Assets/Images/img3.png);
     background-size: cover;
     background-repeat: no-repeat;
      width: 100%;

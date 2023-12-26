@@ -18,10 +18,13 @@
 }
 .related-head{
     margin-bottom: 30px;
-    font-size: 32px;
+    font-size: var(--sub-title);
 }
 @media screen and (max-width:768px) {
     .library-recomended-section{
         width: 90%;
+    }
+    .library-subject-wise{
+        width: 100%;
     }
 }

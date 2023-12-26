@@ -2,9 +2,8 @@
 import { Link } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
 import './Navbar.css'
-import logo from './logo.png'
+import logo from '../Assets/Images/logo.png'
 import { IoIosArrowForward } from "react-icons/io";
-import { NavLink } from 'react-router-dom';
 import { BiMenuAltRight } from "react-icons/bi";
 import NavBtns from './NavBtns';
 
@@ -29,15 +28,11 @@ const Navbar = () => {
   });
 
   const handleItemClick = (itemName) => {
-    if(itemName==='school' || itemName==='college' || itemName==='coaching'){
-      setActiveItem('education');
-    }
-   
-    if (itemName == 'about') {
+    
+    setActiveItem(itemName);
+    if (itemName ==='about') {
       Geeks();
     }
-    
-    
   };
 
   function Geeks() {
@@ -89,16 +84,16 @@ const Navbar = () => {
 
       {showNav && <div className="navbar-options navbar" id="heart" ref={heartRef}>
         <Link className={`navIcons ${activeItem === 'about' ? 'active' : ''}`} id="about" onClick={() => {handleItemClick('about')}} to="/" >About</Link>
-        <li className={`education-nav ${activeItem==='education'? 'active':''}`}><Link className={`navIcons `} onClick={()=>{handleItemClick('education')}} >For Education <IoIosArrowForward className="ar-btn" /></Link>
+        <li className={`education-nav ${activeItem==='education'? 'active education-drop-down':''}`}><Link className={`navIcons `} onClick={()=>handleItemClick('education')} >For Education <IoIosArrowForward className="ar-btn" /></Link>
           <ul className='education-drop'>
-            <li><Link className={`education-drop-nacIcons ${activeItem === 'school' ? 'active' : ''}`} onClick={() => {handleItemClick('school')}} to="/school">School</Link></li>
+            <li><Link className={`education-drop-nacIcons ${activeItem === 'school' ? 'active' : ''}`} onClick={() => handleItemClick('school')} to="/school">School</Link></li>
             <li><Link className={`education-drop-nacIcons ${activeItem === 'college' ? 'active' : ''}`} onClick={() => handleItemClick('college')} to="/college">college</Link></li>
             <li><Link className={`education-drop-nacIcons ${activeItem === 'coaching' ? 'active' : ''}`} onClick={() => handleItemClick('coaching')} to="/coaching">Coaching</Link></li>
           </ul>
         </li>
-        <Link className={`navIcons ${activeItem === 'Publishers' ? 'active' : ''}`} onClick={() =>{ handleItemClick('Publishers')}} to="/publisher">Publisher</Link>
-        <Link className={`navIcons ${activeItem === 'library' ? 'active' : ''}`} onClick={() =>{ handleItemClick('library')}} to="/library">Library</Link>
-        <li className={`education-nav ${activeItem==='download'? 'active good':''}`}><Link className={`navIcons `} onClick={()=>{handleItemClick('download')}}>Free Download <IoIosArrowForward className="ar-btn" /></Link>
+        <Link className={`navIcons ${activeItem === 'Publishers' ? 'active' : ''}`} onClick={() =>handleItemClick('Publishers')} to="/publisher">Publisher</Link>
+        <Link className={`navIcons ${activeItem === 'library' ? 'active' : ''}`} onClick={() => handleItemClick('library')} to="/library">Library</Link>
+        <li className={`education-nav ${activeItem==='download'? 'active education-drop-down':''}`}><Link className={`navIcons `} onClick={()=>{handleItemClick('download')}}>Free Download <IoIosArrowForward className="ar-btn" /></Link>
           <ul className='education-drop'>
             <li><Link className={`education-drop-nacIcons ${activeItem === 'ncert-book' ? 'active' : ''}`} onClick={() => handleItemClick('ncert-book')} to="/ncert-book">NCERT Book</Link></li>
             <li><Link className={`education-drop-nacIcons ${activeItem === 'exampler' ? 'active' : ''}`} onClick={() => handleItemClick('exampler')} to="/exampler">NCERT Exampler</Link></li>

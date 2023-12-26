@@ -1,5 +1,5 @@
 import React from 'react'
-import playbtn from './Circled Play.png'
+import playbtn from '../../Assets/Images/Circled_Play.png'
 import '../Education_btns/EducationBtns.css'
 import { Link } from 'react-router-dom'
 

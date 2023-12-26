@@ -1,16 +1,16 @@
 .publish-btm-heading{
-    font-size: 40px;
+    font-size: var(--main-title);
     color: #000;
     text-align: center;
     margin-bottom: 50px;
 }
 .publish-btm-heading>span{
-    color: #FDC113;
+    color: var(--yellow);
 }
 
 @media screen and (max-width:768px) {
     .publish-btm-heading{
-        font-size: 28px;
+        font-size: var(--main-title-small);
         width: 90%;
         margin: 20px auto;
     }

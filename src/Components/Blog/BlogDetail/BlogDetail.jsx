@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaWhatsapp, FaLink, FaTwitter } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import blog from '../blog_detail.png'
+import blog from '../../Assets/Images/blog_detail.png'
 import '../BlogDetail/BlogDetail.css'
 import '../../SocialIcons/SocialIcons.css'
 import LatestBlog from '../LatestBlog/LatestBlog';

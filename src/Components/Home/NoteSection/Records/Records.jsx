@@ -1,11 +1,11 @@
 import React from 'react'
 import '../Records/Records.css'
-import Bookmark from './Bookmark.svg'
-import Cloud from './Cloud.svg'
-import Crayon from './Crayon.svg'
-import Heart from './Heart.svg'
-import Notability from './Notability.svg'
-import Record from './Play Record.svg'
+import Bookmark from '../../../Assets/Images/Bookmark.svg'
+import Cloud from '../../../Assets/Images/Cloud.svg'
+import Crayon from '../../../Assets/Images/Crayon.svg'
+import Heart from '../../../Assets/Images/Heart.svg'
+import Notability from '../../../Assets/Images/Notability.svg'
+import Record from '../../../Assets/Images/Play_Record.svg'
 
 
 const Records = () => {

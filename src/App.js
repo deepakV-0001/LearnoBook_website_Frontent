@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer';
@@ -28,7 +30,7 @@ import Library from './Components/Library/Library';
 function App() {
 
   return (
-    <BrowserRouter >
+    <BrowserRouter  >
 {/* basename='/print-pdf/public/website' */}
       <Navbar />
       <Routes>

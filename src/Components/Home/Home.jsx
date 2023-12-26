@@ -19,7 +19,9 @@ const Home = () => {
             <KeyFeatures />
             <NoteSection />
             <Ebook />
-            <Testimonials />
+            <div className="testimonial-section">
+                <Testimonials />
+            </div>
             <Contact />
         </>
     )

@@ -1,9 +1,9 @@
 import React from 'react'
 import '../FreeEbook/FreeEbook.css'
-import book6 from '../BestSeller/kingdom-cost.png'
-import book7 from '../BestSeller/last-hunt.png'
-import book8 from '../BestSeller/lady-tanglwood.png'
-import book10 from '../BestSeller/a-leap-into-dark.png'
+import book6 from '../../Assets/Images/kingdom-cost.png'
+import book7 from '../../Assets/Images/last-hunt.png'
+import book8 from '../../Assets/Images/lady-tanglwood.png'
+import book10 from '../../Assets/Images/a-leap-into-dark.png'
 import ProductSlider from '../../BookDetail/ProductSlider/ProductSlider'
 
 const FreeEbook = () => {

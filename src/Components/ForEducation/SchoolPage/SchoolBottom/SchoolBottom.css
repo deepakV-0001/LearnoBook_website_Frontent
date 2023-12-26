@@ -1,5 +1,5 @@
 .school-btm-container{
-    background: url(../SchoolHeader//GroupImg.png);
+    background: url(../../../Assets/Images/GroupImg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 3vw;
@@ -24,8 +24,8 @@
     width: 90%;
 }
 .bottom-child-cont h2{
-    color: rgba(253, 193, 19, 1);
-font-weight: 500;
+    color: var(--yellow);
+font-weight: var(--weight-500);
 font-size: 2.5vw;
 }
 .bottom-child-cont p{

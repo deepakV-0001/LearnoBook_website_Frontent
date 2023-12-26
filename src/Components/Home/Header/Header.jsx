@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img from './header-img.png'
+import img from '../../Assets/Images/header-img.png'
 import '../Header/Header.css'
 import { IoLogoYoutube } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
-import img2 from './Old landing.png'
-import img3 from './Group 29.png'
+import img2 from '../../Assets/Images/App_store.png'
+import img3 from '../../Assets/Images/Google_play.png'
 
 
 
@@ -36,7 +36,7 @@ const Header = () => {
             </div>
             <div className="header-bottom">
                 or download the app
-                <span> <img src={img2} /> <img src={img3} /></span>
+                <span> <img src={img2} alt=""/> <img src={img3} alt="" /></span>
             </div>
         </div>
     )

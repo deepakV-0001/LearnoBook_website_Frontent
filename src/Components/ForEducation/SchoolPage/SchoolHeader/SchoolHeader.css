@@ -1,5 +1,5 @@
 .school-header{
-    background: url('./GroupImg.png');
+    background: url(../../../Assets/Images/GroupImg.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -33,7 +33,7 @@
 .school-header-text-content p{
     color: #000;
     font-size:var(--sub-desc);
-    font-weight: 400;
+    font-weight: var(--weight-400);
     letter-spacing: 1.1px;
    
 }
@@ -65,10 +65,10 @@
         
     }  
     .school-header-text-content h1{
-        font-size: 28px;
+        font-size: var(--main-title-small);
     }
     .school-header-text-content p{
-        font-size: 10px;
+        font-size: var(--main-desc-small);
     }
     .school-header{
         padding-top: 5vw;

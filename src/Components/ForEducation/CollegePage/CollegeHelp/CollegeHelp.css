@@ -61,13 +61,13 @@ padding: 2vw;
         padding: 4vw;
     }
     .college-help-box-content h2{
-        font-size: 16px;
+        font-size: var(--sub-desc);
     }
     .college-help-box-content p{
-        font-size: 10px;
+        font-size: var(--main-desc-small);
     }
     .college-help-container h1{
-        font-size: 20px;
+        font-size: var(--main-title-small);
     }
     .college-help-box>span{
         width: 50%;

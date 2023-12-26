@@ -1,8 +1,6 @@
 import React from 'react'
 import '../NoteSection/NoteSection.css'
-import dotimg from './dot-animation.gif'
-import anim from './notesAnim.gif'
-import backImg from './notesBack.png'
+import anim from '../../Assets/Images/notesAnim.gif'
 import Records from './Records/Records'
 
 const NoteSection = () => {

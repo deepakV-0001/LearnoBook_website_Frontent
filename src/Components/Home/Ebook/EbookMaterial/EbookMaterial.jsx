@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../EbookMaterial/EbookMaterial.css'
-import book1 from './book1.png'
-import book2 from './book2.png'
-import book3 from './book3.png'
-import book4 from './book4.png'
-import prsn1 from './person1.png'
-import prsn2 from './person2.png'
-import prsn3 from './person3.png'
-import prsn4 from './person4.png'
+import book1 from '../../../Assets/Images/book1.png'
+import book2 from '../../../Assets/Images/book2.png'
+import book3 from '../../../Assets/Images/book3.png'
+import book4 from '../../../Assets/Images/book4.png'
+import prsn1 from '../../../Assets/Images/person1.png'
+import prsn2 from '../../../Assets/Images/person2.png'
+import prsn3 from '../../../Assets/Images/person3.png'
+import prsn4 from '../../../Assets/Images/person4.png'
 
 
 const EbookMaterial = () => {

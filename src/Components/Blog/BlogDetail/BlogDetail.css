@@ -13,12 +13,12 @@
     gap: 3vw;
 }
 .blog-header-text p{
-    font-size: 18px;
+    font-size: var(--main-desc);
     font-weight: 500;
     color: gray;
 }
 .blog-header h2{
-font-size: 40px;
+font-size: var(--main-title);
 font-weight: 700;
 }
 .blog-social-icon{
@@ -37,7 +37,7 @@ font-weight: 700;
 }
 .blog-head-img p{
     font-weight: bold;
-    font-size: 18px;
+    font-size: var(--main-desc);
 }
 .blog-text-box{
     display: grid;
@@ -45,11 +45,11 @@ font-weight: 700;
 }
 .blog-text-box h1{
     margin-top: 2vw;
-    font-size: 24px;
+    font-size: var(--sub-title);
     font-weight: 700;
 }
 .blog-text-box p{
-    font-size: 15px;
+    font-size:var(--sub-desc) ;
     font-weight: 400;
 }
 .blog-bottom-social{
@@ -74,7 +74,7 @@ font-weight: 700;
         width: 90%;
     }
     .blog-header h2{
-        font-size: 28px;
+        font-size: var(--main-title-small);
     }
     .blog-header-text p{
         font-size: 15px;

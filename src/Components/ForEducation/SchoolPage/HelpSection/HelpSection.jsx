@@ -1,14 +1,14 @@
 import React from 'react'
 import '../HelpSection/HelpSection.css'
-import backCircle from './Group.png'
-import stud from './kid.png'
-import teach from './teacher.png'
-import hand from './Easy.png'
-import people from './people.png'
-import access from './access.png'
-import food from './food.png'
-import thumb from './thumb.png'
-import com from './Communication.png'
+import backCircle from '../../../Assets/Images/dot_circle.png'
+import stud from '../../../Assets/Images/kid.png'
+import teach from '../../../Assets/Images/teacher.png'
+import hand from '../../../Assets/Images/Easy.png'
+import people from '../../../Assets/Images/people.png'
+import access from '../../../Assets/Images/access.png'
+import food from '../../../Assets/Images/food.png'
+import thumb from '../../../Assets/Images/thumb.png'
+import com from '../../../Assets/Images/Communication.png'
 
 const HelpSection = () => {
     const studData = [

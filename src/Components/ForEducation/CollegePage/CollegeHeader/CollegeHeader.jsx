@@ -1,8 +1,8 @@
 import React from 'react'
 import '../CollegeHeader/CollegeHeader.css'
 import EducationBtns from '../../Education_btns/EducationBtns'
-import img1 from './college-frame.png'
-import back from '../../SchoolPage/HelpSection/Group.png'
+import img1 from '../../../Assets/Images/Frame.png'
+import back from '../../../Assets/Images/dot_circle.png'
 
 const CollegeHeader = () => {
     return (

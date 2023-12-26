@@ -6,13 +6,13 @@ import { FaLanguage } from "react-icons/fa6";
 import { PiTelegramLogoLight } from "react-icons/pi";
 import { IoCalendarOutline } from "react-icons/io5";
 import ProductSlider from './ProductSlider/ProductSlider'
-import book from './book-detail-img.png'
-import rev from './right-img.png'
+import book from '../Assets/Images/book-detail-img.png'
+import rev from '../Assets/Images/right-img.png'
 import Rating from './Rating/Rating';
-import dict1 from './RelatedBooks/dict1.png'
-import dict2 from './RelatedBooks/dict2.png'
-import dict3 from './RelatedBooks/dict3.png'
-import dict4 from './RelatedBooks/dict4.png'
+import dict1 from '../Assets/Images/dict1.png'
+import dict2 from '../Assets/Images/dict2.png'
+import dict3 from '../Assets/Images/dict3.png'
+import dict4 from '../Assets/Images/dict4.png'
 
 
 const BookDetail = () => {

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import '../LibraryCarousal/LibraryCarousal.css'
-import img1 from './car_img1.png'
-import img2 from './car_img2.png'
-import img3 from './car_img3.png'
+import img1 from '../../Assets/Images/car_img1.png'
+import img2 from '../../Assets/Images/car_img2.png'
+import img3 from '../../Assets/Images/car_img3.png'
 import { Link } from 'react-router-dom';
 
 

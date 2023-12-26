@@ -3,11 +3,11 @@ import DropDown from '../DropDown/Dropdown'
 import '../DropDown/Dropdown.css'
 import PaperHead from '../../Papers/Paper/PaperHead'
 import PaperMiddleComp from '../../Papers/Paper/PaperMiddleComp'
-import exmhead from '../exmHead.png'
+import exmhead from '../../../Assets/Images/exmHead.png'
 import './ClassWise/ClassWise'
-import exm from '../../Papers/exmpler.png'
+import exm from '../../../Assets/Images/exmpler.png'
 import ClassWise from './ClassWise/ClassWise'
-import back from './back.png'
+import back from '../../../Assets/Images/back.png'
 
 const Exampler = () => {
   const classData = [

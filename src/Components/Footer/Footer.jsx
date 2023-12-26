@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../Footer/Footer.css'
-import logo from '../Navbar/logo.png'
-import app1 from '../Home/Header/Group 29.png'
-import app2 from '../Home/Header/Old landing.png'
+import logo from '../Assets/Images/logo.png'
+import app1 from '../Assets/Images/Google_play.png'
+import app2 from '../Assets/Images/App_store.png'
 import SocialIcons from '../SocialIcons/SocialIcons'
 
 

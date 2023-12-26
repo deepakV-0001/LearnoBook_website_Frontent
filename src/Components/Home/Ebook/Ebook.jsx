@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Ebook/Ebook.css'
-import check from './tick.gif'
-import dotanim from '../NoteSection/dot-animation.gif'
+import check from '../../Assets/Images/tick.gif'
 import EbookMaterial from './EbookMaterial/EbookMaterial'
 
 const Ebook = () => {

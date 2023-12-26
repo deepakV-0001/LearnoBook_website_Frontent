@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../CollegeBtm/CollegeBtm.css'
-import dot from '../../SchoolPage/HelpSection/Group.png'
+import dot from '../../../Assets/Images/dot_circle.png'
 
 
 const CollegeBtm = () => {

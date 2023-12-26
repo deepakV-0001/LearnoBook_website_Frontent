@@ -1,9 +1,9 @@
 import React from 'react'
 import '../PurchaseSection/Purchase.css'
 import { Link } from 'react-router-dom'
-import book from '../../BookDetail/book-detail-img.png'
-import head from './Group.png'
-import botom from './Frame.png'
+import book from '../../Assets/Images/book-detail-img.png'
+import head from '../../Assets/Images/purchase2.png'
+import botom from '../../Assets/Images/purchase1.png'
 
 const Purchase = () => {
     return (

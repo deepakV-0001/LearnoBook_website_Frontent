@@ -1,10 +1,10 @@
 import React from 'react'
 import '../BestSeller/BestSeller.css'
-import book1 from './oxford-dict.png'
-import book2 from './utopia.png'
-import book3 from './physics.png'
-import book4 from './englis-grammer.png'
-import book5 from './parade.png'
+import book1 from '../../Assets/Images/oxford-dict.png'
+import book2 from '../../Assets/Images/utopia.png'
+import book3 from '../../Assets/Images/physics.png'
+import book4 from '../../Assets/Images/englis-grammer.png'
+import book5 from '../../Assets/Images/parade.png'
 import ProductSlider from '../../BookDetail/ProductSlider/ProductSlider'
 
 

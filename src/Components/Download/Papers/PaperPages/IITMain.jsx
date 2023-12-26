@@ -1,6 +1,6 @@
 import React from 'react'
 import Paper from '../../Papers/Paper/Paper'
-import head from '../head1.png'
+import head from '../../../Assets/Images/head1.png'
 
 const IITMain = () => {
   const text=["JEE Main PDF Download","Easy To Edit and Access"];

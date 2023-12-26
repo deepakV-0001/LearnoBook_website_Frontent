@@ -1,6 +1,6 @@
 import React from 'react'
 import './PopularBook.css'
-import half from '../triangle-half.png'
+import half from '../../Assets/Images/triangle-half.png'
 const Popular = () => {
   const popularBook=[
     {

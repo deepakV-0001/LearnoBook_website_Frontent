@@ -1,6 +1,6 @@
 import React from 'react'
 import '../CollegeJourney/Journey.css'
-import uni from './univer.png'
+import uni from '../../../Assets/Images/univer.png'
 import { Link } from 'react-router-dom'
 
 const Journey = (props) => {

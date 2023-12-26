@@ -96,7 +96,7 @@ margin-left: 5%;
    
     color: var(--yellow);
 }
-.active,.good{
+.active,.education-drop-down{
 color:var(--yellow) !important;
    
 }
@@ -126,7 +126,7 @@ position: relative;
 .education-active .navIcons{
     color: var(--yellow) ;
 }
-.active .education-drop{
+.education-drop-down .education-drop{
     display: block;
     position: absolute;
     z-index: 999;

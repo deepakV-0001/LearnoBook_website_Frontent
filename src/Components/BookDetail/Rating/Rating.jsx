@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Rating/Rating.css'
-import RatingImg from './review-img.png'
+import RatingImg from '../../Assets/Images/review-img.png'
 import { Link } from 'react-router-dom'
 
 const Rating = () => {

@@ -1,11 +1,11 @@
 import React from 'react'
 import '../Payment/Payment.css'
 import CardForm from '../Payment/CardForm/CardForm'
-import girl from './Frame.png'
+import girl from '../Assets/Images/payment.png'
 import { TbBookDownload } from "react-icons/tb";
 
 import CartComponent from '../CartSection/CartComponent';
-import { Link } from 'react-router-dom';
+
 
 
 const Payment = () => {

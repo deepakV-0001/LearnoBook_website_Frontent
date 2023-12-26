@@ -1,6 +1,6 @@
 import React from 'react'
 import Paper from '../../Papers/Paper/Paper'
-import neet from '../neet.png'
+import neet from '../../../Assets/Images/neet.png'
 
 const Neet = () => {
   const text=["NEET Free PDF Download","Easy To Edit and Access"];

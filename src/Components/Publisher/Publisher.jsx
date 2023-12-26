@@ -3,12 +3,12 @@ import '../Publisher/Publisher.css'
 import SchoolHeader from '../ForEducation/SchoolPage/SchoolHeader/SchoolHeader'
 import CollegeHelpComp from '../ForEducation/CollegePage/CollegeHelp/CollegeHelpComp'
 import Journey from '../ForEducation/CollegePage/CollegeJourney/Journey'
-import img1 from './publishmid1.png'
-import img2 from './publishmid2.png'
-import img3 from './publishmid3.png'
-import img4 from './publishmid4.png'
-import headImg from './publish.png'
-import btmImg from './publish_btm.png'
+import img1 from '../Assets/Images/publishmid1.png'
+import img2 from '../Assets/Images/publishmid2.png'
+import img3 from '../Assets/Images/publishmid3.png'
+import img4 from '../Assets/Images/publishmid4.png'
+import headImg from '../Assets/Images/publish.png'
+import btmImg from '../Assets/Images/publish_btm.png'
 
 const Publisher = () => {
     const collegeData=[

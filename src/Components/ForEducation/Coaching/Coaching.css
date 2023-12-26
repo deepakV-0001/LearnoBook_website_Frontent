@@ -1,16 +1,16 @@
 
 .coaching-header h2{
-    font-size: 40px;
+    font-size: var(--main-title);
     font-weight: 700;
     text-align: center;
     width: 70%;
 }
 .coaching-header h2>span,.coaching-bottom h2>span{
-    color: #FDC113;
+    color: var(--yellow);
     margin-bottom: 5vw;
 }
 .coaching-header-container{
-    background: url(../SchoolPage/SchoolHeader/GroupImg.png);
+    background: url(../../Assets/Images/GroupImg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -44,7 +44,7 @@
    
 }
 .coaching-middle-section h2 ,.coaching-bottom h2{
-    font-size: 40px;
+    font-size: var(--main-title);
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
@@ -62,15 +62,15 @@
     width: 60%;
 }
 .coaching-bottom p{
-    font-size: 15px;
+    font-size: var(--sub-desc);
     font-weight: 500;
 }
 .coaching-btn{
     color: #fff;
-    background-color: #4EA9DE;
+    background-color: var(--skyblue);
     padding: 4px 18px;
     margin: 0 auto;
-    font-size: 20px;
+    font-size :18px;;
     font-weight: 600;
     border-radius: 7px;
 }
@@ -86,7 +86,7 @@
         width: 90%;
     }
     .coaching-header h2,.coaching-middle-section h2 ,.coaching-bottom h2{
-        font-size: 24px;
+        font-size: var(--main-title-small);
     }
     .coaching-bottom{
         width: 80%;
@@ -95,13 +95,13 @@
         width: 80%;
     }
     .coaching-bottom p{
-        font-size: 10px;
+        font-size: var(--main-desc-small);
     }
     .coaching-boxes{
         gap: 10px;
     }
     .coaching-btn{
-        font-size: 10px;
+        font-size: var(--main-desc-small);
         padding: 4px 16px;
     }
 }

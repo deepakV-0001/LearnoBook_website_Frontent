@@ -1,13 +1,13 @@
 import React from 'react'
 import '../Blog/Blog.css'
-import blog from './blog_main.png'
+import blog from '../Assets/Images/blog_main.png'
 import { Link } from 'react-router-dom'
 import { MdArrowForwardIos } from "react-icons/md";
-import blog1 from './main_blog1.png'
-import blog2 from './main_blog2.png'
-import blog3 from './main_blog3.png'
-import blog4 from './main_blog4.png'
-import blog5 from './main_blog5.png'
+import blog1 from '../Assets/Images/main_blog1.png'
+import blog2 from '../Assets/Images/main_blog2.png'
+import blog3 from '../Assets/Images/main_blog3.png'
+import blog4 from '../Assets/Images/main_blog4.png'
+import blog5 from '../Assets/Images/main_blog5.png'
 
 const Blog = () => {
     const blogData = [

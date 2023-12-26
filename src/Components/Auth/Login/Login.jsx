@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import '../Login/Login.css'
-import logo from '../../Navbar/logo.png'
-import google from '../SignUp/google.png'
-import face from '../SignUp/face.png'
+
+import google from '../../Assets/Images/google.png'
+import face from '../../Assets/Images/face.png'
 import { Link, useNavigate } from 'react-router-dom'
 
 const Login = () => {

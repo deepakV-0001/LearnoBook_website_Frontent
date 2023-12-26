@@ -12,7 +12,7 @@
 }
 .journey-child h1{
     font-weight: 700;
-    color: #FDC113;
+    color: var(--yellow);
     font-size: 2.1vw;
 }
 .journey-child p{
@@ -34,10 +34,16 @@ font-weight: 500;
     background-color: #4EA9DE;
 }
 @media screen and (max-width:768px) {
+    .journey-child{
+        width: 70%;
+    }
     .journey-child h1{
-        font-size: 20px;
+        font-size: var(--main-title-small);
     }
     .journey-child p{
-        font-size: 9px;
+        font-size: var(--main-desc-small);
+    }
+    .journey-child a{
+        font-size: 10px;
     }
 }

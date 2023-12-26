@@ -1,11 +1,10 @@
 import React from 'react'
 import '../MainContact/MainContact.css'
-import contactImg from './main_contact.png'
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { IoIosMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import Contact from '../Home/Contact/Contact'
-import main from '../MainContact/main_contact.png'
+import main from '../Assets/Images/main_contact.png'
 import { Link } from 'react-router-dom';
 
 

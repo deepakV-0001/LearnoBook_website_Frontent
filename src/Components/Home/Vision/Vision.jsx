@@ -1,6 +1,6 @@
-import { useRef } from 'react'
+
 import '../Vision/Vision.css'
-import Visi from './Frame.png'
+import Visi from '../../Assets/Images/Vision_img.png'
 const Vision = () => {
     
     return (

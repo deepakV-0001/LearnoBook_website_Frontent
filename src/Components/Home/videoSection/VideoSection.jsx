@@ -1,7 +1,6 @@
 import React from 'react'
 import '../videoSection/VideoSection.css'
-import videoimg from './Rectangle 3208.png'
-import anim from './animate.gif'
+import anim from '../../Assets/Images/animate.gif'
 
 const VideoSection = () => {
   return (

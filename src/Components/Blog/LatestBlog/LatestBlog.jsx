@@ -1,7 +1,7 @@
 import React from 'react'
 import '../LatestBlog/LatestBlog.css'
-import blog1 from './blog1.png'
-import blog2 from './blog2.png'
+import blog1 from '../../Assets/Images/blog1.png'
+import blog2 from '../../Assets/Images/blog2.png'
 import { Link } from 'react-router-dom'
 
 const LatestBlog = () => {

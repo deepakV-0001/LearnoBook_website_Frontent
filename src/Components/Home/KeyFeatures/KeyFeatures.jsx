@@ -1,10 +1,10 @@
 import React from 'react'
 import '../KeyFeatures/KeyFeatures.css'
-import img1 from './Rectangle 3235.png'
-import img2 from './Rectangle 3237.png'
-import img3 from './Rectangle 3239.png'
-import img4 from './Rectangle 3241.png'
-import img5 from './Rectangle 3243.png'
+import img1 from '../../Assets/Images/Key1.png'
+import img2 from '../../Assets/Images/Key2.png'
+import img3 from '../../Assets/Images/Key3.png'
+import img4 from '../../Assets/Images/Key4.png'
+import img5 from '../../Assets/Images/Key5.png'
 
 const KeyFeatures = () => {
   const keyData = [

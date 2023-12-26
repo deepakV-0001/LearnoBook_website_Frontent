@@ -6,19 +6,19 @@
     gap: 20px;
 }
 .library-header-main-container{
-    background: url(./lib_head_bk.png);
+    background: url(../../Assets/Images/lib_head_bk.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .library-header-text-content h2{
-    font-size: 48px;
+    font-size: var(--main-title);
     font-weight: 700;
 }
 .library-header-text-content h2>span{
-    color: #FDC113;
+    color: var(--yellow);
 }
 .library-header-text-content p{
-    font-size: 18px;
+    font-size: var(--main-desc);
     font-weight: 400;
     
 }
@@ -49,11 +49,11 @@ gap: 20px;
         width: 100%;
     }
     .library-header-text-content h2{
-        font-size: 28px;
+        font-size: var(--main-title-small);
         text-align: center;
     }
     .library-header-text-content p{
-        font-size: 15px;
+        font-size: var(--main-desc-small);
         text-align: center;
     }
 }

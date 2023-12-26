@@ -1,6 +1,6 @@
 import React from 'react'
 import '../SingleSubject/SingleSubject.css'
-import sub from './subjectsingle.png'
+import sub from '../../../../../Assets/Images/subjectsingle.png'
 import { Link } from 'react-router-dom'
 
 const SingleSubject = () => {

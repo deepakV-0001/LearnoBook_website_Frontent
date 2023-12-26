@@ -1,9 +1,9 @@
 import React from 'react'
 import '../LibraryMiddle/LibraryMiddle.css'
-import img1 from './lib_mid1.png'
-import img2 from './lib_mid2.png'
-import img3 from './lib_mid3.png'
-import img4 from './lib_mid4.png'
+import img1 from '../../Assets/Images/lib_mid1.png'
+import img2 from '../../Assets/Images/lib_mid2.png'
+import img3 from '../../Assets/Images/lib_mid3.png'
+import img4 from '../../Assets/Images/lib_mid4.png'
 
 const LibraryMiddle = () => {
     const middleLibraryData = [

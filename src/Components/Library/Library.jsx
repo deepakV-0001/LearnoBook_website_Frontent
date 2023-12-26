@@ -1,22 +1,22 @@
 import React from 'react'
 import '../Library/Library.css'
-import Library_header from './Library_header/Library_header'
-import EbookPage_SearchFilters from '../EbookPage/EbookPage_SearchFilters/EbookPage_SearchFilters'
+import LibraryHeader from './Library_header/Library_header'
+import EbookPageSearchFilters from '../EbookPage/EbookPage_SearchFilters/EbookPage_SearchFilters'
 import LibraryMiddle from './LibraryMiddle/LibraryMiddle'
 import SubjectWise from '../Download/PaperComponent/Exampler/SubjectWise/SubjectWise'
-import img1 from './lib_img1.png'
-import img2 from './lib_img2.png'
-import img3 from './lib_img3.png'
-import img4 from './lib_img4.png'
-import img5 from './lib_img5.png'
-import science from './lib_sc.png'
-import social from './lib_social.png'
-import tec from './lib_tec.png'
-import med from './lib_med.png'
-import math from './lib_math.png'
-import market from './lib_market.png'
-import art from './lib_art.png'
-import dm from './lib_dm.png'
+import img1 from '../Assets/Images/lib_img1.png'
+import img2 from '../Assets/Images/lib_img2.png'
+import img3 from '../Assets/Images/lib_img3.png'
+import img4 from '../Assets/Images/lib_img4.png'
+import img5 from '../Assets/Images/lib_img5.png'
+import science from '../Assets/Images/lib_sc.png'
+import social from '../Assets/Images/lib_social.png'
+import tec from '../Assets/Images/lib_tec.png'
+import med from '../Assets/Images/lib_med.png'
+import math from '../Assets/Images/lib_math.png'
+import market from '../Assets/Images/lib_market.png'
+import art from '../Assets/Images/lib_art.png'
+import dm from '../Assets/Images/lib_dm.png'
 import LibraryCarousal from './LibraryCarousal/LibraryCarousal'
 import ProductSlider from '../BookDetail/ProductSlider/ProductSlider'
 import Contact from '../Home/Contact/Contact'
@@ -120,8 +120,8 @@ const Library = () => {
     ]
     return (
         <div className='library-main-container'>
-            <Library_header />
-            <EbookPage_SearchFilters />
+            <LibraryHeader />
+            <EbookPageSearchFilters />
             <div className="library-recomended-section">
                 <h2 className='related-head'>Recomended Related Books</h2>
                 <ProductSlider relatedBookData={relatedBookData} />

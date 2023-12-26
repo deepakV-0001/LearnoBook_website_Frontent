@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../FlagSelect/Drop.css'
 import Select from 'react-select';
 import makeAnimated from 'react-select/animated';
-import img from '../flag-img.png'
+import img from '../../Assets/Images/flag-img.png'
 
 const animatedComponents = makeAnimated();
 

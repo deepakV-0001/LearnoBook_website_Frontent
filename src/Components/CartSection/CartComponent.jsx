@@ -1,6 +1,6 @@
 import React from 'react'
 import '../CartSection/Cart.css'
-import img from '../BookDetail/book-detail-img.png'
+import img from '../Assets/Images/book-detail-img.png'
 import { IoMdClose } from "react-icons/io";
 const CartComponent = () => {
   return (

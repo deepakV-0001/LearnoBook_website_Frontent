@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import '../SignUp/SignUp.css'
-import logo from '../../Navbar/logo.png'
-import sign from './sign.png'
+import sign from '../../Assets/Images/sign.png'
 import { Link, useNavigate } from 'react-router-dom'
-import google from './google.png'
-import face from './face.png'
+import google from '../../Assets/Images/google.png'
+import face from '../../Assets/Images/face.png'
 
 const SignUp = () => {
     const [name, setName] = useState("");

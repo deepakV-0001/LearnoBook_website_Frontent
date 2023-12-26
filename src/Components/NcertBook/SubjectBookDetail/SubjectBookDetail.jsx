@@ -1,7 +1,7 @@
 import React from 'react'
 import '../SubjectBookDetail/SubjectBookDetail.css'
 import SingleSubject from '../../Download/PaperComponent/Exampler/SubjectWise/SingleSubject/SingleSubject'
-import img from '../subjectimg.png'
+import img from '../../Assets/Images/subjectimg.png'
 import Dropdown from '../../Download/PaperComponent/DropDown/Dropdown'
 import PaperMiddleComp from '../../Download/Papers/Paper/PaperMiddleComp'
 
